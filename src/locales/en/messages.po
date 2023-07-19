@@ -12,3 +12,15 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: \n"
+
+#: src/pages/[locale]/index.tsx:17
+msgid "Arabic"
+msgstr ""
+
+#: src/pages/[locale]/index.tsx:18
+msgid "English"
+msgstr ""
+
+#: src/pages/[locale]/index.tsx:19
+msgid "Farsi"
+msgstr ""
