@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "pnpm run lingui:extract",
     "build": "next build",
     "prestart": "pnpm run build",
     "start": "serve out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lingui:extract": "lingui extract --clean",
+    "lingui:compile": "lingui compile"
   },
   "dependencies": {
+    "@lingui/core": "4.2.1",
+    "@lingui/react": "4.2.1",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
@@ -24,6 +29,11 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@lingui/cli": "4.2.1",
+    "@lingui/conf": "4.2.1",
+    "@lingui/loader": "4.2.1",
+    "@lingui/macro": "4.2.1",
+    "@lingui/swc-plugin": "4.0.2",
     "serve": "14.2.0"
   }
 }
