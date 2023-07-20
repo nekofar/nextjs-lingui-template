@@ -1,0 +1,38 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Create a release for tags starting with 'v'
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3.5.3
+
+      - name: Generate a changelog
+        uses: orhun/git-cliff-action@v2.0.6
+        id: git-cliff
+        with:
+          config: cliff.toml
+          args: -vv --latest --strip all
+        env:
+          OUTPUT: CHANGES.md
+
+      - name: Print the changelog
+        run: cat "${{ steps.git-cliff.outputs.changelog }}"
+
+      - name: Create Release
+        uses: nekofar/create-github-release@develop
+        with:
+          token: ${{ github.token }}
+          tag: ${{ github.ref_name }}
+          files: cliff.toml
+          title: ${{ github.ref_name }}
+          notes_file: CHANGES.md
+          draft: true
+          prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }}
