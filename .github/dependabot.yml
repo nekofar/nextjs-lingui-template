@@ -49,5 +49,3 @@ updates:
       - "nekofar"
     # Raise pull requests against the `develop` branch
     target-branch: "develop"
-    # Specifying dependencies and versions to ignore
-    ignore:
