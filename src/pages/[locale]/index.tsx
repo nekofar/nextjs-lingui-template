@@ -1,3 +1,4 @@
+import {LocaleSwitcher} from '@/components/locale-switcher'
 import {availableLocales, loadCatalog} from '@/utils/locales'
 import {Trans} from '@lingui/macro'
 import {GetStaticPropsContext} from 'next'
@@ -24,6 +25,9 @@ export default function Home() {
                 solution for multi-lingual support in your web projects.
               </Trans>
             </p>
+            <div className="mb-4 text-center ">
+              <LocaleSwitcher />
+            </div>
           </div>
         </div>
       </section>
