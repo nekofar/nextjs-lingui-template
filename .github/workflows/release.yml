@@ -33,17 +33,29 @@ jobs:
         env:
           OUTPUT: CHANGES.md # The output file for the changelog
 
-      # Step 3: Print the changelog on the console for reference and troubleshooting
-      - name: Print the changelog
-        run: cat "${{ steps.git-cliff.outputs.changelog }}"
+      # Step 3: Prepare release notes by processing the generated changelog
+      - name: Set the release notes
+        id: release
+        shell: bash
+        run: |
+          # Read contents of changelog into variable 'r'
+          r=$(cat ${{ steps.git-cliff.outputs.changelog }})
+          # Remove first two lines from 'r'
+          r="$(printf "$r" | tail -n +3)"
+          # Perform escape sequences replacements in 'r'
+          r="${r//'%'/'%25'}"  
+          r="${r//$'\n'/'%0A'}" 
+          r="${r//$'\r'/'%0D'}" 
+          # Save the value of 'r' back into the GitHub environment output
+          echo "notes=$r" >> $GITHUB_OUTPUT
 
-      # Step 4: Create a new GitHub release using the details gathered
+      # Step 4: Create a new GitHub release using the gathered information
       - name: Create the release
         uses: nekofar/create-github-release@develop
         with:
-          token: ${{ github.token }} # The token used to authenticate with GitHub
-          tag: ${{ github.ref_name }} # The name of the tag for the release
-          title: ${{ github.ref_name }} # The title of the release
-          notes_file: CHANGES.md # The file containing the release notes
-          draft: true # If true, the release will be saved as a draft
-          prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }} # If true, the release will be marked as a pre-release
+          token: ${{ github.token }} # Authentication token from GitHub
+          tag: ${{ github.ref_name }} # The name of the tag to be released
+          title: ${{ github.ref_name }} # The title for the release
+          notes: ${{ steps.release.outputs.notes }} # The release notes generated in the previous step
+          draft: true # The release will be created as a draft
+          prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }} # Conditions to mark the release as a pre-release
