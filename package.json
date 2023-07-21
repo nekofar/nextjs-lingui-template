@@ -11,7 +11,7 @@
     "lint": "next lint",
     "lingui:extract": "lingui extract --clean",
     "lingui:compile": "lingui compile",
-    "format": "prettier --write ."
+    "format": "prettier --log-level error --write ."
   },
   "dependencies": {
     "@lingui/core": "4.3.0",
