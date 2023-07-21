@@ -13,14 +13,14 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/[locale]/index.tsx:17
+#: src/pages/[locale]/index.tsx:16
 msgid "Arabic"
 msgstr "عربی"
 
-#: src/pages/[locale]/index.tsx:18
+#: src/pages/[locale]/index.tsx:17
 msgid "English"
 msgstr "انجلیزی"
 
-#: src/pages/[locale]/index.tsx:19
+#: src/pages/[locale]/index.tsx:18
 msgid "Farsi"
 msgstr "فارسية"
