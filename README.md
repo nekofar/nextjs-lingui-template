@@ -1,14 +1,14 @@
 ## Next.js & Lingui: Building a Multi-Lingual Website
 
-[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/nekofar/nextjs-lingui-starter?include_prereleases)](https://github.com/nekofar/nextjs-lingui-starter/releases)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nekofar/nextjs-lingui-starter/build.yml)](https://github.com/nekofar/nextjs-lingui-starter/actions/workflows/build.yml)
-[![GitHub](https://img.shields.io/github/license/nekofar/nextjs-lingui-starter)](https://github.com/nekofar/nextjs-lingui-starter/blob/master/LICENSE)
+[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/nekofar/nextjs-lingui-template?include_prereleases)](https://github.com/nekofar/nextjs-lingui-template/releases)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nekofar/nextjs-lingui-template/build.yml)](https://github.com/nekofar/nextjs-lingui-template/actions/workflows/build.yml)
+[![GitHub](https://img.shields.io/github/license/nekofar/nextjs-lingui-template)](https://github.com/nekofar/nextjs-lingui-template/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40nekofar-1DA1F2?logo=twitter&style=flat)](https://twitter.com/nekofar)
 [![Donate](https://img.shields.io/badge/donate-nekofar.crypto-a2b9bc?logo=ko-fi&logoColor=white)](https://ud.me/nekofar.crypto)
 
 ### Overview
 
-Welcome to the Next.js and Lingui static site generation (SSG) starter project! This repository demonstrates the
+Welcome to the Next.js and Lingui static site generation (SSG) template project! This repository demonstrates the
 state-of-the-art integration of Next.js and Lingui for creating static web apps with multi-lingual support.
 
 Next.js, a powerful React framework, is designed to build server-rendered React applications and SSG sites. In this
@@ -17,7 +17,7 @@ context, we're utilizing Next.js's Static Site Generation capabilities to pre-re
 Combined with Lingui, an i18n (internationalization) library for JavaScript, we've endeavored to produce a multilingual
 static website that effectively caters to a global audience.
 
-Our aim with this starter project is to illustrate the procedure of building an international static web app that is
+Our aim with this template project is to illustrate the procedure of building an international static web app that is
 performant, SEO-advantaged, and maintains simplified translation management, courtesy of the capabilities brought about
 by the coupling of Next.js's SSG and Lingui.
 
