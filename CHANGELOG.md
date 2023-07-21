@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-beta.1] - 2023-07-21
+
+### <!-- 05 -->Documentation
+
+- Update project references from 'starter' to 'template'
+
 ## [1.0.0-alpha.6] - 2023-07-21
 
 ### <!-- 05 -->Documentation
