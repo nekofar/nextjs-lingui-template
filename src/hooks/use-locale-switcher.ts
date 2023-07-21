@@ -1,10 +1,11 @@
-import {defaultLocale, Locale} from '@/utils/locales'
+import {Locale} from '@/utils/locales'
 import {useRouter} from 'next/router'
 import {useCallback} from 'react'
+import {useLocale} from "@/hooks/use-locale";
 
 export function useLocaleSwitcher() {
   const router = useRouter()
-  const locale = (router.query.locale as Locale) || defaultLocale
+    const locale = useLocale()
 
   const changeLocale = useCallback(
     async (nextLocale: Locale) => {

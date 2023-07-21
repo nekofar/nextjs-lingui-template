@@ -1,11 +1,9 @@
-import {defaultLocale} from '@/utils/locales'
 import {i18n, Messages} from '@lingui/core'
-import {useRouter} from 'next/router'
 import {useEffect} from 'react'
+import {useLocale} from "@/hooks/use-locale";
 
 export function useLinguiInit(messages: Messages) {
-  const router = useRouter()
-  const locale = (router.query.locale as string) || defaultLocale
+  const locale = useLocale()
   const isClient = typeof window !== 'undefined'
 
   if (!isClient && locale !== i18n.locale) {
