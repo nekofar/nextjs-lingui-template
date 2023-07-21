@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.3] - 2023-07-21
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 13.4.7 to 13.4.11 
+- Bump @lingui/conf from 4.2.1 to 4.3.0 
+- Bump tailwindcss from 3.3.2 to 3.3.3 
+- Bump @types/react-dom from 18.2.6 to 18.2.7 
+- Bump @types/node from 20.3.3 to 20.4.2 
+- Bump @lingui/macro from 4.2.1 to 4.3.0 
+- Bump @lingui/cli from 4.2.1 to 4.3.0 
+- Bump @types/react from 18.2.14 to 18.2.15 
+- Bump postcss from 8.4.24 to 8.4.26 
+- Bump eslint-config-next from 13.4.7 to 13.4.11 
+- Reorganize package dependencies
+- Adjust line numbers for locale translations
+- Bump @lingui/loader from 4.2.1 to 4.3.0 
+- Bump @lingui/react from 4.2.1 to 4.3.0 
+- Bump @lingui/core from 4.2.1 to 4.3.0 
+
 ## [1.0.0-alpha.2] - 2023-07-21
 
 ### <!-- 07 -->Continuous Integrations
