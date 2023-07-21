@@ -1,4 +1,5 @@
 import linguiConfig from '@/../lingui.config'
+import langs from 'langs'
 
 export type Locale = (typeof linguiConfig.locales)[number]
 
@@ -16,4 +17,12 @@ export async function loadCatalog(locale: Locale): Promise<object> {
     console.error(`Could not load translations for locale ${locale}`, e)
     return {}
   }
+}
+
+export function getLocaleDirection(locale: Locale) {
+  return ['ar', 'he', 'fa'].includes(locale) ? 'rtl' : 'ltr'
+}
+
+export function getLocaleName(locale: Locale) {
+  return langs.where(1, locale)!.local
 }
