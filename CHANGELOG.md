@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-beta.2] - 2023-07-21
+
+### <!-- 02 -->Bug Fixes
+
+- Add page title and update locale files
+- Implement `useLingui` hook for proper translation rendering"
+
+### <!-- 04 -->Refactor
+
+- Improve code readability with proper spacing
+
 ## [1.0.0-beta.1] - 2023-07-21
 
 ### <!-- 05 -->Documentation
