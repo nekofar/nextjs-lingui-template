@@ -29,8 +29,8 @@ devDependencies:
     specifier: 4.3.0
     version: 4.3.0
   '@lingui/loader':
-    specifier: 4.2.1
-    version: 4.2.1(webpack@5.87.0)
+    specifier: 4.3.0
+    version: 4.3.0(webpack@5.87.0)
   '@lingui/macro':
     specifier: 4.3.0
     version: 4.3.0(@lingui/react@4.2.1)(babel-plugin-macros@3.1.0)
@@ -576,52 +576,9 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lingui/babel-plugin-extract-messages@4.2.1:
-    resolution: {integrity: sha512-tCFs5q6ktSurf244u1b4rvsLADzHzuwTymeNJi9QdjVedIQ8fVGkExKKW2XpuwM8Dv04TwkcB73Xt+Rg5p24kg==}
-    engines: {node: '>=16.0.0'}
-    dev: true
-
   /@lingui/babel-plugin-extract-messages@4.3.0:
     resolution: {integrity: sha512-X23evX574Pv5wRpg9HytCuE0dsRaFi0kkrj8uQC++Dk1Iti0ptRFeuMU4jxINlfa972Ri3GF6ckGQ+Req3drYg==}
     engines: {node: '>=16.0.0'}
-    dev: true
-
-  /@lingui/cli@4.2.1:
-    resolution: {integrity: sha512-0kKd4EzEq+62aSN5fGbgXa2J0X9ztW7U1nvMJXJHEtVPYAnMtXucSAgQQWtWN3pbwBksppHC18PUU02MkcD70A==}
-    engines: {node: '>=16.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/core': 7.22.5
-      '@babel/generator': 7.22.5
-      '@babel/parser': 7.22.5
-      '@babel/runtime': 7.22.5
-      '@babel/types': 7.22.5
-      '@lingui/babel-plugin-extract-messages': 4.2.1
-      '@lingui/conf': 4.2.1
-      '@lingui/core': 4.2.1
-      '@lingui/format-po': 4.2.1
-      '@lingui/message-utils': 4.2.1
-      babel-plugin-macros: 3.1.0
-      chalk: 4.1.2
-      chokidar: 3.5.1
-      cli-table: 0.3.6
-      commander: 10.0.1
-      convert-source-map: 2.0.0
-      date-fns: 2.30.0
-      esbuild: 0.17.19
-      glob: 7.2.3
-      inquirer: 7.3.3
-      micromatch: 4.0.2
-      normalize-path: 3.0.0
-      ora: 5.4.1
-      pathe: 1.1.1
-      pkg-up: 3.1.0
-      pofile: 1.1.4
-      pseudolocale: 2.0.0
-      ramda: 0.27.2
-      source-map: 0.8.0-beta.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@lingui/cli@4.3.0:
@@ -662,18 +619,6 @@ packages:
       - supports-color
     dev: true
 
-  /@lingui/conf@4.2.1:
-    resolution: {integrity: sha512-y8GNgJpiO3DqOQQJ8xfxdq9dPpG3TJBd7lBajt9pRV2e89GO39UIT3uW5ZSfQaO1VWuZQpkIX8XcJPiKK5uz+A==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@babel/runtime': 7.22.5
-      chalk: 4.1.2
-      cosmiconfig: 8.2.0
-      jest-validate: 29.5.0
-      jiti: 1.18.2
-      lodash.get: 4.4.2
-    dev: true
-
   /@lingui/conf@4.3.0:
     resolution: {integrity: sha512-ZflR/igJi3+MUr1VeJDNkYMpnNvinRdw9m17G7mxmemxtnYV+RsIiUB+aR3AcgbQbEEmF95XmZb8jlUFYWlvtw==}
     engines: {node: '>=16.0.0'}
@@ -703,16 +648,6 @@ packages:
       unraw: 2.0.1
     dev: true
 
-  /@lingui/format-po@4.2.1:
-    resolution: {integrity: sha512-ZyqJn5HAqlr96Z5oZBUx4BQayTXAjMwWYs1UafzeaweqLMuW6FaymBnj1h9mdsXehm9vZrdF7kTMjkLCR1prFA==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@lingui/conf': 4.2.1
-      '@lingui/message-utils': 4.2.1
-      date-fns: 2.30.0
-      pofile: 1.1.4
-    dev: true
-
   /@lingui/format-po@4.3.0:
     resolution: {integrity: sha512-iwqMve+VMxfRisTCk2evcnhAfn54v5qXTXZUDGZQrSQ60r2A4VGtS8VdCzqHwKxvbIatjq4NfWGa0v0zb092jg==}
     engines: {node: '>=16.0.0'}
@@ -723,15 +658,15 @@ packages:
       pofile: 1.1.4
     dev: true
 
-  /@lingui/loader@4.2.1(webpack@5.87.0):
-    resolution: {integrity: sha512-f/BhYao0C+n0ug9N0ZybEPOaqmDhOBT+1lCTP63TeXQNcam5r/rP+o3XjNPnBaZr2Z6BiljEqRb0TZ2EHq1elw==}
+  /@lingui/loader@4.3.0(webpack@5.87.0):
+    resolution: {integrity: sha512-W22egBu2b4PnVAA4qSsTPm1Ca39jCzIaVQgm5l2MG4Ac9bIljQ7bei/Sda2SOg+r0p/JrRTDhKQePT94Z6r7dA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
       '@babel/runtime': 7.22.5
-      '@lingui/cli': 4.2.1
-      '@lingui/conf': 4.2.1
+      '@lingui/cli': 4.3.0
+      '@lingui/conf': 4.3.0
       webpack: 5.87.0
     transitivePeerDependencies:
       - supports-color
@@ -967,10 +902,6 @@ packages:
 
   /@types/json5@0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-    dev: true
-
-  /@types/node@20.3.3:
-    resolution: {integrity: sha512-wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==}
     dev: true
 
   /@types/node@20.4.2:
@@ -2963,7 +2894,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.3.3
+      '@types/node': 20.4.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
