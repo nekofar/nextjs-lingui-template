@@ -1,22 +1,26 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2023-07-19 17:10+0330\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
-"Language: en\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-19 17:10+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
 "Plural-Forms: \n"
 
-#: src/pages/[locale]/index.tsx:17
+#: src/pages/[locale]/index.tsx:18
 msgid "Building a Multi-Lingual Website"
 msgstr "Building a Multi-Lingual Website"
 
-#: src/pages/[locale]/index.tsx:20
+#: src/components/locale-switcher.tsx:35
+msgid "Open options"
+msgstr "Open options"
+
+#: src/pages/[locale]/index.tsx:21
 msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
 msgstr "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."

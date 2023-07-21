@@ -1,22 +1,26 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2023-07-19 17:10+0330\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
-"Language: fa\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-19 17:10+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 3.3.2\n"
 
-#: src/pages/[locale]/index.tsx:17
+#: src/pages/[locale]/index.tsx:18
 msgid "Building a Multi-Lingual Website"
 msgstr "ساخت وب سایت چند زبانه"
 
-#: src/pages/[locale]/index.tsx:20
+#: src/components/locale-switcher.tsx:35
+msgid "Open options"
+msgstr "باز کردن گزینه ها"
+
+#: src/pages/[locale]/index.tsx:21
 msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
-msgstr "به سایت دمو Next.js و Lingui ما خوش آمدید! قدرت ترکیب Next.js، یک چارچوب React قدرتمند برای ساخت برنامه های رندر شده در سمت سرور، با Lingui، راه حل نهایی برای پشتیبانی چند زبانه در پروژه های وب خود را کشف کنید."
+msgstr "به سایت دمو Next.js و Lingui ما خوش آمدید! قدرت ترکیب Next.js، یک فریم‌ورک React قدرتمند برای ساخت برنامه های رندر شده در سمت سرور، با Lingui، راه حل نهایی برای پشتیبانی چند زبانه در پروژه های وب خود را کشف کنید."
