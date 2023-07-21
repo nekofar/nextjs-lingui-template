@@ -9,7 +9,6 @@ on:
 
 jobs:
   release:
-
     # Specify the type of the runner the job will run on
     runs-on: ubuntu-latest
 
