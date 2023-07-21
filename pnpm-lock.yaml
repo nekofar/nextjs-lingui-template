@@ -53,8 +53,8 @@ devDependencies:
     specifier: 4.2.1
     version: 4.2.1
   '@lingui/conf':
-    specifier: 4.2.1
-    version: 4.2.1
+    specifier: 4.3.0
+    version: 4.3.0
   '@lingui/loader':
     specifier: 4.2.1
     version: 4.2.1(webpack@5.87.0)
@@ -621,6 +621,18 @@ packages:
 
   /@lingui/conf@4.2.1:
     resolution: {integrity: sha512-y8GNgJpiO3DqOQQJ8xfxdq9dPpG3TJBd7lBajt9pRV2e89GO39UIT3uW5ZSfQaO1VWuZQpkIX8XcJPiKK5uz+A==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@babel/runtime': 7.22.5
+      chalk: 4.1.2
+      cosmiconfig: 8.2.0
+      jest-validate: 29.5.0
+      jiti: 1.18.2
+      lodash.get: 4.4.2
+    dev: true
+
+  /@lingui/conf@4.3.0:
+    resolution: {integrity: sha512-ZflR/igJi3+MUr1VeJDNkYMpnNvinRdw9m17G7mxmemxtnYV+RsIiUB+aR3AcgbQbEEmF95XmZb8jlUFYWlvtw==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@babel/runtime': 7.22.5
