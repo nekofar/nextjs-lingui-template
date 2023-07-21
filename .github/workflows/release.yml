@@ -1,40 +1,50 @@
+# Name of the workflow
 name: Create Release
 
+# Runs the workflow when a new tag starting with 'v' is pushed to the repository
 on:
   push:
     tags:
       - 'v*' # Create a release for tags starting with 'v'
 
 jobs:
-  create_release:
+  release:
+
+    # Specify the type of the runner the job will run on
     runs-on: ubuntu-latest
+
+    # Set permissions to write contents
     permissions:
       contents: write
+
     steps:
+      # Step 1: Checkout the repository code
       - name: Checkout code
         uses: actions/checkout@v3.5.3
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Fetches all history for all branches and tags
 
+      # Step 2: Generate a changelog for the new release using Git
       - name: Generate a changelog
         uses: orhun/git-cliff-action@v2.0.6
         id: git-cliff
         with:
-          config: cliff.toml
-          args: -vv --latest --strip all
+          config: cliff.toml # The configuration file for git-cliff
+          args: -vv --latest --strip all # Show verbose output, grab the latest changes, and strip unnecessary details
         env:
-          OUTPUT: CHANGES.md
+          OUTPUT: CHANGES.md # The output file for the changelog
 
+      # Step 3: Print the changelog on the console for reference and troubleshooting
       - name: Print the changelog
         run: cat "${{ steps.git-cliff.outputs.changelog }}"
 
-      - name: Create Release
+      # Step 4: Create a new GitHub release using the details gathered
+      - name: Create the release
         uses: nekofar/create-github-release@develop
         with:
-          token: ${{ github.token }}
-          tag: ${{ github.ref_name }}
-          files: cliff.toml
-          title: ${{ github.ref_name }}
-          notes_file: CHANGES.md
-          draft: true
-          prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }}
+          token: ${{ github.token }} # The token used to authenticate with GitHub
+          tag: ${{ github.ref_name }} # The name of the tag for the release
+          title: ${{ github.ref_name }} # The title of the release
+          notes_file: CHANGES.md # The file containing the release notes
+          draft: true # If true, the release will be saved as a draft
+          prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }} # If true, the release will be marked as a pre-release

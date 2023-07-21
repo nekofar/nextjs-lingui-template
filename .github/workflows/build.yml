@@ -1,0 +1,61 @@
+name: Build Pipeline # A Build Pipeline which will use for build, test and deploy.
+
+on:
+  push:  # When we push the changes.
+    branches:  # Only for these branches.
+      - master
+      - bugfix/*
+      - hotfix/*
+      - release/*
+    paths-ignore:  # Ignoring the markdown file changes.
+      - "**/*.md"
+  pull_request:  # Also on pull request events.
+  workflow_dispatch:  # Allows you to run this workflow manually from the Actions tab.
+
+jobs:
+  build:  # Job named 'build'
+    runs-on: ubuntu-latest  # The type of machine to run the job on.
+
+    strategy:  # Allows you to create a matrix for job configuration.
+      matrix:
+        node-version: [ 18.x, 19.x, 20.x ]  # Running tests across different environments.
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:  # The sequence of tasks that make up a job.
+      - name: Checking out repository code
+        uses: actions/checkout@v3.5.3  # Action for checking out a repo.
+
+      - name: Setup Node.js ${{ matrix.node-version }} Environment
+        uses: actions/setup-node@v3.7.0  # Action for setting up Node environment.
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install pnpm package manager
+        uses: pnpm/action-setup@v2.2.4  # Action for setting up pnpm.
+        id: pnpm-install
+        with:
+          version: ^8
+          run_install: false
+
+      - name: Capture pnpm store directory
+        id: pnpm-cache
+        run: |
+          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Cache pnpm Store
+        uses: actions/cache@v3.3.1  # Action provides caching dependencies and build outputs to improve workflow execution time.
+        with:
+          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}  # The path of the directory to cache.
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}  # An explicit key for restoring and saving the cache.
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install project dependencies
+        run: pnpm install  # Install all project dependencies.
+
+      - name: Build & export the App
+        run: pnpm run build  # Builds the app and exports it.
+
+concurrency:  # Allows controlling the concurrency level of the job in the build pipeline.
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true  # If enabled, previous runs of this workflow for the same group-key will be cancelled while this build or run is in progress.
