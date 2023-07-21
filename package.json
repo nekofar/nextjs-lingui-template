@@ -10,7 +10,8 @@
     "start": "serve out",
     "lint": "next lint",
     "lingui:extract": "lingui extract --clean",
-    "lingui:compile": "lingui compile"
+    "lingui:compile": "lingui compile",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@lingui/core": "4.3.0",
