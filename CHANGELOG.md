@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-beta.5] - 2023-07-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Update release notes formatting in GitHub workflow
+
 ## [1.0.0-beta.4] - 2023-07-21
 
 ### <!-- 07 -->Continuous Integrations
