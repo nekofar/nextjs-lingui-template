@@ -11,11 +11,15 @@
     "lint": "next lint",
     "lingui:extract": "lingui extract --clean",
     "lingui:compile": "lingui compile",
-    "format": "prettier --write ."
+    "format": "prettier --log-level error --write ."
   },
   "dependencies": {
+    "@headlessui/react": "1.7.15",
+    "@heroicons/react": "2.0.18",
     "@lingui/core": "4.3.0",
     "@lingui/react": "4.3.0",
+    "clsx": "1.2.1",
+    "langs": "2.0.0",
     "next": "13.4.11",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -26,6 +30,7 @@
     "@lingui/loader": "4.3.0",
     "@lingui/macro": "4.3.0",
     "@lingui/swc-plugin": "4.0.2",
+    "@types/langs": "2.0.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -37,8 +42,8 @@
     "prettier": "3.0.0",
     "prettier-plugin-organize-imports": "3.2.3",
     "prettier-plugin-tailwindcss": "0.4.1",
+    "serve": "14.2.0",
     "tailwindcss": "3.3.3",
-    "typescript": "5.1.6",
-    "serve": "14.2.0"
+    "typescript": "5.1.6"
   }
 }
