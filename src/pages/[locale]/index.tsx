@@ -4,15 +4,18 @@ import {GetStaticPropsContext} from 'next'
 import {Vazirmatn} from 'next/font/google'
 import Head from 'next/head'
 import {t, Trans} from "@lingui/macro";
+import {useLingui} from "@lingui/react";
 
 const vazirmatn = Vazirmatn({ subsets: ['latin', 'arabic'] })
 
 export default function Home() {
+  const { i18n } = useLingui()
+
   return (
     <>
       <Head>
         <title>
-          {t`Next.js & Lingui: Building a Multi-Lingual Website`}
+          {t(i18n)`Next.js & Lingui: Building a Multi-Lingual Website`}
         </title>
       </Head>
       <main
