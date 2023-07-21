@@ -13,14 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/[locale]/index.tsx:16
-msgid "Arabic"
-msgstr "عربی"
-
 #: src/pages/[locale]/index.tsx:17
-msgid "English"
-msgstr "انگلیسی"
+msgid "Building a Multi-Lingual Website"
+msgstr "ساخت وب سایت چند زبانه"
 
-#: src/pages/[locale]/index.tsx:18
-msgid "Farsi"
-msgstr "فارسی"
+#: src/pages/[locale]/index.tsx:20
+msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
+msgstr "به سایت دمو Next.js و Lingui ما خوش آمدید! قدرت ترکیب Next.js، یک چارچوب React قدرتمند برای ساخت برنامه های رندر شده در سمت سرور، با Lingui، راه حل نهایی برای پشتیبانی چند زبانه در پروژه های وب خود را کشف کنید."
