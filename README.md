@@ -23,12 +23,12 @@ by the coupling of Next.js's SSG and Lingui.
 
 ### Key Features
 
-* **Static Site Generation with Next.js**: Experience the unique advantages of utilizing Next.js in our static web
+- **Static Site Generation with Next.js**: Experience the unique advantages of utilizing Next.js in our static web
   application. This includes benefits such as improved performance and SEO, client-side routing, and a more streamlined
   development process.
-* **Translation Management with Lingui**: Discover how Lingui simplifies handling translations in our static web app,
+- **Translation Management with Lingui**: Discover how Lingui simplifies handling translations in our static web app,
   from message extraction to language pluralization and localized formatting.
-* **Real-time Language Switching**: Experience an interactive feature of our static web app that enables dynamic
+- **Real-time Language Switching**: Experience an interactive feature of our static web app that enables dynamic
   language switching. This allows users to effortlessly switch between different languages without navigating away from
   their current page.
 
