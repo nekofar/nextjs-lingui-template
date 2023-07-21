@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.2] - 2023-07-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Update release workflow for clarity and information
+- Add GitHub Actions build workflow
+
 ## [1.0.0-alpha.1] - 2023-07-21
 
 ### <!-- 07 -->Continuous Integrations
