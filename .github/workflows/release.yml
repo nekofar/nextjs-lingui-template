@@ -43,7 +43,11 @@ jobs:
           # Remove first two lines from 'r'
           r="$(printf "$r" | tail -n +3)"
           # Save the value of 'r' back into the GitHub environment output
-          echo "notes=$r" >> $GITHUB_OUTPUT
+          {
+              echo "notes<<EOF"
+              echo "$r"
+              echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       # Step 4: Create a new GitHub release using the gathered information
       - name: Create the release
