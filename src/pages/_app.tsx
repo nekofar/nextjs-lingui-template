@@ -1,3 +1,4 @@
+import {useLanguageAndDirection} from '@/hooks/use-language-and-direction'
 import {useLinguiInit} from '@/hooks/use-lingui-init'
 import '@/styles/globals.css'
 import {i18n} from '@lingui/core'
@@ -6,6 +7,7 @@ import type {AppProps} from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   useLinguiInit(pageProps.translation)
+  useLanguageAndDirection()
 
   return (
     <>
