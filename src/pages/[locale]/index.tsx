@@ -1,8 +1,8 @@
+import {availableLocales, loadCatalog} from '@/utils/locales'
+import {Trans} from '@lingui/macro'
+import {GetStaticPropsContext} from 'next'
 import {Inter} from 'next/font/google'
-import Link from "next/link";
-import {Trans} from "@lingui/macro";
-import {GetStaticPropsContext} from "next";
-import {availableLocales, loadCatalog} from "@/utils/locales";
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,31 +13,38 @@ export default function Home() {
     >
       <div>
         <ul>
-          <li><Link href="/ar" locale="ar">Arabic: <Trans>Arabic</Trans></Link></li>
-          <li><Link href="/en" locale="en">English: <Trans>English</Trans></Link></li>
-          <li><Link href="/fa" locale="fa">Farsi: <Trans>Farsi</Trans></Link></li>
+          <li>
+            <Link href="/ar" locale="ar">
+              Arabic: <Trans>Arabic</Trans>
+            </Link>
+          </li>
+          <li>
+            <Link href="/en" locale="en">
+              English: <Trans>English</Trans>
+            </Link>
+          </li>
+          <li>
+            <Link href="/fa" locale="fa">
+              Farsi: <Trans>Farsi</Trans>
+            </Link>
+          </li>
         </ul>
       </div>
     </main>
   )
 }
 
-export const getStaticProps = async (
-    context: GetStaticPropsContext<{ locale: string }>,
-) => {
-  const translation = await loadCatalog(context.params!.locale!)
+export async function getStaticProps(
+  context: GetStaticPropsContext<{ locale: string }>,
+) {
   return {
-    props: {
-      translation
-    }
+    props: { translation: await loadCatalog(context.params!.locale!) },
   }
 }
 
-export const getStaticPaths = async () => ({
-  paths: availableLocales.map((locale) => ({
-    params: {
-      locale,
-    },
-  })),
-  fallback: false,
-})
+export async function getStaticPaths() {
+  return {
+    paths: availableLocales.map((locale) => ({ params: { locale } })),
+    fallback: false,
+  }
+}

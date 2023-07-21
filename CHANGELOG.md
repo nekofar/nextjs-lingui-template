@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.4] - 2023-07-21
+
+### <!-- 04 -->Refactor
+
+- Update `getStaticProps` and `getStaticPaths` functions
+- Update `locales` module for code consistency
+- Update code for better readability and consistency
+
+### <!-- 05 -->Documentation
+
+- Remove unnecessary whitespace from README
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update lingui configuration
+- Add Prettier and its plugins for code formatting
+- Add `prettier.config.js` for unified formatting
+- Add Prettier to ESLint configuration
+- Add `.prettierignore` file to exclude unnecessary directories and files from formatting
+- Standardize quotes in YAML files
+- Update config files for consistent quote usage
+- Add prettier `format` script to `package.json`
+
 ## [1.0.0-alpha.3] - 2023-07-21
 
 ### <!-- 08 -->Miscellaneous Tasks

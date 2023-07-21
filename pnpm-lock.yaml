@@ -55,9 +55,21 @@ devDependencies:
   eslint-config-next:
     specifier: 13.4.11
     version: 13.4.11(eslint@8.45.0)(typescript@5.1.6)
+  eslint-config-prettier:
+    specifier: 8.8.0
+    version: 8.8.0(eslint@8.45.0)
   postcss:
     specifier: 8.4.26
     version: 8.4.26
+  prettier:
+    specifier: 3.0.0
+    version: 3.0.0
+  prettier-plugin-organize-imports:
+    specifier: 3.2.3
+    version: 3.2.3(prettier@3.0.0)(typescript@5.1.6)
+  prettier-plugin-tailwindcss:
+    specifier: 0.4.1
+    version: 0.4.1(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.0)
   serve:
     specifier: 14.2.0
     version: 14.2.0
@@ -631,15 +643,6 @@ packages:
       lodash.get: 4.4.2
     dev: true
 
-  /@lingui/core@4.2.1:
-    resolution: {integrity: sha512-928PI3fftk/owl1ZPqcK60DgUUktGW5RrMZJdNSxMBpmGtUqOQuj/WW7w69sUFefqsOGOpUY6lR75dwhgqywEA==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@babel/runtime': 7.22.5
-      '@lingui/message-utils': 4.2.1
-      unraw: 2.0.1
-    dev: false
-
   /@lingui/core@4.3.0:
     resolution: {integrity: sha512-nx9UM3ndYaK9VG6xQpF0OD/n0W35o5EPbiIzxgNvdNzRFtv9l1Z3pBipHXurRuZX0oDepGhVyXFD0ykPDeF7jA==}
     engines: {node: '>=16.0.0'}
@@ -687,13 +690,6 @@ packages:
       '@lingui/react': 4.3.0(react@18.2.0)
       babel-plugin-macros: 3.1.0
     dev: true
-
-  /@lingui/message-utils@4.2.1:
-    resolution: {integrity: sha512-131v+j82uS10gBDyjOBdKmQKKO1dc0nYx3MSUu9RK+EnPItRcaME3LBaJ4UJs5Nb1niZOX2yeMKarGAkvwFyPA==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@messageformat/parser': 5.1.0
-    dev: false
 
   /@lingui/message-utils@4.3.0:
     resolution: {integrity: sha512-UtgO5pm6LpJKqmZctr2R2hT+qicb8UijFDG3dctKGBuwkkwunFZUswOLJ+AxfhaO652Vov/yf5qsymJ6UFXPBA==}
@@ -902,6 +898,10 @@ packages:
 
   /@types/json5@0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/node@20.3.3:
+    resolution: {integrity: sha512-wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==}
     dev: true
 
   /@types/node@20.4.2:
@@ -1999,6 +1999,15 @@ packages:
       - supports-color
     dev: true
 
+  /eslint-config-prettier@8.8.0(eslint@8.45.0):
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.45.0
+    dev: true
+
   /eslint-import-resolver-node@0.3.7:
     resolution: {integrity: sha512-gozW2blMLJCeFpBwugLTGyvVjNoeo1knonXAcatC6bjPBZitotxdWf7Gimr25N4c0AAOo4eOUfaG82IJPDpqCA==}
     dependencies:
@@ -2894,7 +2903,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.4.2
+      '@types/node': 20.3.3
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -3565,6 +3574,85 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier-plugin-organize-imports@3.2.3(prettier@3.0.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-KFvk8C/zGyvUaE3RvxN2MhCLwzV6OBbFSkwZ2OamCrs9ZY4i5L77jQ/w4UmUr+lqX8qbaqVq6bZZkApn+IgJSg==}
+    peerDependencies:
+      '@volar/vue-language-plugin-pug': ^1.0.4
+      '@volar/vue-typescript': ^1.0.4
+      prettier: '>=2.0'
+      typescript: '>=2.9'
+    peerDependenciesMeta:
+      '@volar/vue-language-plugin-pug':
+        optional: true
+      '@volar/vue-typescript':
+        optional: true
+    dependencies:
+      prettier: 3.0.0
+      typescript: 5.1.6
+    dev: true
+
+  /prettier-plugin-tailwindcss@0.4.1(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.0):
+    resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      '@ianvs/prettier-plugin-sort-imports': '*'
+      '@prettier/plugin-pug': '*'
+      '@shopify/prettier-plugin-liquid': '*'
+      '@shufo/prettier-plugin-blade': '*'
+      '@trivago/prettier-plugin-sort-imports': '*'
+      prettier: ^2.2 || ^3.0
+      prettier-plugin-astro: '*'
+      prettier-plugin-css-order: '*'
+      prettier-plugin-import-sort: '*'
+      prettier-plugin-jsdoc: '*'
+      prettier-plugin-marko: '*'
+      prettier-plugin-organize-attributes: '*'
+      prettier-plugin-organize-imports: '*'
+      prettier-plugin-style-order: '*'
+      prettier-plugin-svelte: '*'
+      prettier-plugin-twig-melody: '*'
+    peerDependenciesMeta:
+      '@ianvs/prettier-plugin-sort-imports':
+        optional: true
+      '@prettier/plugin-pug':
+        optional: true
+      '@shopify/prettier-plugin-liquid':
+        optional: true
+      '@shufo/prettier-plugin-blade':
+        optional: true
+      '@trivago/prettier-plugin-sort-imports':
+        optional: true
+      prettier-plugin-astro:
+        optional: true
+      prettier-plugin-css-order:
+        optional: true
+      prettier-plugin-import-sort:
+        optional: true
+      prettier-plugin-jsdoc:
+        optional: true
+      prettier-plugin-marko:
+        optional: true
+      prettier-plugin-organize-attributes:
+        optional: true
+      prettier-plugin-organize-imports:
+        optional: true
+      prettier-plugin-style-order:
+        optional: true
+      prettier-plugin-svelte:
+        optional: true
+      prettier-plugin-twig-melody:
+        optional: true
+    dependencies:
+      prettier: 3.0.0
+      prettier-plugin-organize-imports: 3.2.3(prettier@3.0.0)(typescript@5.1.6)
+    dev: true
+
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /pretty-format@29.5.0:
