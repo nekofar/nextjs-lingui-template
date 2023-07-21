@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2023-07-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Update checkout step in GitHub Actions
+- Remove dependency ignore in `dependabot.yml` config file
+
 ## [1.0.0-alpha.0] - 2023-07-20
 
 ### <!-- 01 -->Features
