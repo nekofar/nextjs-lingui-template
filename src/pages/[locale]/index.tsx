@@ -22,22 +22,15 @@ export default function Home() {
   )
 }
 
-export const getStaticProps = async (
-    context: GetStaticPropsContext<{ locale: string }>,
-) => {
-  const translation = await loadCatalog(context.params!.locale!)
+export async function getStaticProps(context: GetStaticPropsContext<{ locale: string }>) {
   return {
-    props: {
-      translation
-    }
+    props: { translation: await loadCatalog(context.params!.locale!) }
   }
 }
 
-export const getStaticPaths = async () => ({
-  paths: availableLocales.map((locale) => ({
-    params: {
-      locale,
-    },
-  })),
-  fallback: false,
-})
+export async function getStaticPaths() {
+  return {
+    paths: availableLocales.map(locale => ({ params: { locale } })),
+    fallback: false
+  }
+}
