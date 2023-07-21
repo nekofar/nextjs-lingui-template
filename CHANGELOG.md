@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-beta.3] - 2023-07-21
+
+### <!-- 05 -->Documentation
+
+- Add GitHub issue templates and disable blank issues
+
+### <!-- 07 -->Continuous Integrations
+
+- Add stale bot configuration file
+- Improve release notes generation in the workflow
+
 ## [1.0.0-beta.2] - 2023-07-21
 
 ### <!-- 02 -->Bug Fixes
