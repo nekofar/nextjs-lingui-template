@@ -4,8 +4,9 @@ module.exports = {
     sourceLocale: "en",
     catalogs: [
         {
-            path: "src/locales/{locale}/messages",
-            include: ["src"],
+            path: "<rootDir>/src/locales/{locale}/messages",
+            include: ["<rootDir>/src"],
+            exclude: ['**/node_modules/**', '**/.next/**', '**/out/**'],
         },
     ],
     format: "po",
