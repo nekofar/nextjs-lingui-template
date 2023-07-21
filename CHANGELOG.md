@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-beta.4] - 2023-07-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Remove escape sequence replacements in release workflow
+
 ## [1.0.0-beta.3] - 2023-07-21
 
 ### <!-- 05 -->Documentation
