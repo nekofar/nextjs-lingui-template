@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.6] - 2023-07-21
+
+### <!-- 05 -->Documentation
+
+- Update README with SSG emphasis
+
 ## [1.0.0-alpha.5] - 2023-07-21
 
 ### <!-- 01 -->Features

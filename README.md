@@ -6,25 +6,31 @@
 [![Twitter Follow](https://img.shields.io/badge/follow-%40nekofar-1DA1F2?logo=twitter&style=flat)](https://twitter.com/nekofar)
 [![Donate](https://img.shields.io/badge/donate-nekofar.crypto-a2b9bc?logo=ko-fi&logoColor=white)](https://ud.me/nekofar.crypto)
 
-
 ### Overview
 
-Welcome to the Next.js & Lingui starter project! This repository demonstrates the seamless integration of Next.js, a
-powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for
-multi-lingual support in web projects.
+Welcome to the Next.js and Lingui static site generation (SSG) starter project! This repository demonstrates the
+state-of-the-art integration of Next.js and Lingui for creating static web apps with multi-lingual support.
 
-Our goal is to showcase the process of creating a multi-lingual website that caters to a diverse global audience. With
-Next.js providing performance and SEO advantages, and Lingui simplifying translation management, this demo project
-highlights the best practices for internationalization and localization.
+Next.js, a powerful React framework, is designed to build server-rendered React applications and SSG sites. In this
+context, we're utilizing Next.js's Static Site Generation capabilities to pre-render pages at build time.
+
+Combined with Lingui, an i18n (internationalization) library for JavaScript, we've endeavored to produce a multilingual
+static website that effectively caters to a global audience.
+
+Our aim with this starter project is to illustrate the procedure of building an international static web app that is
+performant, SEO-advantaged, and maintains simplified translation management, courtesy of the capabilities brought about
+by the coupling of Next.js's SSG and Lingui.
 
 ### Key Features
 
-* **Next.js Benefits**: Experience the advantages of using Next.js for server-side rendering, static site generation, and
-  client-side routing. Learn how it enhances performance, SEO, and simplifies development.
-* **Lingui's Power**: Explore Lingui's capabilities in handling translations, message extraction, language pluralization,
-  and locale-specific formatting.
-* **Dynamic Language Switching**: Witness real-time language switching, enabling users to seamlessly toggle between
-  different languages without losing their place on the site.
+* **Static Site Generation with Next.js**: Experience the unique advantages of utilizing Next.js in our static web
+  application. This includes benefits such as improved performance and SEO, client-side routing, and a more streamlined
+  development process.
+* **Translation Management with Lingui**: Discover how Lingui simplifies handling translations in our static web app,
+  from message extraction to language pluralization and localized formatting.
+* **Real-time Language Switching**: Experience an interactive feature of our static web app that enables dynamic
+  language switching. This allows users to effortlessly switch between different languages without navigating away from
+  their current page.
 
 ### Getting Started
 
@@ -37,7 +43,7 @@ Then, to use this project template, follow these steps:
 3. Install project dependencies: `pnpm install`
 4. Start the development server: `pnpm run dev`
 5. Open your browser and visit http://localhost:3000 to see the application in action.
-  
+
 ### Contributing
 
 We welcome contributions to this project! To contribute, follow these steps:
