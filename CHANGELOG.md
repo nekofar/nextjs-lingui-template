@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.5] - 2023-07-21
+
+### <!-- 01 -->Features
+
+- Add locale switcher and necessary dependencies
+- Implement dynamic direction and language updates
+
+### <!-- 04 -->Refactor
+
+- Update homepage content and translations
+- Replace Inter font with `Vazirmatn` in homepage
+- Move localization initialization into its own hook
+- Add locale direction and name utilities
+- Move locale determination to separate hook
+- Update code for consistency in space usage
+
+### <!-- 05 -->Documentation
+
+- Create a LICENSE file for repository 
+- Update README to reflect multi-lingual site construction
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update Prettier command in `package.json`
+- Add Lingui files to `.gitignore`
+- Update localization files and add new translation
+
 ## [1.0.0-alpha.4] - 2023-07-21
 
 ### <!-- 04 -->Refactor

@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# lingui
+**/locales/_build
+**/locales/*/*.js
+**/locales/*/*.json
+**/locales/*/*.mo
