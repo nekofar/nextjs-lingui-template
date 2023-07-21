@@ -1,14 +1,14 @@
 import {availableLocales, loadCatalog} from '@/utils/locales'
 import {Trans} from '@lingui/macro'
 import {GetStaticPropsContext} from 'next'
-import {Inter} from 'next/font/google'
+import {Vazirmatn} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const vazirmatn = Vazirmatn({ subsets: ['latin', 'arabic'] })
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between p-24 ${vazirmatn.className}`}
     >
       <section className="mt-16 py-8">
         <div className="container">
