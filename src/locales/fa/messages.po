@@ -17,7 +17,7 @@ msgstr ""
 msgid "Building a Multi-Lingual Website"
 msgstr "ساخت وب سایت چند زبانه"
 
-#: src/components/locale-switcher.tsx:35
+#: src/components/locale-switcher.tsx:20
 msgid "Open options"
 msgstr "باز کردن گزینه ها"
 
