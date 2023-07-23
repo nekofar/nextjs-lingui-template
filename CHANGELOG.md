@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-beta.6] - 2023-07-23
+
+### <!-- 07 -->Continuous Integrations
+
+- Refactor comments and update action in release workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump clsx from 1.2.1 to 2.0.0 
+- Bump postcss from 8.4.26 to 8.4.27 
+
 ## [1.0.0-beta.5] - 2023-07-21
 
 ### <!-- 07 -->Continuous Integrations
