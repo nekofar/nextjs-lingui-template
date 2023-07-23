@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2023-07-23
+
+### <!-- 07 -->Continuous Integrations
+
+- Update github release action version
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.4.2 to 20.4.4 
+- Bump eslint-config-next from 13.4.11 to 13.4.12 
+- Bump next from 13.4.11 to 13.4.12 
+
 ## [1.0.0-beta.6] - 2023-07-23
 
 ### <!-- 07 -->Continuous Integrations
