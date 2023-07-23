@@ -17,13 +17,13 @@ jobs:
       contents: write
 
     steps:
-      # Step 1: Checkout the repository code
+      # Checkout the repository code
       - name: Checkout code
         uses: actions/checkout@v3.5.3
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
-      # Step 2: Generate a changelog for the new release using Git
+      # Generate a changelog for the new release using Git
       - name: Generate a changelog
         uses: orhun/git-cliff-action@v2.0.6
         id: git-cliff
@@ -33,7 +33,7 @@ jobs:
         env:
           OUTPUT: CHANGES.md # The output file for the changelog
 
-      # Step 3: Prepare release notes by processing the generated changelog
+      # Prepare release notes by processing the generated changelog
       - name: Set the release notes
         id: release
         shell: bash
@@ -49,9 +49,9 @@ jobs:
               echo "EOF"
           } >> $GITHUB_OUTPUT
 
-      # Step 4: Create a new GitHub release using the gathered information
+      # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@develop
+        uses: nekofar/create-github-release@v1.0.0-beta.6
         with:
           token: ${{ github.token }} # Authentication token from GitHub
           tag: ${{ github.ref_name }} # The name of the tag to be released
