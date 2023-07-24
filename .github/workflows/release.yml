@@ -51,7 +51,7 @@ jobs:
 
       # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@v1.0.1
+        uses: nekofar/create-github-release@v1.0.5
         with:
           token: ${{ github.token }} # Authentication token from GitHub
           tag: ${{ github.ref_name }} # The name of the tag to be released
