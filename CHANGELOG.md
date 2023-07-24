@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2023-07-24
+
+### <!-- 05 -->Documentation
+
+- Update issue templates with default titles
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump nekofar/create-github-release from 1.0.0 to 1.0.1 
+
 ## [1.0.0] - 2023-07-23
 
 ### <!-- 07 -->Continuous Integrations
