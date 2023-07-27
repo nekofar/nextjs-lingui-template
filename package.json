@@ -29,7 +29,7 @@
     "@lingui/conf": "4.3.0",
     "@lingui/loader": "4.3.0",
     "@lingui/macro": "4.3.0",
-    "@lingui/swc-plugin": "4.0.2",
+    "@lingui/swc-plugin": "4.0.4",
     "@types/langs": "2.0.1",
     "@types/node": "20.4.5",
     "@types/react": "18.2.15",
