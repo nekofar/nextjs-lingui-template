@@ -32,7 +32,7 @@
     "@lingui/swc-plugin": "4.0.4",
     "@types/langs": "2.0.1",
     "@types/node": "20.4.5",
-    "@types/react": "18.2.15",
+    "@types/react": "18.2.17",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "eslint": "8.45.0",
