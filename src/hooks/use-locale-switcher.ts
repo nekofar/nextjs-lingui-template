@@ -8,21 +8,22 @@ export function useLocaleSwitcher() {
   const locale = useLocale()
 
   const changeLocale = useCallback(
-    async (nextLocale: Locale) => {
+    (nextLocale: Locale) => {
       if (!nextLocale || nextLocale === locale) {
         return
       }
 
-      let pathName = router.pathname
-      Object.keys(router.query).forEach((k) => {
-        if (k === 'locale') {
-          pathName = pathName.replace(`[${k}]`, nextLocale)
-          return
-        }
-        pathName = pathName.replace(`[${k}]`, <string>router.query[k])
-      })
+      const pathName = Object.keys(router.query).reduce(
+        (currentPathName, k) => {
+          if (k === 'locale') {
+            return currentPathName.replace(`[${k}]`, nextLocale)
+          }
+          return currentPathName.replace(`[${k}]`, String(router.query[k]))
+        },
+        router.pathname,
+      )
 
-      await router.replace(pathName)
+      router.replace(pathName)
     },
     [locale, router],
   )
