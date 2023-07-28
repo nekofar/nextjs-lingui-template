@@ -45,7 +45,6 @@ export function LocaleSwitcher() {
                     )}
                     onClick={() => {
                       changeLocale(locale)
-                      close()
                     }}
                   >
                     {getLocaleName(locale)}
