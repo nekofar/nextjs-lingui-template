@@ -1,5 +1,7 @@
 import linguiConfig from '@/../lingui.config'
+import { detect, fromPath } from '@lingui/detect-locale'
 import langs from 'langs'
+import { ParsedUrlQuery } from 'querystring'
 
 export type Locale = (typeof linguiConfig.locales)[number]
 
@@ -19,10 +21,19 @@ export async function loadCatalog(locale: Locale): Promise<object> {
   }
 }
 
-export function getLocaleDirection(locale: Locale) {
-  return ['ar', 'he', 'fa'].includes(locale) ? 'rtl' : 'ltr'
+export function getLocale(query?: ParsedUrlQuery): Locale {
+  const localFromPath = typeof window !== 'undefined' ? fromPath(0) : undefined
+  const localeFromQuery = query?.locale
+
+  const detectedLocale = detect(localFromPath, localeFromQuery)
+
+  return detectedLocale || defaultLocale
 }
 
 export function getLocaleName(locale: Locale) {
   return langs.where(1, locale)!.local
+}
+
+export function getLocaleDirection(locale: Locale) {
+  return ['ar', 'he', 'fa'].includes(locale) ? 'rtl' : 'ltr'
 }

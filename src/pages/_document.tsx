@@ -1,12 +1,13 @@
-import {defaultLocale, getLocaleDirection, Locale} from '@/utils/locales'
-import {Head, Html, Main, NextScript} from 'next/document'
-import {DocumentProps} from 'postcss'
+import { getLocale, getLocaleDirection, Locale } from '@/utils/locales'
+import { Head, Html, Main, NextScript } from 'next/document'
+import { DocumentProps } from 'postcss'
+import { ParsedUrlQuery } from 'querystring'
 
-type Props = DocumentProps & { __NEXT_DATA__: { query: { locale: string } } }
+type Props = DocumentProps & { __NEXT_DATA__: { query: ParsedUrlQuery } }
 
 export default function Document(props: Props) {
   const { __NEXT_DATA__: nextData } = props
-  const locale = nextData?.query?.locale || defaultLocale
+  const locale = getLocale(nextData.query)
 
   const language = locale as Locale
   const direction = getLocaleDirection(language)

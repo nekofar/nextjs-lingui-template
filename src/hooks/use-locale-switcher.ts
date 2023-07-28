@@ -1,7 +1,7 @@
-import {useLocale} from '@/hooks/use-locale'
-import {Locale} from '@/utils/locales'
-import {useRouter} from 'next/router'
-import {useCallback} from 'react'
+import { useLocale } from '@/hooks/use-locale'
+import { Locale } from '@/utils/locales'
+import { useRouter } from 'next/router'
+import { useCallback } from 'react'
 
 export function useLocaleSwitcher() {
   const router = useRouter()
@@ -21,8 +21,6 @@ export function useLocaleSwitcher() {
         }
         pathName = pathName.replace(`[${k}]`, <string>router.query[k])
       })
-
-      // languageDetector.cache?.(nextLocale, ['cookie', 'localStorage'])
 
       await router.replace(pathName)
     },

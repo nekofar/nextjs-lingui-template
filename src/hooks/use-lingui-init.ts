@@ -1,6 +1,6 @@
-import {useLocale} from '@/hooks/use-locale'
-import {i18n, Messages} from '@lingui/core'
-import {useEffect} from 'react'
+import { useLocale } from '@/hooks/use-locale'
+import { i18n, Messages } from '@lingui/core'
+import { useEffect } from 'react'
 
 export function useLinguiInit(messages: Messages) {
   const locale = useLocale()

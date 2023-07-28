@@ -1,10 +1,10 @@
-import {LocaleSwitcher} from '@/components/locale-switcher'
-import {availableLocales, loadCatalog} from '@/utils/locales'
-import {GetStaticPropsContext} from 'next'
-import {Vazirmatn} from 'next/font/google'
+import { LocaleSwitcher } from '@/components/locale-switcher'
+import { availableLocales, loadCatalog } from '@/utils/locales'
+import { Trans, t } from '@lingui/macro'
+import { useLingui } from '@lingui/react'
+import { GetStaticPropsContext } from 'next'
+import { Vazirmatn } from 'next/font/google'
 import Head from 'next/head'
-import {t, Trans} from "@lingui/macro";
-import {useLingui} from "@lingui/react";
 
 const vazirmatn = Vazirmatn({ subsets: ['latin', 'arabic'] })
 

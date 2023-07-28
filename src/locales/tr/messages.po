@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2023-07-28 22:38+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: tr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/[locale]/index.tsx:28
+msgid "Building a Multi-Lingual Website"
+msgstr "Çok Dilli Bir Web Sitesi Oluşturma"
+
+#: src/pages/[locale]/index.tsx:18
+msgid "Next.js & Lingui: Building a Multi-Lingual Website"
+msgstr "Next.js & Lingui: Çok Dilli Bir Web Sitesi Oluşturma"
+
+#: src/components/locale-switcher.tsx:20
+msgid "Open options"
+msgstr "Seçenekleri aç"
+
+#: src/pages/[locale]/index.tsx:31
+msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
+msgstr "Next.js ve Lingui demo sitemize hoş geldiniz! Sunucu tarafı render edilen uygulamalar oluşturmak için güçlü bir React çerçevesi olan Next.js ile, web projelerinizde çok dilli desteği için nihai çözüm olan Lingui'nin birleştirilme gücünü keşfedin."
