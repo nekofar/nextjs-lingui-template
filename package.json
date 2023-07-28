@@ -1,6 +1,6 @@
 {
   "name": "nextjs-lingui-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,7 +14,7 @@
     "format": "prettier --log-level error --write ."
   },
   "dependencies": {
-    "@headlessui/react": "1.7.15",
+    "@headlessui/react": "1.7.16",
     "@heroicons/react": "2.0.18",
     "@lingui/core": "4.3.0",
     "@lingui/react": "4.3.0",
@@ -29,15 +29,15 @@
     "@lingui/conf": "4.3.0",
     "@lingui/loader": "4.3.0",
     "@lingui/macro": "4.3.0",
-    "@lingui/swc-plugin": "4.0.2",
+    "@lingui/swc-plugin": "4.0.4",
     "@types/langs": "2.0.1",
-    "@types/node": "20.4.4",
-    "@types/react": "18.2.15",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
-    "eslint-config-prettier": "8.8.0",
+    "eslint-config-prettier": "8.9.0",
     "postcss": "8.4.27",
     "prettier": "3.0.0",
     "prettier-plugin-organize-imports": "3.2.3",
