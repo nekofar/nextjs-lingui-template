@@ -1,10 +1,10 @@
-import {useLocaleSwitcher} from '@/hooks/use-locale-switcher'
-import {availableLocales, getLocaleName} from '@/utils/locales'
-import {Menu, Transition} from '@headlessui/react'
-import {LanguageIcon} from '@heroicons/react/24/outline'
-import {Trans} from '@lingui/macro'
+import { useLocaleSwitcher } from '@/hooks/use-locale-switcher'
+import { availableLocales, getLocaleName } from '@/utils/locales'
+import { Menu, Transition } from '@headlessui/react'
+import { LanguageIcon } from '@heroicons/react/24/outline'
+import { Trans } from '@lingui/macro'
 import clsx from 'clsx'
-import {Fragment} from 'react'
+import { Fragment } from 'react'
 
 export function LocaleSwitcher() {
   const { changeLocale } = useLocaleSwitcher()

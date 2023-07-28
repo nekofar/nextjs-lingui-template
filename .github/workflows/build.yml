@@ -29,11 +29,11 @@ jobs:
   build: # Job named 'build'
     runs-on: ubuntu-latest # The type of machine to run the job on.
 
-    needs: [ guard ]
+    needs: [guard]
 
     strategy: # Allows you to create a matrix for job configuration.
       matrix:
-        node-version: [ 18.x, 19.x, 20.x ] # Running tests across different environments.
+        node-version: [18.x, 19.x, 20.x] # Running tests across different environments.
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps: # The sequence of tasks that make up a job.

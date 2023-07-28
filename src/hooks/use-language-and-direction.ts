@@ -1,6 +1,6 @@
-import {useLocale} from '@/hooks/use-locale'
-import {getLocaleDirection} from '@/utils/locales'
-import {useEffect} from 'react'
+import { useLocale } from '@/hooks/use-locale'
+import { getLocaleDirection } from '@/utils/locales'
+import { useEffect } from 'react'
 
 const updateDocumentAttributes = (language: string, direction: string) => {
   document.documentElement.lang = language
