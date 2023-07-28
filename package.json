@@ -14,7 +14,7 @@
     "format": "prettier --log-level error --write ."
   },
   "dependencies": {
-    "@headlessui/react": "1.7.15",
+    "@headlessui/react": "1.7.16",
     "@heroicons/react": "2.0.18",
     "@lingui/core": "4.3.0",
     "@lingui/react": "4.3.0",
