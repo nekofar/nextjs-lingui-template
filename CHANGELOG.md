@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2023-07-28
+
+### <!-- 01 -->Features
+
+- Add Turkish language support to Lingui config
+
+### <!-- 04 -->Refactor
+
+- Update code formatting for readability
+- Update locale page to adhere to syntax standards
+- Add Turkish localization and translation
+- Simplify locale detection and broaden usability
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `@lingui/detect-locale` package
+
 ## [1.0.3] - 2023-07-28
 
 ### <!-- 07 -->Continuous Integrations
