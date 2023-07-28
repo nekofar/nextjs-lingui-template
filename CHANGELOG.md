@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2023-07-28
+
+### <!-- 02 -->Bug Fixes
+
+- Remove close function from locale switcher component
+
+### <!-- 04 -->Refactor
+
+- Improve code formatting and remove unused import
+- Simplify locale switching logic in `useLocaleSwitcher`
+
 ## [1.0.4] - 2023-07-28
 
 ### <!-- 01 -->Features
