@@ -1,4 +1,5 @@
-import { defaultLocale, loadCatalog } from '@/utils/locales'
+import {defaultLocale, getLocale, loadCatalog} from '@/utils/locales'
+import { GetStaticPropsContext } from 'next'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
@@ -6,7 +7,7 @@ export default function Home() {
   const router = useRouter()
 
   useEffect(() => {
-    router.replace(`/${defaultLocale}`)
+    router.replace(`/${getLocale()}`)
   }, [router])
 
   return null
@@ -14,6 +15,6 @@ export default function Home() {
 
 export const getStaticProps = async () => {
   return {
-    props: { translation: await loadCatalog(defaultLocale) },
+    props: { translation: await loadCatalog(getLocale()) },
   }
 }

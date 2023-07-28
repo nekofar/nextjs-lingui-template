@@ -22,8 +22,6 @@ export function useLocaleSwitcher() {
         pathName = pathName.replace(`[${k}]`, <string>router.query[k])
       })
 
-      // languageDetector.cache?.(nextLocale, ['cookie', 'localStorage'])
-
       await router.replace(pathName)
     },
     [locale, router],
