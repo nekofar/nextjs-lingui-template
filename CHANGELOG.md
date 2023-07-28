@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2023-07-28
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump pnpm/action-setup from 2.2.4 to 2.4.0 
+- Bump nekofar/create-github-release from 1.0.5 to 1.0.11 
+- Add usage guard to `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.4.4 to 20.4.5 
+- Bump @lingui/swc-plugin from 4.0.2 to 4.0.4 
+- Bump @types/react from 18.2.15 to 18.2.17 
+- Bump @headlessui/react from 1.7.15 to 1.7.16 
+- Bump eslint-config-prettier from 8.8.0 to 8.9.0 
+
 ## [1.0.2] - 2023-07-24
 
 ### <!-- 07 -->Continuous Integrations
