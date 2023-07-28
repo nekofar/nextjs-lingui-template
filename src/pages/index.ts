@@ -1,5 +1,4 @@
-import {defaultLocale, getLocale, loadCatalog} from '@/utils/locales'
-import { GetStaticPropsContext } from 'next'
+import { getLocale, loadCatalog } from '@/utils/locales'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
