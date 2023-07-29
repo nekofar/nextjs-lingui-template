@@ -1,5 +1,5 @@
 # Workflow Name
-name: Template
+name: Template Cleanup
 
 # Trigger the workflow on push events to the master branch
 on:
@@ -22,9 +22,10 @@ jobs:
 
     # Steps instances
     steps:
-      - uses: actions/checkout@v3.5.2  # Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3.5.2
 
-      - name: Setup Node.js  # Set up Node.js environment
+      - name: Set up Node.js environment
         uses: actions/setup-node@v3.7.0
 
       - name: Install pnpm package manager  # Install pnpm
@@ -33,7 +34,7 @@ jobs:
           version: ^8
           run_install: false
 
-      - name: Cleanup  # Clean up the repository
+      - name: Clean up the repository
         run: |
           # Declare variables
           NAME="$(basename $GITHUB_REPOSITORY)"
