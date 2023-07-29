@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.6] - 2023-07-29
+
+### <!-- 07 -->Continuous Integrations
+
+- Add GitHub Actions workflow for initial template cleanup
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint from 8.45.0 to 8.46.0 
+- Bump @lingui/detect-locale from 4.2.1 to 4.3.0 
+
 ## [1.0.5] - 2023-07-28
 
 ### <!-- 02 -->Bug Fixes
