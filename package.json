@@ -1,6 +1,6 @@
 {
   "name": "nextjs-lingui-template",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,7 +17,7 @@
     "@headlessui/react": "1.7.16",
     "@heroicons/react": "2.0.18",
     "@lingui/core": "4.3.0",
-    "@lingui/detect-locale": "4.2.1",
+    "@lingui/detect-locale": "4.3.0",
     "@lingui/react": "4.3.0",
     "clsx": "2.0.0",
     "langs": "2.0.0",
@@ -36,7 +36,7 @@
     "@types/react": "18.2.17",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "eslint-config-prettier": "8.9.0",
     "postcss": "8.4.27",
