@@ -12,7 +12,8 @@
     "lingui:extract": "lingui extract --clean",
     "lingui:compile": "lingui compile",
     "format": "prettier --log-level error --write .",
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "pnpx typesync || :"
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
