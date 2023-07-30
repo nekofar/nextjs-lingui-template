@@ -41,9 +41,9 @@ jobs:
           VERSION='1.0.0-alpha.0'
 
           # Replace package.json name and version fields
-          pnpm json -I -f package.json -e "this.name='${NAME}'"
-          pnpm json -I -f package.json -e "this.version='${VERSION}'"
-          pnpm install --no-frozen-lockfile  # Install dependencies (ignoring lock file)
+          pnpm dlx json -I -f package.json -e "this.name='${NAME}'"
+          pnpm dlx json -I -f package.json -e "this.version='${VERSION}'"
+          pnpm dlx install --no-frozen-lockfile  # Install dependencies (ignoring lock file)
 
           # Remove unnecessary files
           rm -rf \
