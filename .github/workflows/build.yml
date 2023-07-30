@@ -129,10 +129,10 @@ jobs:
 
       # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@v1.0.11
+        uses: nekofar/create-github-release@v1.0.12
         with:
-          tag: ${{ steps.release.outputs.version }} # The name of the tag to be released
-          title: ${{ steps.release.outputs.version }} # The title for the release
+          tag: v${{ steps.release.outputs.version }} # The name of the tag to be released
+          title: v${{ steps.release.outputs.version }} # The title for the release
           notes: ${{ steps.release.outputs.notes }} # The release notes generated in the previous step
           draft: true # The release will be created as a draft
           prerelease: ${{ contains(steps.release.outputs.version, '-rc') || contains(steps.release.outputs.version, '-beta') || contains(steps.release.outputs.version, '-alpha') }} # Conditions to mark the release as a pre-release
