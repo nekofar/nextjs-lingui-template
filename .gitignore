@@ -39,3 +39,6 @@ next-env.d.ts
 **/locales/*/*.js
 **/locales/*/*.json
 **/locales/*/*.mo
+
+# swc
+.swc
