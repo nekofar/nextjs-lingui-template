@@ -27,6 +27,7 @@ jobs:
           threshold: 70
 
   build: # Job named 'build'
+    name: Build & Test
     runs-on: ubuntu-latest # The type of machine to run the job on.
 
     needs: [guard]
@@ -78,6 +79,7 @@ jobs:
         run: pnpm run test
 
   release:
+    name: Create Release
     # Specify the type of the runner the job will run on
     runs-on: ubuntu-latest
 
