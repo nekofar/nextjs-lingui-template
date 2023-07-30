@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.11] - 2023-07-30
+
+### <!-- 07 -->Continuous Integrations
+
+- Update pnpm commands in `template` workflows
+- Cdd README.md to `template` workflows
+- Update and enhance `template` workflow
+
 ## [1.0.10] - 2023-07-30
 
 ### <!-- 07 -->Continuous Integrations
