@@ -52,7 +52,7 @@ jobs:
             .github/dependabot.yml \
             .github/FUNDING.yml \
             .github/stale.yml \
-            CHANGELOG.md
+            CHANGELOG.md \
             README.md
 
       - name: Create Pull Request # Generate a pull request
