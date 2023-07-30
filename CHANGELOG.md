@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.10] - 2023-07-30
+
+### <!-- 07 -->Continuous Integrations
+
+- Add `v` prefix to release tag and title in build workflow
+- Bump actions/checkout from 3.5.2 to 3.5.3 
+- Bump nekofar/create-github-release from 1.0.11 to 1.0.12 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump jest-environment-jsdom from 29.5.0 to 29.6.2 
+- Bump @testing-library/jest-dom and @types/testing-library__jest-dom 
+- Bump jest and @types/jest 
+- Add `typesync` step to `preinstall` script
+- Update ESLint related packages for better type compatibility
+
 ## [1.0.9] - 2023-07-30
 
 ### <!-- 07 -->Continuous Integrations
