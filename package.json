@@ -11,7 +11,8 @@
     "lint": "next lint",
     "lingui:extract": "lingui extract --clean",
     "lingui:compile": "lingui compile",
-    "format": "prettier --log-level error --write ."
+    "format": "prettier --log-level error --write .",
+    "test": "jest"
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
