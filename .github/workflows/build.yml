@@ -65,11 +65,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: Install project dependencies
-        run: pnpm install # Install all project dependencies.
+      # Installs all dependencies specified in the project's package.json file.
+      - name: Install dependencies using pnpm
+        run: pnpm install
 
-      - name: Build & export the App
-        run: pnpm run build # Builds the app and exports it.
+      # This compiles the application in optimized production mode and output it to the build folder.
+      - name: Build the application and export it
+        run: pnpm run build
+
+      # Runs unit tests for the application using Jest.
+      - name: Execute tests using Jest
+        run: pnpm run test
 
 concurrency: # Allows controlling the concurrency level of the job in the build pipeline.
   group: ${{ github.workflow }}-${{ github.ref }}
