@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.8] - 2023-07-30
+
+### <!-- 03 -->Testing
+
+- Add tests for the Home page component
+
+### <!-- 07 -->Continuous Integrations
+
+- Refactor format and readability in `template` workflow
+- Update build workflow steps and comments
+- Merge release and build workflows
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add testing dependencies and plugins
+- Add `.swc` files to `.gitignore`
+- Add `jest.config.js` for test configuration
+- Add Jest testing script to `package.json`
+
 ## [1.0.7] - 2023-07-29
 
 ### <!-- 07 -->Continuous Integrations
