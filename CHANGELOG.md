@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.12] - 2023-08-03
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.2.17 to 18.2.18 
+- Bump semver from 6.3.0 to 6.3.1 
+- Bump @types/node from 20.4.5 to 20.4.6 
+
 ## [1.0.11] - 2023-07-30
 
 ### <!-- 07 -->Continuous Integrations
