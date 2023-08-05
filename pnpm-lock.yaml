@@ -62,8 +62,8 @@ devDependencies:
     specifier: 14.4.3
     version: 14.4.3(@testing-library/dom@9.2.0)
   '@types/eslint':
-    specifier: 8.44.1
-    version: 8.44.1
+    specifier: 8.44.2
+    version: 8.44.2
   '@types/eslint-config-prettier':
     specifier: 6.11.0
     version: 6.11.0
@@ -1400,6 +1400,13 @@ packages:
 
   /@types/eslint@8.44.1:
     resolution: {integrity: sha512-XpNDc4Z5Tb4x+SW1MriMVeIsMoONHCkWFMkR/aPJbzEsxqHy+4Glu/BqTdPrApfDeMaXbtNh6bseNgl5KaWrSg==}
+    dependencies:
+      '@types/estree': 1.0.1
+      '@types/json-schema': 7.0.12
+    dev: true
+
+  /@types/eslint@8.44.2:
+    resolution: {integrity: sha512-sdPRb9K6iL5XZOmBubg8yiFp5yS/JdUDQsq5e6h95km91MCYMuvp7mh1fjPEYUhvHepKpZOjnEaMBR4PxjWDzg==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.12
