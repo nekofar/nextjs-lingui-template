@@ -20,7 +20,7 @@
     "@heroicons/react": "2.0.18",
     "@lingui/core": "4.4.0",
     "@lingui/detect-locale": "4.4.0",
-    "@lingui/react": "4.3.0",
+    "@lingui/react": "4.4.0",
     "clsx": "2.0.0",
     "langs": "2.0.0",
     "next": "13.4.13",
