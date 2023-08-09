@@ -18,8 +18,8 @@ dependencies:
     specifier: 4.4.0
     version: 4.4.0
   '@lingui/react':
-    specifier: 4.3.0
-    version: 4.3.0(react@18.2.0)
+    specifier: 4.4.0
+    version: 4.4.0(react@18.2.0)
   clsx:
     specifier: 2.0.0
     version: 2.0.0
@@ -48,7 +48,7 @@ devDependencies:
     version: 4.4.0(webpack@5.87.0)
   '@lingui/macro':
     specifier: 4.3.0
-    version: 4.3.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0)
+    version: 4.3.0(@lingui/react@4.4.0)(babel-plugin-macros@3.1.0)
   '@lingui/swc-plugin':
     specifier: 4.0.4
     version: 4.0.4(@lingui/macro@4.3.0)(next@13.4.13)
@@ -1138,7 +1138,6 @@ packages:
       '@babel/runtime': 7.22.5
       '@lingui/message-utils': 4.4.0
       unraw: 2.0.1
-    dev: true
 
   /@lingui/detect-locale@4.4.0:
     resolution: {integrity: sha512-Mh4oLJ4KHSwcyWw7+bhQ8ErUCZjXDrZyILyHCcgq2S+HE2NG8M8OD/VBFajLW3dEUJPC9sRE8L2XTxYRNKlK6g==}
@@ -1179,7 +1178,7 @@ packages:
       - supports-color
     dev: true
 
-  /@lingui/macro@4.3.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0):
+  /@lingui/macro@4.3.0(@lingui/react@4.4.0)(babel-plugin-macros@3.1.0):
     resolution: {integrity: sha512-MkeYKshuEp2j8Nx0IOhppcSiN3wEw3UxMPXsHzMe34U/MPrrriYaxMRY7CSsQrXqftcacQTm9IiDWvJAj4/V9w==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -1191,7 +1190,7 @@ packages:
       '@lingui/conf': 4.3.0
       '@lingui/core': 4.3.0
       '@lingui/message-utils': 4.3.0
-      '@lingui/react': 4.3.0(react@18.2.0)
+      '@lingui/react': 4.4.0(react@18.2.0)
       babel-plugin-macros: 3.1.0
     dev: true
 
@@ -1206,16 +1205,15 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@messageformat/parser': 5.1.0
-    dev: true
 
-  /@lingui/react@4.3.0(react@18.2.0):
-    resolution: {integrity: sha512-EbkS5J2i26ENuAie70Fb+urOlajOTpa0xF3wZ78Zt4XKJSruZQ1Vg0U7vndpD5QeLsIpjGmJONkLjg8KzyVmBA==}
+  /@lingui/react@4.4.0(react@18.2.0):
+    resolution: {integrity: sha512-d8Pr2usy6HrLBGheGU++JGFxx8qYy0LqEetZdizuctGWxyNzexTR+R2Kfs8sMLcRr825e203jOAhx0jZh+gFAw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.22.5
-      '@lingui/core': 4.3.0
+      '@lingui/core': 4.4.0
       react: 18.2.0
 
   /@lingui/swc-plugin@4.0.4(@lingui/macro@4.3.0)(next@13.4.13):
@@ -1230,7 +1228,7 @@ packages:
       next:
         optional: true
     dependencies:
-      '@lingui/macro': 4.3.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0)
+      '@lingui/macro': 4.3.0(@lingui/react@4.4.0)(babel-plugin-macros@3.1.0)
       next: 13.4.13(@babel/core@7.22.5)(babel-plugin-macros@3.1.0)(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
