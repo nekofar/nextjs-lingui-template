@@ -28,7 +28,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@lingui/cli": "4.3.0",
+    "@lingui/cli": "4.4.0",
     "@lingui/conf": "4.4.0",
     "@lingui/loader": "4.4.0",
     "@lingui/macro": "4.3.0",

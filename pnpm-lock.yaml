@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@lingui/cli':
-    specifier: 4.3.0
-    version: 4.3.0
+    specifier: 4.4.0
+    version: 4.4.0
   '@lingui/conf':
     specifier: 4.4.0
     version: 4.4.0
@@ -1013,52 +1013,9 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lingui/babel-plugin-extract-messages@4.3.0:
-    resolution: {integrity: sha512-X23evX574Pv5wRpg9HytCuE0dsRaFi0kkrj8uQC++Dk1Iti0ptRFeuMU4jxINlfa972Ri3GF6ckGQ+Req3drYg==}
-    engines: {node: '>=16.0.0'}
-    dev: true
-
   /@lingui/babel-plugin-extract-messages@4.4.0:
     resolution: {integrity: sha512-0pu4bgQCGEa1e7a6qwB9pEEMpq8GzI4LW6V9YaraXUexusahJpnfKP81PIBsm8zj06OlYK5oI2AflkOmGMCiBA==}
     engines: {node: '>=16.0.0'}
-    dev: true
-
-  /@lingui/cli@4.3.0:
-    resolution: {integrity: sha512-Z44IxdK7kzmL+5TB2Kuu2xB3O6n1WCsBG0nUXOMtwTWHNxBLdr89hFogO3Orf7QNyxpfw6yZ3Go3xRm3JO3rJg==}
-    engines: {node: '>=16.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/core': 7.22.5
-      '@babel/generator': 7.22.5
-      '@babel/parser': 7.22.5
-      '@babel/runtime': 7.22.5
-      '@babel/types': 7.22.5
-      '@lingui/babel-plugin-extract-messages': 4.3.0
-      '@lingui/conf': 4.3.0
-      '@lingui/core': 4.3.0
-      '@lingui/format-po': 4.3.0
-      '@lingui/message-utils': 4.3.0
-      babel-plugin-macros: 3.1.0
-      chalk: 4.1.2
-      chokidar: 3.5.1
-      cli-table: 0.3.6
-      commander: 10.0.1
-      convert-source-map: 2.0.0
-      date-fns: 2.30.0
-      esbuild: 0.17.19
-      glob: 7.2.3
-      inquirer: 7.3.3
-      micromatch: 4.0.2
-      normalize-path: 3.0.0
-      ora: 5.4.1
-      pathe: 1.1.1
-      pkg-up: 3.1.0
-      pofile: 1.1.4
-      pseudolocale: 2.0.0
-      ramda: 0.27.2
-      source-map: 0.8.0-beta.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@lingui/cli@4.4.0:
@@ -1144,16 +1101,6 @@ packages:
     resolution: {integrity: sha512-Mh4oLJ4KHSwcyWw7+bhQ8ErUCZjXDrZyILyHCcgq2S+HE2NG8M8OD/VBFajLW3dEUJPC9sRE8L2XTxYRNKlK6g==}
     engines: {node: '>=16.0.0'}
     dev: false
-
-  /@lingui/format-po@4.3.0:
-    resolution: {integrity: sha512-iwqMve+VMxfRisTCk2evcnhAfn54v5qXTXZUDGZQrSQ60r2A4VGtS8VdCzqHwKxvbIatjq4NfWGa0v0zb092jg==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@lingui/conf': 4.3.0
-      '@lingui/message-utils': 4.3.0
-      date-fns: 2.30.0
-      pofile: 1.1.4
-    dev: true
 
   /@lingui/format-po@4.4.0:
     resolution: {integrity: sha512-FRk9HD199Klknv+zccytddHfnSJwns6Fv3ZHvm8hoB9VLKnO0RBMR2f3mqw+MYPvSYGtTIxVQXLGISva7nFG4A==}
