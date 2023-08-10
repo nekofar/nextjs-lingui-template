@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.13] - 2023-08-10
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump prettier from 3.0.0 to 3.0.1 
+- Bump @types/eslint from 8.44.1 to 8.44.2 
+- Bump eslint-config-prettier from 8.9.0 to 8.10.0 
+- Bump @types/node from 20.4.6 to 20.4.7 
+- Bump @types/node from 20.4.7 to 20.4.8 
+- Bump next from 13.4.12 to 13.4.13 
+- Bump eslint-config-next from 13.4.12 to 13.4.13 
+- Bump eslint-config-prettier from 8.10.0 to 9.0.0 
+- Bump @types/react from 18.2.18 to 18.2.19 
+- Bump @types/node from 20.4.8 to 20.4.9 
+- Bump @lingui/detect-locale from 4.3.0 to 4.4.0 
+- Bump @lingui/loader from 4.3.0 to 4.4.0 
+- Bump @lingui/conf from 4.3.0 to 4.4.0 
+- Bump @lingui/cli from 4.3.0 to 4.4.0 
+- Bump @lingui/core from 4.3.0 to 4.4.0
+- Bump @lingui/macro from 4.3.0 to 4.4.0
+- Bump @types/react from 18.2.19 to 18.2.20 
+- Bump @lingui/react from 4.3.0 to 4.4.0
+
 ## [1.0.12] - 2023-08-03
 
 ### <!-- 08 -->Miscellaneous Tasks
