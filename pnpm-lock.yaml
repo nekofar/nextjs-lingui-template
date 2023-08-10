@@ -47,11 +47,11 @@ devDependencies:
     specifier: 4.4.0
     version: 4.4.0(webpack@5.87.0)
   '@lingui/macro':
-    specifier: 4.3.0
-    version: 4.3.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0)
+    specifier: 4.4.0
+    version: 4.4.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0)
   '@lingui/swc-plugin':
     specifier: 4.0.4
-    version: 4.0.4(@lingui/macro@4.3.0)(next@13.4.13)
+    version: 4.0.4(@lingui/macro@4.4.0)(next@13.4.13)
   '@testing-library/jest-dom':
     specifier: 5.17.0
     version: 5.17.0
@@ -1056,18 +1056,6 @@ packages:
       - supports-color
     dev: true
 
-  /@lingui/conf@4.3.0:
-    resolution: {integrity: sha512-ZflR/igJi3+MUr1VeJDNkYMpnNvinRdw9m17G7mxmemxtnYV+RsIiUB+aR3AcgbQbEEmF95XmZb8jlUFYWlvtw==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@babel/runtime': 7.22.5
-      chalk: 4.1.2
-      cosmiconfig: 8.2.0
-      jest-validate: 29.6.2
-      jiti: 1.18.2
-      lodash.get: 4.4.2
-    dev: true
-
   /@lingui/conf@4.4.0:
     resolution: {integrity: sha512-mIAGh5eeWJm5jYM/ag4lbktxlS/73iANOahMM3q5OlEfIVvBzoinwSONRQEVsIgLT1SI6ULbqvVaI42VF5WrAw==}
     engines: {node: '>=16.0.0'}
@@ -1125,8 +1113,8 @@ packages:
       - supports-color
     dev: true
 
-  /@lingui/macro@4.3.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0):
-    resolution: {integrity: sha512-MkeYKshuEp2j8Nx0IOhppcSiN3wEw3UxMPXsHzMe34U/MPrrriYaxMRY7CSsQrXqftcacQTm9IiDWvJAj4/V9w==}
+  /@lingui/macro@4.4.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0):
+    resolution: {integrity: sha512-EMe5eFZYSF1ECuumSmy2OIsusUV/eXcpz7b9E3A/3Wype34+IjYhs1SiD7Fg5Erwz6wDePHEU4ux0Y8jtov0Yw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@lingui/react': ^4.0.0
@@ -1134,9 +1122,9 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.5
       '@babel/types': 7.22.5
-      '@lingui/conf': 4.3.0
-      '@lingui/core': 4.3.0
-      '@lingui/message-utils': 4.3.0
+      '@lingui/conf': 4.4.0
+      '@lingui/core': 4.4.0
+      '@lingui/message-utils': 4.4.0
       '@lingui/react': 4.3.0(react@18.2.0)
       babel-plugin-macros: 3.1.0
     dev: true
@@ -1163,7 +1151,7 @@ packages:
       '@lingui/core': 4.3.0
       react: 18.2.0
 
-  /@lingui/swc-plugin@4.0.4(@lingui/macro@4.3.0)(next@13.4.13):
+  /@lingui/swc-plugin@4.0.4(@lingui/macro@4.4.0)(next@13.4.13):
     resolution: {integrity: sha512-xRnR96Mqi6zwGlVfGJMfoM8QykBbUz/sSnwmcFL9BZ8Y9YBZxzLAVf4t1BbiIQsAs+pMYu/HfujTBD4y/r1ucA==}
     peerDependencies:
       '@lingui/macro': '4'
@@ -1175,7 +1163,7 @@ packages:
       next:
         optional: true
     dependencies:
-      '@lingui/macro': 4.3.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0)
+      '@lingui/macro': 4.4.0(@lingui/react@4.3.0)(babel-plugin-macros@3.1.0)
       next: 13.4.13(@babel/core@7.22.5)(babel-plugin-macros@3.1.0)(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
