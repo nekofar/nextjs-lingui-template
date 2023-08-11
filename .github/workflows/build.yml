@@ -20,6 +20,8 @@ jobs:
       # The first step is to check out the repository code
       - name: Checking out repository code
         uses: actions/checkout@v3.5.3 # Action for checking out a repo.
+        with:
+          fetch-depth: 0 # Fetches all history for all branches and tags
 
       # The second step checks whether the commit is the initial commit
       - name: Check Initial Commit
@@ -39,7 +41,7 @@ jobs:
 
   build: # Job named 'build'
     name: Build & Test
-    if: needs.check_initial_commit.outputs.skip_ci != 'true'
+    if: needs.check.outputs.skip_ci != 'true'
     runs-on: ubuntu-latest # The type of machine to run the job on.
 
     needs: [check]
