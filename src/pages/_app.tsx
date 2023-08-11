@@ -1,3 +1,4 @@
+import Layout from '@/components/layout'
 import { useLanguageAndDirection } from '@/hooks/use-language-and-direction'
 import { useLinguiInit } from '@/hooks/use-lingui-init'
 import '@/styles/globals.css'
@@ -12,7 +13,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <I18nProvider i18n={i18n}>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </I18nProvider>
     </>
   )

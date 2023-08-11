@@ -3,10 +3,7 @@ import { availableLocales, loadCatalog } from '@/utils/locales'
 import { Trans, t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import { GetStaticPropsContext } from 'next'
-import { Vazirmatn } from 'next/font/google'
 import Head from 'next/head'
-
-const vazirmatn = Vazirmatn({ subsets: ['latin', 'arabic'] })
 
 export default function Home() {
   const { i18n } = useLingui()
@@ -18,8 +15,8 @@ export default function Home() {
           {t(i18n)`Next.js & Lingui: Building a Multi-Lingual Website`}
         </title>
       </Head>
-      <main
-        className={`flex min-h-screen flex-col items-center justify-between p-24 ${vazirmatn.className}`}
+      <div
+        className={`flex min-h-screen flex-col items-center justify-between p-24`}
       >
         <section className="mt-16 py-8">
           <div className="container">
@@ -42,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </>
   )
 }
