@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [develop] - 2023-08-11
+## [1.0.22] - 2023-08-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Update build job condition in GitHub Actions
+
+## [1.0.21] - 2023-08-11
 
 ### <!-- 07 -->Continuous Integrations
 
