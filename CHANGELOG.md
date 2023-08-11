@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.16] - 2023-08-11
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add Vazirmatn font license
+- Remove unused SVG files
+
 ## [1.0.15] - 2023-08-11
 
 ### <!-- 04 -->Refactor
