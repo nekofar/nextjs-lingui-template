@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.15] - 2023-08-11
+
+### <!-- 04 -->Refactor
+
+- Add `Vazirmatn` font and configuration
+- Add layout structure and modularize font implementation
+
 ## [1.0.14] - 2023-08-11
 
 ### <!-- 08 -->Miscellaneous Tasks
