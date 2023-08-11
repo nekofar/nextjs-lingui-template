@@ -13,7 +13,8 @@
     "lingui:compile": "lingui compile",
     "format": "prettier --log-level error --write .",
     "test": "jest",
-    "preinstall": "pnpx typesync || :"
+    "preinstall": "pnpx typesync || :",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
