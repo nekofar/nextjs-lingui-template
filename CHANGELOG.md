@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.19] - 2023-08-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Add state verification to GitHub workflow
+
 ## [1.0.18] - 2023-08-11
 
 ### <!-- 07 -->Continuous Integrations

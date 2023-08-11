@@ -14,15 +14,26 @@ on:
 
 jobs:
   check:
+    name: State Verifier
     runs-on: ubuntu-latest
     steps:
+      # The first step is to check out the repository code
+      - name: Checking out repository code
+        uses: actions/checkout@v3.5.3 # Action for checking out a repo.
+
+      # The second step checks whether the commit is the initial commit
       - name: Check Initial Commit
         id: check_initial_commit
         run: |
+          # Use a git command to count the number of revisions
+          # If the count is 1, then this is the initial commit
           if [ "$(git rev-list --count HEAD)" -eq 1 ]; then
             echo "This is the initial commit."
+            # Set the environment variable "skip_ci" to true, signifying CI should not run for the initial commit
             echo "skip_ci=true" >> $GITHUB_ENV
           else
+            # If the count is not 1, this is not the initial commit
+            # Set the environment variable "skip_ci" to false, signifying CI should run
             echo "skip_ci=false" >> $GITHUB_ENV
           fi
 
