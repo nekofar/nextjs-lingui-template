@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.24] - 2023-08-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Update build workflow to control CI skip
+
 ## [1.0.23] - 2023-08-11
 
 ### <!-- 07 -->Continuous Integrations
