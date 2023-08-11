@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.14] - 2023-08-11
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump prettier-plugin-tailwindcss from 0.4.1 to 0.5.1 
+- Add `husky` for git hooks
+- Add husky install to `prepare` script in `package.json`
+- Add `pre-commit` hook to run tests
+- Add `lint-staged` to project dependencies
+- Add `lint-staged` to scripts in `package.json`
+- Add `lint-staged` config and update `pre-commit` hook
+
 ## [1.0.13] - 2023-08-10
 
 ### <!-- 08 -->Miscellaneous Tasks
