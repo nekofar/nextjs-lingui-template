@@ -1,18 +1,13 @@
 {
   "name": "nextjs-lingui-template",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "pnpm run lingui:extract",
     "build": "next build",
     "prestart": "pnpm run build",
     "start": "serve out",
     "lint": "next lint",
-    "lint:staged": "lint-staged",
-    "lingui:extract": "lingui extract --clean",
-    "lingui:compile": "lingui compile",
-    "format": "prettier --log-level error --write .",
     "test": "jest",
     "preinstall": "pnpx typesync || :",
     "prepare": "husky install"

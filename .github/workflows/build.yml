@@ -13,9 +13,25 @@ on:
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab.
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Initial Commit
+        id: check_initial_commit
+        run: |
+          if [ "$(git rev-list --count HEAD)" -eq 1 ]; then
+            echo "This is the initial commit."
+            echo "skip_ci=true" >> $GITHUB_ENV
+          else
+            echo "skip_ci=false" >> $GITHUB_ENV
+          fi
+
   build: # Job named 'build'
     name: Build & Test
+    if: needs.check_initial_commit.outputs.skip_ci != 'true'
     runs-on: ubuntu-latest # The type of machine to run the job on.
+
+    needs: [check]
 
     strategy: # Allows you to create a matrix for job configuration.
       matrix:
@@ -100,7 +116,7 @@ jobs:
         run: |
           version=$(jq -r '.version' package.json)
           echo "version=${version}" >> $GITHUB_OUTPUT
-          
+
           # Read contents of changelog into variable 'changelog_content'
           changelog=$(cat ${{ steps.git-cliff.outputs.changelog }})
           # Remove first two lines from 'changelog'
