@@ -9,6 +9,7 @@
     "prestart": "pnpm run build",
     "start": "serve out",
     "lint": "next lint",
+    "lint:staged": "lint-staged",
     "lingui:extract": "lingui extract --clean",
     "lingui:compile": "lingui compile",
     "format": "prettier --log-level error --write .",
