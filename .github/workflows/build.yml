@@ -16,6 +16,8 @@ jobs:
   check:
     name: State Verifier
     runs-on: ubuntu-latest
+    outputs:
+      skip_ci: ${{ steps.check_initial_commit.outputs.skip_ci }}
     steps:
       # The first step is to check out the repository code
       - name: Checking out repository code
@@ -41,7 +43,7 @@ jobs:
 
   build: # Job named 'build'
     name: Build & Test
-    if: needs.check.check_initial_commit.outputs.skip_ci != 'true'
+    if: needs.check.outputs.skip_ci != 'true'
     runs-on: ubuntu-latest # The type of machine to run the job on.
 
     needs: [check]
