@@ -32,7 +32,7 @@ jobs:
           if [ "$(git rev-list --count HEAD)" -eq 1 ]; then
             echo "This is the initial commit."
             # Set the environment variable "skip_ci" to true, signifying CI should not run for the initial commit
-            echo "skip_ci=true" >> $GITHUB_ENV
+            echo "skip_ci=true" >> $GITHUB_OUTPUT
           else
             # If the count is not 1, this is not the initial commit
             # Set the environment variable "skip_ci" to false, signifying CI should run
