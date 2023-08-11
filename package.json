@@ -13,7 +13,8 @@
     "lingui:compile": "lingui compile",
     "format": "prettier --log-level error --write .",
     "test": "jest",
-    "preinstall": "pnpx typesync || :"
+    "preinstall": "pnpx typesync || :",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
@@ -48,6 +49,7 @@
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "eslint-config-prettier": "9.0.0",
+    "husky": "8.0.3",
     "jest": "29.6.2",
     "jest-environment-jsdom": "29.6.2",
     "postcss": "8.4.27",
