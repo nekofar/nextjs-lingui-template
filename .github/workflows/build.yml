@@ -36,7 +36,7 @@ jobs:
           else
             # If the count is not 1, this is not the initial commit
             # Set the environment variable "skip_ci" to false, signifying CI should run
-            echo "skip_ci=false" >> $GITHUB_ENV
+            echo "skip_ci=false" >> $GITHUB_OUTPUT
           fi
 
   build: # Job named 'build'
