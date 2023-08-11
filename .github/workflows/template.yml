@@ -49,7 +49,7 @@ jobs:
           # Use pnpm dlx json to modify package.json name and version fields.
           pnpm dlx json -I -f package.json -e "this.name='${NAME}'"
           pnpm dlx json -I -f package.json -e "this.version='${VERSION}'"
-          pnpm dlx install --no-frozen-lockfile  # Install dependencies (ignoring lock file)
+          pnpm install --no-frozen-lockfile  # Install dependencies (ignoring lock file)
 
           # Remove template specific files and directories.
           rm -rf \
