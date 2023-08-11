@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.18] - 2023-08-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Add initial commit check to build workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add linting for json and yaml files
+- Update pre-commit hook and cleanup package.json scripts
+
 ## [1.0.17] - 2023-08-11
 
 ### <!-- 07 -->Continuous Integrations
