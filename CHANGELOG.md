@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [develop] - 2023-08-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Update GitHub Actions workflow to improve logging
+
 ## [1.0.20] - 2023-08-11
 
 ### <!-- 07 -->Continuous Integrations
