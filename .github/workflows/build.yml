@@ -13,24 +13,9 @@ on:
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab.
 
 jobs:
-  guard:
-    name: Usage guard
-    runs-on: ubuntu-latest
-    steps:
-      # Uses the action-usage-guard action
-      - name: Run Action Usage Guard
-        uses: nekofar/action-usage-guard@develop
-        with:
-          # GitHub access token for authentication.
-          token: ${{ secrets.ACCESS_TOKEN }}
-          # Defines the threshold for the usage guard.
-          threshold: 70
-
   build: # Job named 'build'
     name: Build & Test
     runs-on: ubuntu-latest # The type of machine to run the job on.
-
-    needs: [guard]
 
     strategy: # Allows you to create a matrix for job configuration.
       matrix:
