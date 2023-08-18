@@ -13,7 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@headlessui/react": "1.7.16",
+    "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",
     "@lingui/core": "4.4.0",
     "@lingui/detect-locale": "4.4.0",
