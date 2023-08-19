@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.25] - 2023-08-19
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-node from 3.7.0 to 3.8.1 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint from 8.46.0 to 8.47.0 
+- Bump @types/node from 20.4.9 to 20.4.10 
+- Bump prettier-plugin-tailwindcss from 0.5.1 to 0.5.2 
+- Bump lint-staged from 13.2.3 to 14.0.0 
+- Bump autoprefixer from 10.4.14 to 10.4.15 
+- Bump @testing-library/jest-dom from 5.17.0 to 6.0.0 
+- Bump prettier-plugin-tailwindcss from 0.5.2 to 0.5.3 
+- Bump @headlessui/react from 1.7.16 to 1.7.17 
+- Bump @types/node from 20.4.10 to 20.5.0 
+- Bump prettier from 3.0.1 to 3.0.2 
+- Bump eslint-config-next from 13.4.13 to 13.4.18 
+- Bump postcss from 8.4.27 to 8.4.28 
+- Bump @types/node from 20.5.0 to 20.5.1 
+
 ## [1.0.24] - 2023-08-11
 
 ### <!-- 07 -->Continuous Integrations
