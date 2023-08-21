@@ -128,8 +128,8 @@ devDependencies:
     specifier: 0.5.3
     version: 0.5.3(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.2)
   serve:
-    specifier: 14.2.0
-    version: 14.2.0
+    specifier: 14.2.1
+    version: 14.2.1
   tailwindcss:
     specifier: 3.3.3
     version: 3.3.3
@@ -1489,10 +1489,6 @@ packages:
     resolution: {integrity: sha512-rYHDtOV4BHb1hRH5dA7P+jarU/YFmQ9CGgwYPZNVRoxhrsrm2exEETeIEB+EmBk2AXIKAaK9JDzjpNCkceDGFQ==}
     dev: true
 
-  /@types/node@20.4.9:
-    resolution: {integrity: sha512-8e2HYcg7ohnTUbHk8focoklEQYvemQmu9M/f43DZVx43kHn0tE3BY/6gSDxS7k0SprtS0NHvj+L80cGLnoOUcQ==}
-    dev: true
-
   /@types/node@20.5.1:
     resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
     dev: true
@@ -2107,7 +2103,7 @@ packages:
     dependencies:
       ansi-align: 3.0.1
       camelcase: 7.0.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       cli-boxes: 3.0.0
       string-width: 5.1.2
       type-fest: 2.19.0
@@ -2263,11 +2259,6 @@ packages:
 
   /chalk@5.0.1:
     resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
-    dev: true
-
-  /chalk@5.2.0:
-    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
@@ -4436,7 +4427,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.4.9
+      '@types/node': 20.5.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -5755,8 +5746,8 @@ packages:
       range-parser: 1.2.0
     dev: true
 
-  /serve@14.2.0:
-    resolution: {integrity: sha512-+HOw/XK1bW8tw5iBilBz/mJLWRzM8XM6MPxL4J/dKzdxq1vfdEWSwhaR7/yS8EJp5wzvP92p1qirysJvnEtjXg==}
+  /serve@14.2.1:
+    resolution: {integrity: sha512-48er5fzHh7GCShLnNyPBRPEjs2I6QBozeGr02gaacROiyS/8ARADlj595j39iZXAqBbJHH/ivJJyPRWY9sQWZA==}
     engines: {node: '>= 14'}
     hasBin: true
     dependencies:
