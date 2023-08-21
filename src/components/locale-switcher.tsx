@@ -15,7 +15,7 @@ export function LocaleSwitcher() {
       className="relative inline-block ltr:text-left rtl:text-right"
     >
       <div>
-        <Menu.Button className="-bg-gray-800 -text-gray-400 -hover:text-white -focus:outline-none -focus:ring-2 -focus:ring-white -focus:ring-offset-2 -focus:ring-offset-gray-800 flex items-center rounded-full">
+        <Menu.Button className="flex items-center rounded-full text-gray-900 dark:text-white">
           <span className="sr-only">
             <Trans>Open options</Trans>
           </span>
