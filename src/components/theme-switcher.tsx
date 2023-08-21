@@ -10,7 +10,7 @@ enum Theme {
 
 const { Dark, Light } = Theme
 
-export function ThemeSwitcher() {
+export default function ThemeSwitcher() {
   const isMounted = useIsMounted()
   const [theme, setTheme] = useState<Theme>(Light)
 

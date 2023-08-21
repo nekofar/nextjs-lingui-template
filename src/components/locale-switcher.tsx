@@ -6,7 +6,7 @@ import { Trans } from '@lingui/macro'
 import clsx from 'clsx'
 import { Fragment } from 'react'
 
-export function LocaleSwitcher() {
+export default function LocaleSwitcher() {
   const { changeLocale } = useLocaleSwitcher()
 
   return (
