@@ -25,6 +25,14 @@ msgstr "Next.js & Lingui: ساخت یک وب سایت چند زبانه"
 msgid "Open options"
 msgstr "باز کردن گزینه ها"
 
+#: src/components/theme-switcher.tsx:42
+msgid "Switch to dark theme"
+msgstr "تغییر به تم تاریک"
+
+#: src/components/theme-switcher.tsx:42
+msgid "Switch to light theme"
+msgstr "تغییر به تم روشن"
+
 #: src/pages/[locale]/index.tsx:31
 msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
 msgstr "به سایت دمو Next.js و Lingui ما خوش آمدید! قدرت ترکیب Next.js، یک فریم‌ورک React قدرتمند برای ساخت برنامه های رندر شده در سمت سرور، با Lingui، راه حل نهایی برای پشتیبانی چند زبانه در پروژه های وب خود را کشف کنید."

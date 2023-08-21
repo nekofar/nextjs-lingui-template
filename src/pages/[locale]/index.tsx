@@ -1,5 +1,5 @@
-import { LocaleSwitcher } from '@/components/locale-switcher'
-import { availableLocales, loadCatalog } from '@/utils/locales'
+import { LocaleSwitcher, ThemeSwitcher } from '@/components'
+import { availableLocales, loadCatalog } from '@/utils'
 import { Trans, t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import { GetStaticPropsContext } from 'next'
@@ -21,10 +21,10 @@ export default function Home() {
         <section className="mt-16 py-8">
           <div className="container">
             <div className="mx-auto max-w-xl">
-              <h1 className="mb-4 text-center text-4xl font-bold leading-tight text-gray-100">
+              <h1 className="mb-4 text-center text-4xl font-bold leading-tight text-gray-900 dark:text-white">
                 <Trans>Building a Multi-Lingual Website</Trans>
               </h1>
-              <p className="mb-8 text-center text-lg text-gray-200">
+              <p className="mb-8 text-center text-lg text-gray-600 dark:text-gray-300">
                 <Trans>
                   Welcome to our Next.js and Lingui demo site! Discover the
                   power of combining Next.js, a powerful React framework for
@@ -35,6 +35,7 @@ export default function Home() {
               </p>
               <div className="mb-4 text-center ">
                 <LocaleSwitcher />
+                <ThemeSwitcher />
               </div>
             </div>
           </div>
