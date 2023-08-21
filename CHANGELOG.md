@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2023-08-21
+
+### <!-- 01 -->Features
+
+- Add Light/Dark Theme Switch functionality
+
+### <!-- 04 -->Refactor
+
+- Implement dark mode via Tailwind CSS classes
+- Add index files and change functions to default exports
+- Add ThemeSwitcher and updated color scheme for better visibility
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `usehooks-ts` dependency to the project
+
 ## [1.0.25] - 2023-08-19
 
 ### <!-- 07 -->Continuous Integrations

@@ -1,4 +1,4 @@
-import Layout from '@/components/layout'
+import { Layout } from '@/components'
 import { useLanguageAndDirection } from '@/hooks/use-language-and-direction'
 import { useLinguiInit } from '@/hooks/use-lingui-init'
 import '@/styles/globals.css'
