@@ -36,7 +36,7 @@
     "@testing-library/user-event": "14.4.3",
     "@types/eslint": "8.44.2",
     "@types/eslint-config-prettier": "6.11.0",
-    "@types/jest": "29.5.3",
+    "@types/jest": "29.5.4",
     "@types/langs": "2.0.1",
     "@types/lint-staged": "13.2.0",
     "@types/node": "20.5.1",
