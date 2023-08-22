@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2023-08-22
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump serve from 14.2.0 to 14.2.1 
+- Bump lint-staged from 14.0.0 to 14.0.1 
+- Bump jest from 29.6.2 to 29.6.3 
+- Bump next from 13.4.13 to 13.4.19 
+- Bump eslint-config-next from 13.4.18 to 13.4.19 
+- Bump jest-environment-jsdom from 29.6.2 to 29.6.3 
+
 ## [1.1.0] - 2023-08-21
 
 ### <!-- 01 -->Features
