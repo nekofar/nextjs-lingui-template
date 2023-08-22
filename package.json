@@ -20,7 +20,7 @@
     "@lingui/react": "4.4.0",
     "clsx": "2.0.0",
     "langs": "2.0.0",
-    "next": "13.4.13",
+    "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "usehooks-ts": "2.9.1"
