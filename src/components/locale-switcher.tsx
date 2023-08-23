@@ -1,4 +1,5 @@
 import { useLocaleSwitcher } from '@/hooks/use-locale-switcher'
+import { clsxm } from '@/utils'
 import { availableLocales, getLocaleName } from '@/utils/locales'
 import { Menu, Transition } from '@headlessui/react'
 import { LanguageIcon } from '@heroicons/react/24/outline'
@@ -6,16 +7,21 @@ import { Trans } from '@lingui/macro'
 import clsx from 'clsx'
 import { Fragment } from 'react'
 
-export default function LocaleSwitcher() {
+type LocalSwitcherProps = { className?: string }
+
+export default function LocaleSwitcher({ className }: LocalSwitcherProps) {
   const { changeLocale } = useLocaleSwitcher()
 
   return (
     <Menu
       as="div"
-      className="relative inline-block ltr:text-left rtl:text-right"
+      className={clsxm(
+        'relative inline-block ltr:text-left rtl:text-right',
+        className,
+      )}
     >
       <div>
-        <Menu.Button className="flex items-center rounded-full text-gray-900 dark:text-white">
+        <Menu.Button className="flex items-center">
           <span className="sr-only">
             <Trans>Open options</Trans>
           </span>
@@ -32,7 +38,7 @@ export default function LocaleSwitcher() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute z-10 mt-2 w-32 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ltr:right-0 ltr:origin-top-right rtl:left-0 rtl:origin-top-left">
+        <Menu.Items className="absolute z-10 mt-2 w-32 rounded-md border border-gray-900 ring-1 ring-black ring-opacity-5 focus:outline-none ltr:right-0 ltr:origin-top-right rtl:left-0 rtl:origin-top-left dark:border-white">
           <div className="py-1">
             {availableLocales.map((locale) => (
               <Menu.Item key={locale}>
@@ -40,7 +46,9 @@ export default function LocaleSwitcher() {
                   <div
                     role="button"
                     className={clsx(
-                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                      active
+                        ? 'bg-gray-100 text-gray-900'
+                        : 'text-gray-700 dark:text-white',
                       'block cursor-pointer px-4 py-2 text-sm',
                     )}
                     onClick={() => {
