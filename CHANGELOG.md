@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2023-08-23
+
+### <!-- 04 -->Refactor
+
+- Add `clsxm` method for style flexibility
+- Update layout of Locale and Theme switchers
+- Update styles in Locale Switcher for dark mode
+
+### <!-- 06 -->Build Environment
+
+- Add cssnano to PostCSS config in production mode
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add cssnano, update browserslist and other dependencies
+- Bump @types/react from 18.2.20 to 18.2.21 
+- Bump cssnano from 5.1.15 to 6.0.1 
+- Bump @types/jest from 29.5.3 to 29.5.4 
+- Bump @types/node from 20.5.1 to 20.5.3 
+- Add `tailwind-merge` package
+- Update prettier config for better tailwind support
+- Update line references in localization files
+- Add tailwindcss eslint plugin to project
+- Add eslint-plugin-prettier to package.json
+- Add prettier-plugin-jsdoc to package.json
+- Add prettier-plugin-organize-attributes to package.json
+- Add organize attribute and jsdoc plugins to prettier configs
+
 ## [1.1.1] - 2023-08-22
 
 ### <!-- 08 -->Miscellaneous Tasks

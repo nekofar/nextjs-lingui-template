@@ -21,15 +21,15 @@ msgstr "Çok Dilli Bir Web Sitesi Oluşturma"
 msgid "Next.js & Lingui: Building a Multi-Lingual Website"
 msgstr "Next.js & Lingui: Çok Dilli Bir Web Sitesi Oluşturma"
 
-#: src/components/locale-switcher.tsx:20
+#: src/components/locale-switcher.tsx:26
 msgid "Open options"
 msgstr "Seçenekleri aç"
 
-#: src/components/theme-switcher.tsx:42
+#: src/components/theme-switcher.tsx:50
 msgid "Switch to dark theme"
 msgstr "Karanlık temaya geç"
 
-#: src/components/theme-switcher.tsx:42
+#: src/components/theme-switcher.tsx:50
 msgid "Switch to light theme"
 msgstr "Aydınlık temaya geç"
 

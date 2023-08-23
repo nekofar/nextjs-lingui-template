@@ -1,3 +1,4 @@
+import { clsxm } from '@/utils'
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
 import { t } from '@lingui/macro'
 import { useEffect, useState } from 'react'
@@ -10,7 +11,9 @@ enum Theme {
 
 const { Dark, Light } = Theme
 
-export default function ThemeSwitcher() {
+type ThemeSwitcherProps = { className?: string }
+
+export default function ThemeSwitcher({ className }: ThemeSwitcherProps) {
   const isMounted = useIsMounted()
   const [theme, setTheme] = useState<Theme>(Light)
 
@@ -28,11 +31,13 @@ export default function ThemeSwitcher() {
   if (!isMounted) return null
 
   return (
-    <div className="relative inline-block ltr:text-left rtl:text-right">
-      <button
-        onClick={toggleTheme}
-        className="flex items-center rounded-full text-gray-900 dark:text-white"
-      >
+    <div
+      className={clsxm(
+        'relative inline-block ltr:text-left rtl:text-right',
+        className,
+      )}
+    >
+      <button onClick={toggleTheme} className="flex items-center">
         {isDarkMode ? (
           <SunIcon className="h-7 w-7" />
         ) : (

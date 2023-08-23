@@ -21,15 +21,15 @@ msgstr "بناء موقع متعدد اللغات"
 msgid "Next.js & Lingui: Building a Multi-Lingual Website"
 msgstr "Next.js & Lingui: بناء موقع متعدد اللغات"
 
-#: src/components/locale-switcher.tsx:20
+#: src/components/locale-switcher.tsx:26
 msgid "Open options"
 msgstr "افتح الخيارات"
 
-#: src/components/theme-switcher.tsx:42
+#: src/components/theme-switcher.tsx:50
 msgid "Switch to dark theme"
 msgstr "التبديل إلى المظهر المظلم"
 
-#: src/components/theme-switcher.tsx:42
+#: src/components/theme-switcher.tsx:50
 msgid "Switch to light theme"
 msgstr "التبديل إلى المظهر الفاتح"
 
