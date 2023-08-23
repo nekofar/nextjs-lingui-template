@@ -19,7 +19,6 @@
     "@lingui/detect-locale": "4.4.0",
     "@lingui/react": "4.4.0",
     "clsx": "2.0.0",
-    "eslint-plugin-prettier": "4.2.1",
     "langs": "2.0.0",
     "next": "13.4.19",
     "react": "18.2.0",
