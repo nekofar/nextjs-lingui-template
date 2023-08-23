@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3] - 2023-08-23
+
+### <!-- 04 -->Refactor
+
+- Improve locale switcher styling
+- Move font utility to styles directory
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Remove `eslint-plugin-prettier` from dependencies
+- Add tailwind plugin recommendations for eslint
+- Update pre-commit script for specific file types
+- Update locales reference lines in `messages.po` files
+
 ## [1.1.2] - 2023-08-23
 
 ### <!-- 04 -->Refactor

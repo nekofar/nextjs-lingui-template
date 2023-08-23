@@ -1,4 +1,4 @@
-import { vazirmatn } from '@/utils/fonts'
+import { vazirmatn } from '@/styles/fonts'
 import { ReactNode } from 'react'
 
 interface LayoutProps {
