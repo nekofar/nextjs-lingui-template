@@ -1,4 +1,5 @@
 import { useLocaleSwitcher } from '@/hooks/use-locale-switcher'
+import { clsxm } from '@/utils'
 import { availableLocales, getLocaleName } from '@/utils/locales'
 import { Menu, Transition } from '@headlessui/react'
 import { LanguageIcon } from '@heroicons/react/24/outline'
@@ -6,16 +7,21 @@ import { Trans } from '@lingui/macro'
 import clsx from 'clsx'
 import { Fragment } from 'react'
 
-export default function LocaleSwitcher() {
+type LocalSwitcherProps = { className?: string }
+
+export default function LocaleSwitcher({ className }: LocalSwitcherProps) {
   const { changeLocale } = useLocaleSwitcher()
 
   return (
     <Menu
       as="div"
-      className="relative inline-block ltr:text-left rtl:text-right"
+      className={clsxm(
+        'relative inline-block ltr:text-left rtl:text-right',
+        className,
+      )}
     >
       <div>
-        <Menu.Button className="flex items-center rounded-full text-gray-900 dark:text-white">
+        <Menu.Button className="flex items-center">
           <span className="sr-only">
             <Trans>Open options</Trans>
           </span>
