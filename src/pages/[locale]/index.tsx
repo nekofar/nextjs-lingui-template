@@ -34,8 +34,8 @@ export default function Home() {
                 </Trans>
               </p>
               <div className="mb-4 flex justify-between text-center">
-                <ThemeSwitcher className="rounded-full border border-gray-900 p-1 text-gray-900 dark:border-white dark:text-white" />
-                <LocaleSwitcher className="rounded-full border border-gray-900 p-1 text-gray-900 dark:border-white dark:text-white" />
+                <ThemeSwitcher className="rounded-full border-2 border-gray-900 p-1 text-gray-900 dark:border-white dark:text-white" />
+                <LocaleSwitcher className="rounded-full border-2 border-gray-900 p-1 text-gray-900 dark:border-white dark:text-white" />
               </div>
             </div>
           </div>
