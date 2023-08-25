@@ -107,8 +107,8 @@ devDependencies:
     specifier: 9.0.0
     version: 9.0.0(eslint@8.47.0)
   eslint-plugin-tailwindcss:
-    specifier: 3.8.3
-    version: 3.8.3(tailwindcss@3.3.3)
+    specifier: 3.13.0
+    version: 3.13.0(tailwindcss@3.3.3)
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -3313,14 +3313,14 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-plugin-tailwindcss@3.8.3(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-wfzfCmc9yONNW+TqfR+QWZ+syFPQ8zMOrIGx500lS4XITEm0HJYGyKh1sC1tQ9+Wmt58bnHzW3Yc31vy5RlJww==}
+  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-Fcep4KDRLWaK3KmkQbdyKHG0P4GdXFmXdDaweTIPcgOP60OOuWFbh1++dufRT28Q4zpKTKaHwTsXPJ4O/EjU2Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
-      tailwindcss: ^3.2.2
+      tailwindcss: ^3.3.2
     dependencies:
       fast-glob: 3.3.0
-      postcss: 8.4.14
+      postcss: 8.4.28
       tailwindcss: 3.3.3
     dev: true
 
