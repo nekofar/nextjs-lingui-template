@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.5] - 2023-08-25
+
+### <!-- 02 -->Bug Fixes
+
+- Update relative paths for Vazirmatn fonts
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.3 to 3.6.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump typescript from 5.1.6 to 5.2.2 
+- Bump jest from 29.6.3 to 29.6.4 
+
+## [1.1.4] - 2023-08-25
+
+### <!-- 04 -->Refactor
+
+- Update border thickness on switchers
+
 ## [1.1.3] - 2023-08-23
 
 ### <!-- 04 -->Refactor

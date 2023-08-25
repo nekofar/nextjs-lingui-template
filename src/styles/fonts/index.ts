@@ -5,47 +5,47 @@ const vazirmatn = localFont({
   variable: '--font-vazirmatn',
   src: [
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-Thin.ttf',
+      path: './Vazirmatn/Vazirmatn-Thin.ttf',
       weight: '100',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-ExtraLight.ttf',
+      path: './Vazirmatn/Vazirmatn-ExtraLight.ttf',
       weight: '200',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-Light.ttf',
+      path: './Vazirmatn/Vazirmatn-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-Regular.ttf',
+      path: './Vazirmatn/Vazirmatn-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-Medium.ttf',
+      path: './Vazirmatn/Vazirmatn-Medium.ttf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-SemiBold.ttf',
+      path: './Vazirmatn/Vazirmatn-SemiBold.ttf',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-Bold.ttf',
+      path: './Vazirmatn/Vazirmatn-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-ExtraBold.ttf',
+      path: './Vazirmatn/Vazirmatn-ExtraBold.ttf',
       weight: '800',
       style: 'normal',
     },
     {
-      path: '../../public/assets/fonts/Vazirmatn/Vazirmatn-Black.ttf',
+      path: './Vazirmatn/Vazirmatn-Black.ttf',
       weight: '900',
       style: 'normal',
     },
