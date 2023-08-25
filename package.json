@@ -9,7 +9,7 @@
     "start": "serve out",
     "lint": "next lint",
     "test": "jest",
-    "preinstall": "pnpx typesync || :",
+    "typesync": "pnpx typesync || :",
     "prepare": "husky install"
   },
   "dependencies": {
