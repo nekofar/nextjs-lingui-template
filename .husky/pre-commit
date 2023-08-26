@@ -3,7 +3,7 @@
 
 changed_files=$(git diff --name-only --staged | grep -E '\.(js|jsx|ts|tsx|mdx)$') \
    && [ -n "$changed_files" ] \
-   && pnpm lingui extract "$changed_files"
+   && pnpm lingui extract --verbose --overwrite --clean "$changed_files"
 
 pnpm lint-staged
 pnpm test
