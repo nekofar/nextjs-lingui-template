@@ -23,7 +23,7 @@
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "usehooks-ts": "2.9.1"
+    "react-use": "17.4.0"
   },
   "devDependencies": {
     "@lingui/cli": "4.4.0",
