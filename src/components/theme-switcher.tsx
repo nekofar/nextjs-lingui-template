@@ -2,7 +2,7 @@ import { clsxm } from '@/utils'
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
 import { t } from '@lingui/macro'
 import { useEffect, useState } from 'react'
-import { useIsMounted } from 'usehooks-ts'
+import { useMountedState } from 'react-use'
 
 enum Theme {
   Dark = 'dark',
@@ -14,7 +14,7 @@ const { Dark, Light } = Theme
 type ThemeSwitcherProps = { className?: string }
 
 export default function ThemeSwitcher({ className }: ThemeSwitcherProps) {
-  const isMounted = useIsMounted()
+  const isMounted = useMountedState()
   const [theme, setTheme] = useState<Theme>(Light)
 
   const isDarkMode = theme === Dark
@@ -28,7 +28,7 @@ export default function ThemeSwitcher({ className }: ThemeSwitcherProps) {
     setTheme((prevTheme) => (prevTheme === Light ? Dark : Light))
   }
 
-  if (!isMounted) return null
+  if (!isMounted()) return null
 
   return (
     <div
