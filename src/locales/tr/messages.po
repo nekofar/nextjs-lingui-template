@@ -13,26 +13,26 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/[locale]/index.tsx:25
+#: src/pages/[locale]/index.tsx
 msgid "Building a Multi-Lingual Website"
 msgstr "Çok Dilli Bir Web Sitesi Oluşturma"
 
-#: src/pages/[locale]/index.tsx:15
+#: src/pages/[locale]/index.tsx
 msgid "Next.js & Lingui: Building a Multi-Lingual Website"
 msgstr "Next.js & Lingui: Çok Dilli Bir Web Sitesi Oluşturma"
 
-#: src/components/locale-switcher.tsx:26
+#: src/components/locale-switcher.tsx
 msgid "Open options"
 msgstr "Seçenekleri aç"
 
-#: src/components/theme-switcher.tsx:43
+#: src/components/theme-switcher.tsx
 msgid "Switch to dark theme"
 msgstr "Karanlık temaya geç"
 
-#: src/components/theme-switcher.tsx:43
+#: src/components/theme-switcher.tsx
 msgid "Switch to light theme"
 msgstr "Aydınlık temaya geç"
 
-#: src/pages/[locale]/index.tsx:28
+#: src/pages/[locale]/index.tsx
 msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
 msgstr "Next.js ve Lingui demo sitemize hoş geldiniz! Sunucu tarafı render edilen uygulamalar oluşturmak için güçlü bir React çerçevesi olan Next.js ile, web projelerinizde çok dilli desteği için nihai çözüm olan Lingui'nin birleştirilme gücünü keşfedin."

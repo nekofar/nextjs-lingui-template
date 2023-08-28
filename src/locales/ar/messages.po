@@ -13,26 +13,26 @@ msgstr ""
 "Plural-Forms: \n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: src/pages/[locale]/index.tsx:25
+#: src/pages/[locale]/index.tsx
 msgid "Building a Multi-Lingual Website"
 msgstr "بناء موقع متعدد اللغات"
 
-#: src/pages/[locale]/index.tsx:15
+#: src/pages/[locale]/index.tsx
 msgid "Next.js & Lingui: Building a Multi-Lingual Website"
 msgstr "Next.js & Lingui: بناء موقع متعدد اللغات"
 
-#: src/components/locale-switcher.tsx:26
+#: src/components/locale-switcher.tsx
 msgid "Open options"
 msgstr "افتح الخيارات"
 
-#: src/components/theme-switcher.tsx:43
+#: src/components/theme-switcher.tsx
 msgid "Switch to dark theme"
 msgstr "التبديل إلى المظهر المظلم"
 
-#: src/components/theme-switcher.tsx:43
+#: src/components/theme-switcher.tsx
 msgid "Switch to light theme"
 msgstr "التبديل إلى المظهر الفاتح"
 
-#: src/pages/[locale]/index.tsx:28
+#: src/pages/[locale]/index.tsx
 msgid "Welcome to our Next.js and Lingui demo site! Discover the power of combining Next.js, a powerful React framework for building server-side rendered applications, with Lingui, the ultimate solution for multi-lingual support in your web projects."
 msgstr "مرحبًا بك في موقعنا التجريبي لـ Next.js و Lingui! اكتشف قوة الجمع بين Next.js، إطار عمل React القوي لبناء تطبيقات تتم رسمها من جانب الخادم، مع Lingui، الحل النهائي للدعم متعدد اللغات في مشاريع الويب الخاصة بك."
