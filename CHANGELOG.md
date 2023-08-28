@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.6] - 2023-08-28
+
+### <!-- 04 -->Refactor
+
+- Update global font styling in Layout component
+- Replace `useIsMounted` with `useMountedState` from react-use
+- Remove unnecessary `useMountedState` from theme-switcher
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-plugin-tailwindcss from 3.8.3 to 3.13.0 
+- Bump jest-environment-jsdom from 29.6.3 to 29.6.4 
+- Bump @types/node from 20.5.3 to 20.5.6 
+- Update script name in package.json
+- Update pre-commit hook for more detailed Lingui extraction
+- Update husky pre-commit hook for lingui extract
+- Update dependencies with new react-use hooks and types
+- Add @lingui/format-po to devDependencies
+- Update Lingui config format settings
+- Add webpack fallback configuration in `next.config.js`
+
 ## [1.1.5] - 2023-08-25
 
 ### <!-- 02 -->Bug Fixes

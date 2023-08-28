@@ -1,3 +1,5 @@
+import { formatter } from '@lingui/format-po'
+
 /** @type {import('@lingui/conf').LinguiConfig} */
 module.exports = {
   locales: ['ar', 'en', 'fa', 'tr'],
@@ -9,5 +11,5 @@ module.exports = {
       exclude: ['**/node_modules/**', '**/.next/**', '**/out/**'],
     },
   ],
-  format: 'po',
+  format: formatter({ lineNumbers: false }),
 }

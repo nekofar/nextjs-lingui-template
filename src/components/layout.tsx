@@ -8,7 +8,12 @@ interface LayoutProps {
 function Layout({ children }: LayoutProps) {
   return (
     <>
-      <main className={vazirmatn.className}>{children}</main>
+      <style jsx global>{`
+        html {
+          font-family: ${vazirmatn.style.fontFamily};
+        }
+      `}</style>
+      <main>{children}</main>
     </>
   )
 }
