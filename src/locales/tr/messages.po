@@ -25,11 +25,11 @@ msgstr "Next.js & Lingui: Çok Dilli Bir Web Sitesi Oluşturma"
 msgid "Open options"
 msgstr "Seçenekleri aç"
 
-#: src/components/theme-switcher.tsx:47
+#: src/components/theme-switcher.tsx:43
 msgid "Switch to dark theme"
 msgstr "Karanlık temaya geç"
 
-#: src/components/theme-switcher.tsx:47
+#: src/components/theme-switcher.tsx:43
 msgid "Switch to light theme"
 msgstr "Aydınlık temaya geç"
 

@@ -25,11 +25,11 @@ msgstr "Next.js & Lingui: Building a Multi-Lingual Website"
 msgid "Open options"
 msgstr "Open options"
 
-#: src/components/theme-switcher.tsx:47
+#: src/components/theme-switcher.tsx:43
 msgid "Switch to dark theme"
 msgstr "Switch to dark theme"
 
-#: src/components/theme-switcher.tsx:47
+#: src/components/theme-switcher.tsx:43
 msgid "Switch to light theme"
 msgstr "Switch to light theme"
 
