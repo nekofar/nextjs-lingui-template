@@ -1,4 +1,4 @@
-import { formatter } from '@lingui/format-po'
+const { formatter } = require('@lingui/format-po')
 
 /** @type {import('@lingui/conf').LinguiConfig} */
 module.exports = {

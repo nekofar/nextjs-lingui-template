@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.7] - 2023-08-28
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Switched to CommonJS require in lingui.config
+
 ## [1.1.6] - 2023-08-28
 
 ### <!-- 04 -->Refactor
