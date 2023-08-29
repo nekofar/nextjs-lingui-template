@@ -1,7 +1,7 @@
 import { clsxm } from '@/utils'
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
 import { t } from '@lingui/macro'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useLocalStorage } from 'react-use'
 
 enum Theme {
@@ -14,17 +14,26 @@ const { Dark, Light } = Theme
 type ThemeSwitcherProps = { className?: string }
 
 export default function ThemeSwitcher({ className }: ThemeSwitcherProps) {
-  const [theme, setTheme] = useLocalStorage<Theme>('theme', Light)
+  const [localTheme, setLocalTheme] = useLocalStorage<Theme>('theme', Light)
+  const [theme, setTheme] = useState<Theme>(localTheme!)
 
   const isDarkMode = theme === Dark
 
   useEffect(() => {
-    document.documentElement.classList.remove(Dark, Light)
-    document.documentElement.classList.add(theme!)
-  }, [theme])
+    let classList = document.documentElement.classList
+
+    classList.remove(Dark, Light)
+    classList.add(theme!)
+    setLocalTheme(theme)
+  }, [setLocalTheme, theme])
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === Light ? Dark : Light))
+    console.log(theme)
+    setTheme((prevTheme) => {
+      console.log(prevTheme)
+      return prevTheme === Light ? Dark : Light
+    })
+    console.log(theme)
   }
 
   return (
