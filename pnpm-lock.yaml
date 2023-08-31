@@ -15,8 +15,8 @@ dependencies:
     specifier: 4.4.0
     version: 4.4.0
   '@lingui/detect-locale':
-    specifier: 4.4.0
-    version: 4.4.0
+    specifier: 4.4.1
+    version: 4.4.1
   '@lingui/react':
     specifier: 4.4.0
     version: 4.4.0(react@18.2.0)
@@ -1126,8 +1126,8 @@ packages:
       unraw: 2.0.1
     dev: true
 
-  /@lingui/detect-locale@4.4.0:
-    resolution: {integrity: sha512-Mh4oLJ4KHSwcyWw7+bhQ8ErUCZjXDrZyILyHCcgq2S+HE2NG8M8OD/VBFajLW3dEUJPC9sRE8L2XTxYRNKlK6g==}
+  /@lingui/detect-locale@4.4.1:
+    resolution: {integrity: sha512-wdgpNJ9pQb2ZBh313JSzjhn+4OSMItcMA/BPOxsFhjLuVM4iyOT/cvUx6ZO02vwpGdYpNzrt7bR7u1BgOqT6Cw==}
     engines: {node: '>=16.0.0'}
     dev: false
 
