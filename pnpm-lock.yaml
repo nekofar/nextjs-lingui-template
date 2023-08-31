@@ -59,8 +59,8 @@ devDependencies:
     specifier: 4.4.1
     version: 4.4.1
   '@lingui/conf':
-    specifier: 4.4.1
-    version: 4.4.1
+    specifier: 4.4.2
+    version: 4.4.2
   '@lingui/format-po':
     specifier: 4.4.1
     version: 4.4.1
@@ -1099,6 +1099,18 @@ packages:
 
   /@lingui/conf@4.4.1:
     resolution: {integrity: sha512-dLt8+bFfUxuO/CZ0jjlhLeQNM5s28GsA0m/bhCB3r+41KfiwUfX+4fd/ShF9rMFvvpebPdO6Mdm4o1pR6bYsNw==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@babel/runtime': 7.22.5
+      chalk: 4.1.2
+      cosmiconfig: 8.2.0
+      jest-validate: 29.6.3
+      jiti: 1.18.2
+      lodash.get: 4.4.2
+    dev: true
+
+  /@lingui/conf@4.4.2:
+    resolution: {integrity: sha512-PHy0tAVcwyAuEjxWonVcPgacQGJHbo+jSmluIRn2KySzdGeL6RrLk2Fcr0oBi0Pjy8kGaLxVHBPX7Ps2IWiNDw==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@babel/runtime': 7.22.5
