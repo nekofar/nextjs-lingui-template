@@ -59,8 +59,8 @@ devDependencies:
     specifier: 4.4.1
     version: 4.4.1
   '@lingui/conf':
-    specifier: 4.4.1
-    version: 4.4.1
+    specifier: 4.4.2
+    version: 4.4.2
   '@lingui/format-po':
     specifier: 4.4.1
     version: 4.4.1

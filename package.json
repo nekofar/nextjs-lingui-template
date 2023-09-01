@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@lingui/cli": "4.4.1",
-    "@lingui/conf": "4.4.1",
+    "@lingui/conf": "4.4.2",
     "@lingui/format-po": "4.4.1",
     "@lingui/loader": "4.4.2",
     "@lingui/macro": "4.4.0",
