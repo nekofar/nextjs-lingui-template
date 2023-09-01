@@ -56,8 +56,8 @@ dependencies:
 
 devDependencies:
   '@lingui/cli':
-    specifier: 4.4.1
-    version: 4.4.1
+    specifier: 4.4.2
+    version: 4.4.2
   '@lingui/conf':
     specifier: 4.4.2
     version: 4.4.2
@@ -1042,52 +1042,9 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lingui/babel-plugin-extract-messages@4.4.1:
-    resolution: {integrity: sha512-FMi1UT7ReNZUFvvhwqglQLMerCTWqk84ZojrFa9+wjJXCwTgk9KrXJbPYLIANdyNGj6Y9x5EvXE8niK72k2qdw==}
-    engines: {node: '>=16.0.0'}
-    dev: true
-
   /@lingui/babel-plugin-extract-messages@4.4.2:
     resolution: {integrity: sha512-h4HQCUqmQF+EuK6beTPR5His44yXPZ61WUK5j0rA0yMgmVSMM9fXXJSANnSPIMt+xjcn12erV4uLKiyzchh8yw==}
     engines: {node: '>=16.0.0'}
-    dev: true
-
-  /@lingui/cli@4.4.1:
-    resolution: {integrity: sha512-XbJiNCmic/3YmbR7hz6IOUJf/MlL2IVMz87+QPxTduhVy1Hnp+pvsdcd6Eyc0mM+lIqSfaJZuvC9aXHHZfsZ1Q==}
-    engines: {node: '>=16.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/core': 7.22.5
-      '@babel/generator': 7.22.5
-      '@babel/parser': 7.22.5
-      '@babel/runtime': 7.22.5
-      '@babel/types': 7.22.5
-      '@lingui/babel-plugin-extract-messages': 4.4.1
-      '@lingui/conf': 4.4.1
-      '@lingui/core': 4.4.1
-      '@lingui/format-po': 4.4.1
-      '@lingui/message-utils': 4.4.1
-      babel-plugin-macros: 3.1.0
-      chalk: 4.1.2
-      chokidar: 3.5.1
-      cli-table: 0.3.6
-      commander: 10.0.1
-      convert-source-map: 2.0.0
-      date-fns: 2.30.0
-      esbuild: 0.17.19
-      glob: 7.2.3
-      inquirer: 7.3.3
-      micromatch: 4.0.2
-      normalize-path: 3.0.0
-      ora: 5.4.1
-      pathe: 1.1.1
-      pkg-up: 3.1.0
-      pofile: 1.1.4
-      pseudolocale: 2.0.0
-      ramda: 0.27.2
-      source-map: 0.8.0-beta.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@lingui/cli@4.4.2:
@@ -1171,15 +1128,6 @@ packages:
       '@babel/runtime': 7.22.5
       '@lingui/message-utils': 4.4.0
       unraw: 2.0.1
-
-  /@lingui/core@4.4.1:
-    resolution: {integrity: sha512-G5Sc1r0mw7loiGeQnrXbyMed3UzwGi93yJK2o1SNbnh7VVKlS99bgA0QN4ECH8Rmf6yy1iC3Dfx+uUIfq6s3Yw==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@babel/runtime': 7.22.5
-      '@lingui/message-utils': 4.4.1
-      unraw: 2.0.1
-    dev: true
 
   /@lingui/core@4.4.2:
     resolution: {integrity: sha512-CAWgvw69SV6cTfBQ0yNmD3GNTqAoIrn7JmenXcSlzcmuYJ5XG/mO8KbMTQw6PWwhVLykWSm68OsRzN/NQ4Agrg==}
