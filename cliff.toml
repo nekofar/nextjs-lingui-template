@@ -63,6 +63,7 @@ commit_parsers = [
     { message = "^build", group = "<!-- 06 -->Build Environment"},
     { message = "^ci", group = "<!-- 07 -->Continuous Integrations"},
     { body = ".*security", group = "<!-- 00 -->Security"},
+  { message = "^revert", group = "<!-- 09 -->Revert" },
 ]
 # protect breaking changes from being skipped due to matching a skipping commit_parser
 protect_breaking_commits = false
