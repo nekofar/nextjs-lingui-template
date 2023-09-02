@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.9] - 2023-09-02
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @lingui/react from 4.4.0 to 4.4.2 
+- Bump @lingui/core from 4.4.0 to 4.4.2 
+- Bump @lingui/macro from 4.4.0 to 4.4.2
+
 ## [1.1.8] - 2023-09-02
 
 ### <!-- 04 -->Refactor
