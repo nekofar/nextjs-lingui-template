@@ -12,8 +12,8 @@ dependencies:
     specifier: 2.0.18
     version: 2.0.18(react@18.2.0)
   '@lingui/core':
-    specifier: 4.4.0
-    version: 4.4.0
+    specifier: 4.4.2
+    version: 4.4.2
   '@lingui/detect-locale':
     specifier: 4.4.2
     version: 4.4.2
