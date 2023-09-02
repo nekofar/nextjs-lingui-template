@@ -1,6 +1,6 @@
 {
   "name": "nextjs-lingui-template",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,9 +15,9 @@
   "dependencies": {
     "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",
-    "@lingui/core": "4.4.0",
+    "@lingui/core": "4.4.2",
     "@lingui/detect-locale": "4.4.2",
-    "@lingui/react": "4.4.0",
+    "@lingui/react": "4.4.2",
     "autoprefixer": "10.4.15",
     "cssnano": "6.0.1",
     "clsx": "2.0.0",
@@ -35,7 +35,7 @@
     "@lingui/conf": "4.4.2",
     "@lingui/format-po": "4.4.2",
     "@lingui/loader": "4.4.2",
-    "@lingui/macro": "4.4.0",
+    "@lingui/macro": "4.4.2",
     "@lingui/swc-plugin": "4.0.4",
     "@testing-library/jest-dom": "6.0.0",
     "@testing-library/react": "14.0.0",
