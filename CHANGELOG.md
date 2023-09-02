@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.8] - 2023-09-02
+
+### <!-- 04 -->Refactor
+
+- Add dynamic imports for LocaleSwitcher and ThemeSwitcher components
+- Replace useState with useLocalStorage in theme switcher
+- Update theme switcher component to improve theme state management
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.6 to 2.1.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint from 8.47.0 to 8.48.0 
+- Update dependency packages for application build process
+- Bump prettier from 3.0.2 to 3.0.3 
+- Bump postcss from 8.4.28 to 8.4.29 
+- Bump @types/node from 20.5.6 to 20.5.7 
+- Bump @lingui/format-po from 4.4.0 to 4.4.1 
+- Bump @lingui/cli from 4.4.0 to 4.4.1 
+- Bump @types/langs from 2.0.1 to 2.0.2 
+- Bump @lingui/loader from 4.4.0 to 4.4.1 
+- Bump @lingui/conf from 4.4.0 to 4.4.1 
+- Bump @lingui/detect-locale from 4.4.0 to 4.4.1 
+- Bump @lingui/loader from 4.4.1 to 4.4.2 
+- Bump @lingui/conf from 4.4.1 to 4.4.2 
+- Bump prettier-plugin-tailwindcss from 0.5.3 to 0.5.4 
+- Bump @lingui/detect-locale from 4.4.1 to 4.4.2 
+- Bump @lingui/cli from 4.4.1 to 4.4.2 
+- Bump @lingui/format-po from 4.4.1 to 4.4.2 
+
 ## [1.1.7] - 2023-08-28
 
 ### <!-- 08 -->Miscellaneous Tasks
