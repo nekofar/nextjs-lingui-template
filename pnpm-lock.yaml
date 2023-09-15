@@ -62,8 +62,8 @@ devDependencies:
     specifier: 4.5.0
     version: 4.5.0
   '@lingui/format-po':
-    specifier: 4.4.2
-    version: 4.4.2
+    specifier: 4.5.0
+    version: 4.5.0
   '@lingui/loader':
     specifier: 4.4.2
     version: 4.4.2(webpack@5.87.0)
@@ -1132,6 +1132,16 @@ packages:
       pofile: 1.1.4
     dev: true
 
+  /@lingui/format-po@4.5.0:
+    resolution: {integrity: sha512-xQNzZ4RCQfh6TjzjUsyHz3B0R9FJuzhBit9R37NyMn6mL3kBTCUExpPczknm8gWZjtfFO4T8EH5eJhhC5vgJYg==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@lingui/conf': 4.5.0
+      '@lingui/message-utils': 4.5.0
+      date-fns: 2.30.0
+      pofile: 1.1.4
+    dev: true
+
   /@lingui/loader@4.4.2(webpack@5.87.0):
     resolution: {integrity: sha512-uGs3S/2zOiQja56xqtZgIf3ojqUVcee8WG0Xak8xZMpMzf14wBt8H+Y+teSnx46Kr/EGoyIKlwdcWdZ5OPgOLA==}
     engines: {node: '>=16.0.0'}
@@ -1167,6 +1177,13 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@messageformat/parser': 5.1.0
+
+  /@lingui/message-utils@4.5.0:
+    resolution: {integrity: sha512-iRqh2wvNtzJO3NStB77nEXEfeI53aVVjzD7/mBrEm/P0lC7sqPHk0WBQCfzE0N9xm6a+XHmHu3J+x2nnQ2OjcA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@messageformat/parser': 5.1.0
+    dev: true
 
   /@lingui/react@4.4.2(react@18.2.0):
     resolution: {integrity: sha512-CBt6jzd+uOVJ5mZcKNXptaaaUqruy5YGMGszVaV3MTRadBbi4Vn07n0/gyfA/RDyFI95LLF2g4OY4uxf8Xb1hA==}
