@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### Miscellaneous Tasks
+
+- Update `cliff.toml` postprocessor patterns
+
 ## [1.1.10] - 2023-09-02
 
 ### Miscellaneous Tasks
@@ -293,7 +299,7 @@ All notable changes to this project will be documented in this file.
 ### Bug Fixes
 
 - Add page title and update locale files
-- Implement `useLingui` hook for proper translation rendering"
+- Implement `useLingui` hook for proper translation rendering`
 
 ### Refactor
 
@@ -303,7 +309,7 @@ All notable changes to this project will be documented in this file.
 
 ### Documentation
 
-- Update project references from 'starter' to 'template'
+- Update project references from `starter` to `template`
 
 ## [1.0.0-alpha.6] - 2023-07-21
 

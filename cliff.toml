@@ -36,6 +36,8 @@ footer = """
 postprocessors = [
   # { pattern = '<REPO>', replace = "https://github.com/orhun/git-cliff" }, # replace repository URL
   { pattern = '<!--\s\d+\s-->', replace = '' },
+  { pattern = "'", replace = '`' },
+  { pattern = '"', replace = '`' },
 ]
 [git]
 # parse the commits based on https://www.conventionalcommits.org
