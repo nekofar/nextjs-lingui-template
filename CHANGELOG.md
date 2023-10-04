@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [1.1.12] - 2023-10-04
+
+### Revert
+
+- Bump @testing-library/jest-dom and @types/testing-library__jest-dom (#130)
+
+## [1.1.11] - 2023-10-01
 
 ### Miscellaneous Tasks
 
