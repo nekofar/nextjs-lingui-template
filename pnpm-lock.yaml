@@ -137,8 +137,8 @@ devDependencies:
     specifier: 3.0.3
     version: 3.0.3
   prettier-plugin-jsdoc:
-    specifier: 1.1.0
-    version: 1.1.0(prettier@3.0.3)
+    specifier: 1.1.1
+    version: 1.1.1(prettier@3.0.3)
   prettier-plugin-organize-attributes:
     specifier: 1.0.0
     version: 1.0.0(prettier@3.0.3)
@@ -147,7 +147,7 @@ devDependencies:
     version: 3.2.3(prettier@3.0.3)(typescript@5.2.2)
   prettier-plugin-tailwindcss:
     specifier: 0.5.5
-    version: 0.5.5(prettier-plugin-jsdoc@1.1.0)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.3)
+    version: 0.5.5(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.3)
   serve:
     specifier: 14.2.1
     version: 14.2.1
@@ -6150,8 +6150,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-jsdoc@1.1.0(prettier@3.0.3):
-    resolution: {integrity: sha512-I4aDFRBmR8qxc2LGHm7YNW2g6jXT1kxdtIpxxbl5MRVKPCZfnxnClCW4jpFr4FKN22LfMryQ7sU0PuyDEBrvMw==}
+  /prettier-plugin-jsdoc@1.1.1(prettier@3.0.3):
+    resolution: {integrity: sha512-yA13k0StQ+g0RJBrmo2IldVSp3ANXlJdsNzQNhGtQ0LY7JFC+u01No/1Z9xp0ZhT4u98BXlPAc4SC0iambqy5A==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -6190,7 +6190,7 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.5(prettier-plugin-jsdoc@1.1.0)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.3):
+  /prettier-plugin-tailwindcss@0.5.5(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.3):
     resolution: {integrity: sha512-voy0CjWv/CM8yeaduv5ZwovovpTGMR5LbzlhGF+LtEvMJt9wBeVTVnW781hL38R/RcDXCJwN2rolsgr94B/n0Q==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -6243,7 +6243,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.0.3
-      prettier-plugin-jsdoc: 1.1.0(prettier@3.0.3)
+      prettier-plugin-jsdoc: 1.1.1(prettier@3.0.3)
       prettier-plugin-organize-attributes: 1.0.0(prettier@3.0.3)
       prettier-plugin-organize-imports: 3.2.3(prettier@3.0.3)(typescript@5.2.2)
     dev: true
