@@ -86,8 +86,8 @@ devDependencies:
     specifier: 8.44.6
     version: 8.44.6
   '@types/eslint-config-prettier':
-    specifier: 6.11.1
-    version: 6.11.1
+    specifier: 6.11.2
+    version: 6.11.2
   '@types/jest':
     specifier: 29.5.6
     version: 29.5.6
@@ -1432,22 +1432,15 @@ packages:
       '@types/ms': 0.7.31
     dev: true
 
-  /@types/eslint-config-prettier@6.11.1:
-    resolution: {integrity: sha512-7jQDjrJWXj9DsfmSDpMk9paFh5TQ4qPxl9rYUTLvGLglr/xrxmyVMVxb1gs/7y9HQzRI5EPvnQ9yumwy83H3fg==}
+  /@types/eslint-config-prettier@6.11.2:
+    resolution: {integrity: sha512-H9aSpNEGTyL1fJ65CIuqHMAH741pKg7jZ/Y2cdFAmqtD90PsRrmp8Cpj76PgSffSTkRLGihe1X6QlM4ec639ZA==}
     dev: true
 
   /@types/eslint-scope@3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
-      '@types/eslint': 8.44.4
+      '@types/eslint': 8.44.6
       '@types/estree': 1.0.1
-    dev: true
-
-  /@types/eslint@8.44.4:
-    resolution: {integrity: sha512-lOzjyfY/D9QR4hY9oblZ76B90MYTB3RrQ4z2vBIJKj9ROCRqdkYl2gSUx1x1a4IWPjKJZLL4Aw1Zfay7eMnmnA==}
-    dependencies:
-      '@types/estree': 1.0.1
-      '@types/json-schema': 7.0.12
     dev: true
 
   /@types/eslint@8.44.6:
@@ -1526,12 +1519,6 @@ packages:
 
   /@types/ms@0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
-    dev: true
-
-  /@types/node@20.8.6:
-    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
-    dependencies:
-      undici-types: 5.25.3
     dev: true
 
   /@types/node@20.8.7:
@@ -4806,7 +4793,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.8.6
+      '@types/node': 20.8.7
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
