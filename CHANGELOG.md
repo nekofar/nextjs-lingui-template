@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.15] - 2023-10-29
+
+### Bug Fixes
+
+- Solve some minor issues and update dependencies
+
 ## [1.1.14] - 2023-10-22
 
 ### Bug Fixes
