@@ -95,8 +95,8 @@ devDependencies:
     specifier: 2.0.3
     version: 2.0.3
   '@types/lint-staged':
-    specifier: 13.2.0
-    version: 13.2.0
+    specifier: 13.2.2
+    version: 13.2.2
   '@types/node':
     specifier: 20.8.10
     version: 20.8.10
@@ -1514,8 +1514,8 @@ packages:
     resolution: {integrity: sha512-StSrhuiUU6vbGrQHZyU1TwJNPbtW61uDU10gcLoTHXksvtUaNcSX9Tr7OCy9R4FmMl15hKUzcyz3sqQt46TPUA==}
     dev: true
 
-  /@types/lint-staged@13.2.0:
-    resolution: {integrity: sha512-rYHDtOV4BHb1hRH5dA7P+jarU/YFmQ9CGgwYPZNVRoxhrsrm2exEETeIEB+EmBk2AXIKAaK9JDzjpNCkceDGFQ==}
+  /@types/lint-staged@13.2.2:
+    resolution: {integrity: sha512-9c2ffPMJ1geob6yBmLuxzYye11HzKyA/I4dRZ8NfrPgY6SyzXt2SROD8vB3YjdPZJqqcu3WXsRvrY3PZbb720A==}
     dev: true
 
   /@types/mdast@4.0.1:
