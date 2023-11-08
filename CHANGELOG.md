@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.17] - 2023-11-08
+
+### Miscellaneous Tasks
+
+- Enable `webpackBuildWorker` in Next.js configuration
+
 ## [1.1.16] - 2023-11-06
 
 ### Bug Fixes
