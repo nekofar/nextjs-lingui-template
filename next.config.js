@@ -6,6 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
+    webpackBuildWorker: true,
     swcPlugins: [
       [
         '@lingui/swc-plugin',
