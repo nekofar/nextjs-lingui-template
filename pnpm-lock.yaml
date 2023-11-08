@@ -92,8 +92,8 @@ devDependencies:
     specifier: 29.5.7
     version: 29.5.7
   '@types/langs':
-    specifier: 2.0.3
-    version: 2.0.3
+    specifier: 2.0.4
+    version: 2.0.4
   '@types/lint-staged':
     specifier: 13.2.2
     version: 13.2.2
@@ -1446,15 +1446,8 @@ packages:
   /@types/eslint-scope@3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
-      '@types/eslint': 8.44.6
+      '@types/eslint': 8.44.7
       '@types/estree': 1.0.1
-    dev: true
-
-  /@types/eslint@8.44.6:
-    resolution: {integrity: sha512-P6bY56TVmX8y9J87jHNgQh43h6VVU+6H7oN7hgvivV81K2XY8qJZ5vqPy/HdUoVIelii2kChYVzQanlswPWVFw==}
-    dependencies:
-      '@types/estree': 1.0.1
-      '@types/json-schema': 7.0.12
     dev: true
 
   /@types/eslint@8.44.7:
@@ -1517,8 +1510,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/langs@2.0.3:
-    resolution: {integrity: sha512-StSrhuiUU6vbGrQHZyU1TwJNPbtW61uDU10gcLoTHXksvtUaNcSX9Tr7OCy9R4FmMl15hKUzcyz3sqQt46TPUA==}
+  /@types/langs@2.0.4:
+    resolution: {integrity: sha512-PELvm/40ArEeZzO3TyDWAi0xk5wm1cGvTGwMMYNgz8P7dUxTQCfZgJPP6D1faYdyQgVLSiSzun1L/VElBgsjXw==}
     dev: true
 
   /@types/lint-staged@13.2.2:
