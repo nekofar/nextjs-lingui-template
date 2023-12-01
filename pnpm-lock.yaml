@@ -12,8 +12,8 @@ dependencies:
     specifier: 2.0.18
     version: 2.0.18(react@18.2.0)
   '@lingui/core':
-    specifier: 4.5.0
-    version: 4.5.0
+    specifier: 4.6.0
+    version: 4.6.0
   '@lingui/detect-locale':
     specifier: 4.5.0
     version: 4.5.0
@@ -1097,9 +1097,18 @@ packages:
     resolution: {integrity: sha512-8zTuIXJo5Qvjato7LWE6Q4RHiO4LjTBVOoRlqfOGYDp8VZ9w9P7Z7IJgxI7UP5Z1wiuEvnMdVF9I1C4acqXGlQ==}
     engines: {node: '>=16.0.0'}
     dependencies:
-      '@babel/runtime': 7.22.5
+      '@babel/runtime': 7.23.2
       '@lingui/message-utils': 4.5.0
       unraw: 3.0.0
+
+  /@lingui/core@4.6.0:
+    resolution: {integrity: sha512-waqozTXrCCm/Rc0GLTlri9+kzNGK7q/beoZG9GjsC1g3HRtTiZWdn0pe3L16YVLHhmoJEXYlAfhsbU5g+A3bfg==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@babel/runtime': 7.23.2
+      '@lingui/message-utils': 4.6.0
+      unraw: 3.0.0
+    dev: false
 
   /@lingui/detect-locale@4.5.0:
     resolution: {integrity: sha512-yiscpMZnAi5Sih1uow6tA3hZRTef7nX8lcQmMVEyTAvDjyY4T1TDcK599Rz1HaAb1NnLGuFUqZhn0aeULLGccw==}
@@ -1151,6 +1160,14 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@messageformat/parser': 5.1.0
+
+  /@lingui/message-utils@4.6.0:
+    resolution: {integrity: sha512-2vHJ61ITxGoyKKyO9DbxZMpnF43kH7j8/+UUu7aUKa18XbOW49qnWwZfB8I9ZGCkPxxh5ILbd3IJ70gF68UbQw==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@messageformat/parser': 5.1.0
+      js-sha256: 0.10.1
+    dev: false
 
   /@lingui/react@4.5.0(react@18.2.0):
     resolution: {integrity: sha512-dv/oxBshyaVJ3XzbPDnWn3abhwtaS1sx8cEO2qDjs+OhW0AeWD9hyVDrduf5SBIuXFJfJQNNA8+2P2nO0lxRbQ==}
@@ -1442,15 +1459,8 @@ packages:
   /@types/eslint-scope@3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
-      '@types/eslint': 8.44.6
+      '@types/eslint': 8.44.8
       '@types/estree': 1.0.1
-    dev: true
-
-  /@types/eslint@8.44.6:
-    resolution: {integrity: sha512-P6bY56TVmX8y9J87jHNgQh43h6VVU+6H7oN7hgvivV81K2XY8qJZ5vqPy/HdUoVIelii2kChYVzQanlswPWVFw==}
-    dependencies:
-      '@types/estree': 1.0.1
-      '@types/json-schema': 7.0.12
     dev: true
 
   /@types/eslint@8.44.8:
@@ -1535,12 +1545,6 @@ packages:
     resolution: {integrity: sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==}
     dependencies:
       undici-types: 5.26.5
-    dev: true
-
-  /@types/node@20.9.2:
-    resolution: {integrity: sha512-WHZXKFCEyIUJzAwh3NyyTHYSR35SevJ6mZ1nWwJafKtiQbqRTIKSRcw3Ma3acqgsent3RRDqeVwpHntMk+9irg==}
-    dependencies:
-      undici-types: 5.26.4
     dev: true
 
   /@types/parse-json@4.0.0:
@@ -4808,7 +4812,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -4855,6 +4859,10 @@ packages:
 
   /js-cookie@2.2.1:
     resolution: {integrity: sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==}
+    dev: false
+
+  /js-sha256@0.10.1:
+    resolution: {integrity: sha512-5obBtsz9301ULlsgggLg542s/jqtddfOpV5KJc4hajc9JV8GeY2gZHSVpYBn4nWqAUTJ9v+xwtbJ1mIBgIH5Vw==}
     dev: false
 
   /js-tokens@4.0.0:
@@ -7383,10 +7391,6 @@ packages:
       has-bigints: 1.0.2
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
-    dev: true
-
-  /undici-types@5.26.4:
-    resolution: {integrity: sha512-nSNuWyiXbGptNQjUVhJGKA0KufCryCa6yjc2IAfg4HRblpUNgF5xhqEXNO3+F8cVYFiJsIgurydTuKphzszEmA==}
     dev: true
 
   /undici-types@5.26.5:
