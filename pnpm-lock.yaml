@@ -1132,7 +1132,7 @@ packages:
       chalk: 4.1.2
       cosmiconfig: 8.2.0
       jest-validate: 29.7.0
-      jiti: 1.20.0
+      jiti: 1.18.2
       lodash.get: 4.4.2
     dev: true
 
@@ -1144,19 +1144,7 @@ packages:
       chalk: 4.1.2
       cosmiconfig: 8.2.0
       jest-validate: 29.7.0
-      jiti: 1.20.0
-      lodash.get: 4.4.2
-    dev: true
-
-  /@lingui/conf@4.6.0:
-    resolution: {integrity: sha512-k6Gpm0RB+xf1J2gR5pVsG+FwNLTHTUSpThBCF+dYyWowHbDrxfhi/FtQyNS2doT05VYNraQZanXOFbKjdFgF7A==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@babel/runtime': 7.23.2
-      chalk: 4.1.2
-      cosmiconfig: 8.2.0
-      jest-validate: 29.7.0
-      jiti: 1.20.0
+      jiti: 1.18.2
       lodash.get: 4.4.2
     dev: true
 
@@ -1536,8 +1524,15 @@ packages:
   /@types/eslint-scope@3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
-      '@types/eslint': 8.44.8
+      '@types/eslint': 8.44.6
       '@types/estree': 1.0.1
+    dev: true
+
+  /@types/eslint@8.44.6:
+    resolution: {integrity: sha512-P6bY56TVmX8y9J87jHNgQh43h6VVU+6H7oN7hgvivV81K2XY8qJZ5vqPy/HdUoVIelii2kChYVzQanlswPWVFw==}
+    dependencies:
+      '@types/estree': 1.0.1
+      '@types/json-schema': 7.0.12
     dev: true
 
   /@types/eslint@8.44.8:
@@ -1618,16 +1613,10 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@20.10.1:
-    resolution: {integrity: sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
   /@types/node@20.10.2:
     resolution: {integrity: sha512-37MXfxkb0vuIlRKHNxwCkb60PNBpR94u4efQuN4JgIAm66zfCDXGSAFCef9XUWFovX2R1ok6Z7MHhtdVXXkkIw==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 5.26.4
     dev: true
 
   /@types/parse-json@4.0.0:
@@ -4895,7 +4884,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.10.1
+      '@types/node': 20.10.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -4929,6 +4918,11 @@ packages:
       - babel-plugin-macros
       - supports-color
       - ts-node
+    dev: true
+
+  /jiti@1.18.2:
+    resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
+    hasBin: true
     dev: true
 
   /jiti@1.20.0:
@@ -7471,8 +7465,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  /undici-types@5.26.4:
+    resolution: {integrity: sha512-nSNuWyiXbGptNQjUVhJGKA0KufCryCa6yjc2IAfg4HRblpUNgF5xhqEXNO3+F8cVYFiJsIgurydTuKphzszEmA==}
     dev: true
 
   /unist-util-stringify-position@4.0.0:
