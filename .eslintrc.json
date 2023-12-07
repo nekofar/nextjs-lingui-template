@@ -4,6 +4,10 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:tailwindcss/recommended",
+    "plugin:unicorn/recommended",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "unicorn/prevent-abbreviations": "off"
+  }
 }
