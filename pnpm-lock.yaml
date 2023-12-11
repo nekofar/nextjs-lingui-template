@@ -134,20 +134,20 @@ devDependencies:
     specifier: 15.2.0
     version: 15.2.0
   prettier:
-    specifier: 3.1.0
-    version: 3.1.0
+    specifier: 3.1.1
+    version: 3.1.1
   prettier-plugin-jsdoc:
     specifier: 1.1.1
-    version: 1.1.1(prettier@3.1.0)
+    version: 1.1.1(prettier@3.1.1)
   prettier-plugin-organize-attributes:
     specifier: 1.0.0
-    version: 1.0.0(prettier@3.1.0)
+    version: 1.0.0(prettier@3.1.1)
   prettier-plugin-organize-imports:
     specifier: 3.2.4
-    version: 3.2.4(prettier@3.1.0)(typescript@5.3.3)
+    version: 3.2.4(prettier@3.1.1)(typescript@5.3.3)
   prettier-plugin-tailwindcss:
     specifier: 0.5.9
-    version: 0.5.9(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.4)(prettier@3.1.0)
+    version: 0.5.9(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.4)(prettier@3.1.1)
   serve:
     specifier: 14.2.1
     version: 14.2.1
@@ -1617,12 +1617,6 @@ packages:
 
   /@types/ms@0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
-    dev: true
-
-  /@types/node@20.10.3:
-    resolution: {integrity: sha512-XJavIpZqiXID5Yxnxv3RUDKTN5b81ddNC3ecsA0SoFXz/QU8OGBwZGMomiq0zw+uuqbL/krztv/DINAQ/EV4gg==}
-    dependencies:
-      undici-types: 5.26.4
     dev: true
 
   /@types/node@20.10.4:
@@ -4962,7 +4956,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.10.3
+      '@types/node': 20.10.4
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -6382,7 +6376,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-jsdoc@1.1.1(prettier@3.1.0):
+  /prettier-plugin-jsdoc@1.1.1(prettier@3.1.1):
     resolution: {integrity: sha512-yA13k0StQ+g0RJBrmo2IldVSp3ANXlJdsNzQNhGtQ0LY7JFC+u01No/1Z9xp0ZhT4u98BXlPAc4SC0iambqy5A==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
@@ -6391,21 +6385,21 @@ packages:
       binary-searching: 2.0.5
       comment-parser: 1.4.0
       mdast-util-from-markdown: 2.0.0
-      prettier: 3.1.0
+      prettier: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /prettier-plugin-organize-attributes@1.0.0(prettier@3.1.0):
+  /prettier-plugin-organize-attributes@1.0.0(prettier@3.1.1):
     resolution: {integrity: sha512-+NmameaLxbCcylEXsKPmawtzla5EE6ECqvGkpfQz4KM847fXDifB1gFnPQEpoADAq6IXg+cMI8Z0ISJEXa6fhg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.1.0
+      prettier: 3.1.1
     dev: true
 
-  /prettier-plugin-organize-imports@3.2.4(prettier@3.1.0)(typescript@5.3.3):
+  /prettier-plugin-organize-imports@3.2.4(prettier@3.1.1)(typescript@5.3.3):
     resolution: {integrity: sha512-6m8WBhIp0dfwu0SkgfOxJqh+HpdyfqSSLfKKRZSFbDuEQXDDndb8fTpRWkUrX/uBenkex3MgnVk0J3b3Y5byog==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -6418,11 +6412,11 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      prettier: 3.1.0
+      prettier: 3.1.1
       typescript: 5.3.3
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.9(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.4)(prettier@3.1.0):
+  /prettier-plugin-tailwindcss@0.5.9(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-organize-attributes@1.0.0)(prettier-plugin-organize-imports@3.2.4)(prettier@3.1.1):
     resolution: {integrity: sha512-9x3t1s2Cjbut2QiP+O0mDqV3gLXTe2CgRlQDgucopVkUdw26sQi53p/q4qvGxMLBDfk/dcTV57Aa/zYwz9l8Ew==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -6471,14 +6465,14 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 3.1.0
-      prettier-plugin-jsdoc: 1.1.1(prettier@3.1.0)
-      prettier-plugin-organize-attributes: 1.0.0(prettier@3.1.0)
-      prettier-plugin-organize-imports: 3.2.4(prettier@3.1.0)(typescript@5.3.3)
+      prettier: 3.1.1
+      prettier-plugin-jsdoc: 1.1.1(prettier@3.1.1)
+      prettier-plugin-organize-attributes: 1.0.0(prettier@3.1.1)
+      prettier-plugin-organize-imports: 3.2.4(prettier@3.1.1)(typescript@5.3.3)
     dev: true
 
-  /prettier@3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
