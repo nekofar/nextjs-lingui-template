@@ -1,7 +1,7 @@
 import { getLocale, getLocaleDirection, Locale } from '@/utils/locales'
 import { Head, Html, Main, NextScript } from 'next/document'
+import { ParsedUrlQuery } from 'node:querystring'
 import { DocumentProps } from 'postcss'
-import { ParsedUrlQuery } from 'querystring'
 
 type Props = DocumentProps & { __NEXT_DATA__: { query: ParsedUrlQuery } }
 

@@ -13,15 +13,13 @@ export function useLocaleSwitcher() {
         return
       }
 
-      const pathName = Object.keys(router.query).reduce(
-        (currentPathName, k) => {
-          if (k === 'locale') {
-            return currentPathName.replace(`[${k}]`, nextLocale)
-          }
-          return currentPathName.replace(`[${k}]`, String(router.query[k]))
-        },
-        router.pathname,
-      )
+      let pathName = router.pathname
+      for (const k of Object.keys(router.query)) {
+        pathName =
+          k === 'locale'
+            ? pathName.replace(`[${k}]`, nextLocale)
+            : pathName.replace(`[${k}]`, String(router.query[k]))
+      }
 
       router.replace(pathName)
     },

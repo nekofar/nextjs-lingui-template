@@ -1,7 +1,7 @@
 import linguiConfig from '@/../lingui.config'
 import { detect, fromPath } from '@lingui/detect-locale'
 import langs from 'langs'
-import { ParsedUrlQuery } from 'querystring'
+import { ParsedUrlQuery } from 'node:querystring'
 
 export type Locale = (typeof linguiConfig.locales)[number]
 
@@ -15,14 +15,14 @@ export async function loadCatalog(locale: Locale): Promise<object> {
       `@lingui/loader!../locales/${locale}/messages.po`
     )
     return catalog.messages
-  } catch (e) {
-    console.error(`Could not load translations for locale ${locale}`, e)
+  } catch (error) {
+    console.error(`Could not load translations for locale ${locale}`, error)
     return {}
   }
 }
 
 export function getLocale(query?: ParsedUrlQuery): Locale {
-  const localFromPath = typeof window !== 'undefined' ? fromPath(0) : undefined
+  const localFromPath = typeof window === 'undefined' ? undefined : fromPath(0)
   const localeFromQuery = query?.locale
 
   const detectedLocale = detect(localFromPath, localeFromQuery)
