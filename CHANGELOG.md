@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.24] - 2023-12-15
+
+### Refactor
+
+- Improve locales utility file
+- Update import path for `ParsedUrlQuery`
+- Replace return null with return in index
+- Improve locale switcher hook
+
+### Miscellaneous Tasks
+
+- Update ESLint configuration settings
+- Add Unicorn plugin and rule in `.eslintrc.json`
+
 ## [1.1.23] - 2023-12-06
 
 ### Bug Fixes
