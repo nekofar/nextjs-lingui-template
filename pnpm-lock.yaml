@@ -51,8 +51,8 @@ dependencies:
     specifier: 2.1.0
     version: 2.1.0
   tailwindcss:
-    specifier: 3.3.7
-    version: 3.3.7
+    specifier: 3.4.0
+    version: 3.4.0
 
 devDependencies:
   '@lingui/cli':
@@ -117,7 +117,7 @@ devDependencies:
     version: 9.1.0(eslint@8.56.0)
   eslint-plugin-tailwindcss:
     specifier: 3.13.0
-    version: 3.13.0(tailwindcss@3.3.7)
+    version: 3.13.0(tailwindcss@3.4.0)
   eslint-plugin-unicorn:
     specifier: 49.0.0
     version: 49.0.0(eslint@8.56.0)
@@ -1617,12 +1617,6 @@ packages:
 
   /@types/ms@0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
-    dev: true
-
-  /@types/node@20.10.4:
-    resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
-    dependencies:
-      undici-types: 5.26.4
     dev: true
 
   /@types/node@20.10.5:
@@ -3506,7 +3500,7 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.7):
+  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.4.0):
     resolution: {integrity: sha512-Fcep4KDRLWaK3KmkQbdyKHG0P4GdXFmXdDaweTIPcgOP60OOuWFbh1++dufRT28Q4zpKTKaHwTsXPJ4O/EjU2Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -3514,7 +3508,7 @@ packages:
     dependencies:
       fast-glob: 3.3.0
       postcss: 8.4.32
-      tailwindcss: 3.3.7
+      tailwindcss: 3.4.0
     dev: true
 
   /eslint-plugin-unicorn@49.0.0(eslint@8.56.0):
@@ -4962,7 +4956,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.10.4
+      '@types/node': 20.10.5
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -7380,8 +7374,8 @@ packages:
       '@babel/runtime': 7.23.5
     dev: false
 
-  /tailwindcss@3.3.7:
-    resolution: {integrity: sha512-pjgQxDZPvyS/nG3ZYkyCvsbONJl7GdOejfm24iMt2ElYQQw8Jc4p0m8RdMp7mznPD0kUhfzwV3zAwa80qI0zmQ==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
