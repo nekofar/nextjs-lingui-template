@@ -33,7 +33,7 @@
   "devDependencies": {
     "@lingui/cli": "4.5.0",
     "@lingui/conf": "4.6.0",
-    "@lingui/format-po": "4.5.0",
+    "@lingui/format-po": "4.7.0",
     "@lingui/loader": "4.6.0",
     "@lingui/macro": "4.5.0",
     "@lingui/swc-plugin": "4.0.4",
