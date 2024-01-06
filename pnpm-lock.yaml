@@ -56,8 +56,8 @@ dependencies:
 
 devDependencies:
   '@lingui/cli':
-    specifier: 4.5.0
-    version: 4.5.0
+    specifier: 4.7.0
+    version: 4.7.0
   '@lingui/conf':
     specifier: 4.6.0
     version: 4.6.0
@@ -1048,31 +1048,31 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lingui/babel-plugin-extract-messages@4.5.0:
-    resolution: {integrity: sha512-jZq3Gbi691jsHyQ4+OPnGgIqZt5eKEGnmI75akYlZpwTPxF7n+hiuKlQS+YB3xfKvcvlAED76ZAMCcwYG5fNrQ==}
-    engines: {node: '>=16.0.0'}
-    dev: true
-
   /@lingui/babel-plugin-extract-messages@4.6.0:
     resolution: {integrity: sha512-5endWBnkE7LKIB2I9wLvmyt8tX2AgcvCb7a9eyK4WlS/YJ/rmlXFuzHM6VC0UHHM1LYeV2pgokzOI5i9y/3H0A==}
     engines: {node: '>=16.0.0'}
     dev: true
 
-  /@lingui/cli@4.5.0:
-    resolution: {integrity: sha512-MzhxNUNd+YYEmK79TwmneUow5BuLwpOlrUrZq9EyIAWUM4N6kkCVkZ8VIMYCL4TXGQ4kBQjstgDpkF8wdFRtNg==}
+  /@lingui/babel-plugin-extract-messages@4.7.0:
+    resolution: {integrity: sha512-CROHpjSqLy71aGDskl5wFk47cCuEAsY1etAt6tDkq0iuHwpSebJpzSN58gQJybRTCqYA+3PTkqCADoeSvcTwRA==}
+    engines: {node: '>=16.0.0'}
+    dev: true
+
+  /@lingui/cli@4.6.0:
+    resolution: {integrity: sha512-37MTEg0IkqY90p1NObu3HkMNky7W48L0sxdA+U2Gdf9tDv8wcYMnKdz7M3YFn5BxL07SwiN8j0Yyrbz+bsSKJw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
       '@babel/core': 7.22.5
       '@babel/generator': 7.22.5
       '@babel/parser': 7.22.5
-      '@babel/runtime': 7.22.5
+      '@babel/runtime': 7.23.5
       '@babel/types': 7.22.5
-      '@lingui/babel-plugin-extract-messages': 4.5.0
-      '@lingui/conf': 4.5.0
-      '@lingui/core': 4.5.0
-      '@lingui/format-po': 4.5.0
-      '@lingui/message-utils': 4.5.0
+      '@lingui/babel-plugin-extract-messages': 4.6.0
+      '@lingui/conf': 4.6.0
+      '@lingui/core': 4.6.0
+      '@lingui/format-po': 4.6.0
+      '@lingui/message-utils': 4.6.0
       babel-plugin-macros: 3.1.0
       chalk: 4.1.2
       chokidar: 3.5.1
@@ -1096,8 +1096,8 @@ packages:
       - supports-color
     dev: true
 
-  /@lingui/cli@4.6.0:
-    resolution: {integrity: sha512-37MTEg0IkqY90p1NObu3HkMNky7W48L0sxdA+U2Gdf9tDv8wcYMnKdz7M3YFn5BxL07SwiN8j0Yyrbz+bsSKJw==}
+  /@lingui/cli@4.7.0:
+    resolution: {integrity: sha512-XGKGZOE5RF+Q74vCRP5gmiAidhwEbzSPsaZWYIAEuG8Oleo1saXAJJm5iKpoiOOTxl6ME9xp0nfIMmL2NCA1Dw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -1106,11 +1106,11 @@ packages:
       '@babel/parser': 7.22.5
       '@babel/runtime': 7.23.5
       '@babel/types': 7.22.5
-      '@lingui/babel-plugin-extract-messages': 4.6.0
-      '@lingui/conf': 4.6.0
-      '@lingui/core': 4.6.0
-      '@lingui/format-po': 4.6.0
-      '@lingui/message-utils': 4.6.0
+      '@lingui/babel-plugin-extract-messages': 4.7.0
+      '@lingui/conf': 4.7.0
+      '@lingui/core': 4.7.0
+      '@lingui/format-po': 4.7.0
+      '@lingui/message-utils': 4.7.0
       babel-plugin-macros: 3.1.0
       chalk: 4.1.2
       chokidar: 3.5.1
@@ -1187,20 +1187,19 @@ packages:
       unraw: 3.0.0
     dev: true
 
+  /@lingui/core@4.7.0:
+    resolution: {integrity: sha512-lr6CMDRztFgS5qna9pLA/MPZRgujN9SCIoQ1LvGZem94U4Qc7ptSwAG1LIET9b3qxRXJm5XOTrq0HefN2Qm1IA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@babel/runtime': 7.23.5
+      '@lingui/message-utils': 4.7.0
+      unraw: 3.0.0
+    dev: true
+
   /@lingui/detect-locale@4.7.0:
     resolution: {integrity: sha512-RggGiwqaweu/iPgnw0FrgYkz05K7t8EeEf4B/O3k1qKg7E30G0CDqRzarrvSqOYqN0+BGDkSsVmycoUaVZUzeg==}
     engines: {node: '>=16.0.0'}
     dev: false
-
-  /@lingui/format-po@4.5.0:
-    resolution: {integrity: sha512-xQNzZ4RCQfh6TjzjUsyHz3B0R9FJuzhBit9R37NyMn6mL3kBTCUExpPczknm8gWZjtfFO4T8EH5eJhhC5vgJYg==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@lingui/conf': 4.5.0
-      '@lingui/message-utils': 4.5.0
-      date-fns: 2.30.0
-      pofile: 1.1.4
-    dev: true
 
   /@lingui/format-po@4.6.0:
     resolution: {integrity: sha512-jWvmfOQxbHRyjgqsY0pYeb4BuDK22u3DWss+lBsdvPr3YQYHm7JLX6e/xHwftzD+Wy8zytutQkESL71kFeTUfw==}
