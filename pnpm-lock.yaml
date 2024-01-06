@@ -62,8 +62,8 @@ devDependencies:
     specifier: 4.6.0
     version: 4.6.0
   '@lingui/format-po':
-    specifier: 4.5.0
-    version: 4.5.0
+    specifier: 4.7.0
+    version: 4.7.0
   '@lingui/loader':
     specifier: 4.6.0
     version: 4.6.0(webpack@5.87.0)
@@ -1158,6 +1158,18 @@ packages:
       lodash.get: 4.4.2
     dev: true
 
+  /@lingui/conf@4.7.0:
+    resolution: {integrity: sha512-j5prZL9PEFfQU7jtXrNIAGWB89KQkjEdYENwwdZyWQ9ZJkp8tcNqcYMTtqcU7vMh2lOJdu4WVuvjvnOHMO9RHQ==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@babel/runtime': 7.23.5
+      chalk: 4.1.2
+      cosmiconfig: 8.2.0
+      jest-validate: 29.7.0
+      jiti: 1.20.0
+      lodash.get: 4.4.2
+    dev: true
+
   /@lingui/core@4.5.0:
     resolution: {integrity: sha512-8zTuIXJo5Qvjato7LWE6Q4RHiO4LjTBVOoRlqfOGYDp8VZ9w9P7Z7IJgxI7UP5Z1wiuEvnMdVF9I1C4acqXGlQ==}
     engines: {node: '>=16.0.0'}
@@ -1200,6 +1212,16 @@ packages:
       pofile: 1.1.4
     dev: true
 
+  /@lingui/format-po@4.7.0:
+    resolution: {integrity: sha512-ptUp9nRt6mB9o82O61WzF8c2My/nfMv4cFt+L1oe5XA/+WLDEoOD2eEhu2PLd+/V6rtnnhqQjp3DzoQZ2I/HfA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@lingui/conf': 4.7.0
+      '@lingui/message-utils': 4.7.0
+      date-fns: 2.30.0
+      pofile: 1.1.4
+    dev: true
+
   /@lingui/loader@4.6.0(webpack@5.87.0):
     resolution: {integrity: sha512-5OkcmxrDHzWKsvQza9OLUs41Ljow6QG7NsHJkWAPofRbl9uuSKFwwrePXTKECCIrlQvkSA+t91zbWjnusZ7JLA==}
     engines: {node: '>=16.0.0'}
@@ -1238,6 +1260,14 @@ packages:
 
   /@lingui/message-utils@4.6.0:
     resolution: {integrity: sha512-2vHJ61ITxGoyKKyO9DbxZMpnF43kH7j8/+UUu7aUKa18XbOW49qnWwZfB8I9ZGCkPxxh5ILbd3IJ70gF68UbQw==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@messageformat/parser': 5.1.0
+      js-sha256: 0.10.1
+    dev: true
+
+  /@lingui/message-utils@4.7.0:
+    resolution: {integrity: sha512-JrGdxORRzefOh9qAkQYJchh+ehnWlLK9/kOG9x6VkV9aekWLk8vCVbXBh4Q707sTcIgCki8KwT1yuBMwZ2YBEg==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@messageformat/parser': 5.1.0
