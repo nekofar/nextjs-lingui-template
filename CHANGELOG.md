@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.26] - 2024-01-07
+
+### Bug Fixes
+
+- Update class name orders on some of components
+
 ## [1.1.25] - 2024-01-07
 
 ### Miscellaneous Tasks
