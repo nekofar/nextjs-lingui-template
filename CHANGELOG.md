@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.25] - 2024-01-07
+
+### Miscellaneous Tasks
+
+- Add new git flow workflow for handling pull requests
+
 ## [1.1.24] - 2023-12-15
 
 ### Refactor
