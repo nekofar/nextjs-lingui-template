@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.29] - 2024-01-15
+
+### Miscellaneous Tasks
+
+- Add `lingui` to the `eslint` plugins
+
 ## [1.1.28] - 2024-01-10
 
 ### Bug Fixes
