@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.30] - 2024-01-15
+
+### Miscellaneous Tasks
+
+- Ignore configuration files by `eslint`
+
 ## [1.1.29] - 2024-01-15
 
 ### Miscellaneous Tasks
