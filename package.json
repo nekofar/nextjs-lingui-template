@@ -65,5 +65,8 @@
     "prettier-plugin-tailwindcss": "0.5.11",
     "serve": "14.2.1",
     "typescript": "5.3.3"
+  },
+  "resolutions": {
+    "@babel/traverse": ">=7.23.2"
   }
 }
