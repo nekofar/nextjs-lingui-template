@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.31] - 2024-01-17
+
+### Documentation
+
+- Update readme file badges and improve olds
+
+### Miscellaneous Tasks
+
+- Add group of dependencies to Dependabot configs
+
 ## [1.1.30] - 2024-01-15
 
 ### Miscellaneous Tasks
