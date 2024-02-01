@@ -131,8 +131,8 @@ devDependencies:
     specifier: 50.0.1
     version: 50.0.1(eslint@8.56.0)
   husky:
-    specifier: 9.0.7
-    version: 9.0.7
+    specifier: 9.0.10
+    version: 9.0.10
   jest:
     specifier: 29.7.0
     version: 29.7.0(@types/node@20.11.13)(babel-plugin-macros@3.1.0)
@@ -1683,12 +1683,6 @@ packages:
 
   /@types/node@20.11.13:
     resolution: {integrity: sha512-5G4zQwdiQBSWYTDAH1ctw2eidqdhMJaNsiIDKHFr55ihz5Trl2qqR8fdrT732yPBho5gkNxXm67OxWFBqX9aPg==}
-    dependencies:
-      undici-types: 5.26.4
-    dev: true
-
-  /@types/node@20.11.8:
-    resolution: {integrity: sha512-i7omyekpPTNdv4Jb/Rgqg0RU8YqLcNsI12quKSDkRXNfx7Wxdm6HhK1awT3xTgEkgxPn3bvnSpiEAc7a7Lpyow==}
     dependencies:
       undici-types: 5.26.4
     dev: true
@@ -4380,8 +4374,8 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
-  /husky@9.0.7:
-    resolution: {integrity: sha512-vWdusw+y12DUEeoZqW1kplOFqk3tedGV8qlga8/SF6a3lOiWLqGZZQvfWvY0fQYdfiRi/u1DFNpudTSV9l1aCg==}
+  /husky@9.0.10:
+    resolution: {integrity: sha512-TQGNknoiy6bURzIO77pPRu+XHi6zI7T93rX+QnJsoYFf3xdjKOur+IlfqzJGMHIK/wXrLg+GsvMs8Op7vI2jVA==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
@@ -5236,7 +5230,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.11.8
+      '@types/node': 20.11.13
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
