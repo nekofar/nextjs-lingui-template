@@ -95,8 +95,8 @@ devDependencies:
     specifier: 29.5.12
     version: 29.5.12
   '@types/langs':
-    specifier: 2.0.4
-    version: 2.0.4
+    specifier: 2.0.5
+    version: 2.0.5
   '@types/lint-staged':
     specifier: 13.3.0
     version: 13.3.0
@@ -1630,8 +1630,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/langs@2.0.4:
-    resolution: {integrity: sha512-PELvm/40ArEeZzO3TyDWAi0xk5wm1cGvTGwMMYNgz8P7dUxTQCfZgJPP6D1faYdyQgVLSiSzun1L/VElBgsjXw==}
+  /@types/langs@2.0.5:
+    resolution: {integrity: sha512-DIUKT4mkbTBxSrX6lmnQR888ObeFVVo1uNEqBH5/ddQHpnG4CA24DibpK7aO8QAcJEZUTcIx0F96TWuzVT9Z4g==}
     dev: true
 
   /@types/lint-staged@13.3.0:
