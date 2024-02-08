@@ -43,7 +43,7 @@
     "@types/eslint": "8.56.2",
     "@types/eslint-config-prettier": "6.11.3",
     "@types/jest": "29.5.12",
-    "@types/langs": "2.0.4",
+    "@types/langs": "2.0.5",
     "@types/lint-staged": "13.3.0",
     "@types/node": "20.11.16",
     "@types/react": "18.2.55",
