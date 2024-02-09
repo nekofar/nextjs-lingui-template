@@ -119,8 +119,8 @@ devDependencies:
     specifier: 9.1.0
     version: 9.1.0(eslint@8.56.0)
   eslint-plugin-lingui:
-    specifier: 0.2.2
-    version: 0.2.2(eslint@8.56.0)(typescript@5.3.3)
+    specifier: 0.3.0
+    version: 0.3.0(eslint@8.56.0)(typescript@5.3.3)
   eslint-plugin-prettier:
     specifier: 5.1.3
     version: 5.1.3(@types/eslint@8.56.2)(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.2.5)
@@ -1648,12 +1648,6 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@20.11.16:
-    resolution: {integrity: sha512-gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==}
-    dependencies:
-      undici-types: 5.26.4
-    dev: true
-
   /@types/node@20.11.17:
     resolution: {integrity: sha512-QmgQZGWu1Yw9TDyAP9ZzpFJKynYNeOvwMJmaxABfieQoVoiVOS6MN1WSpqpRcbeA5+RW82kraAVxCCJg+780Qw==}
     dependencies:
@@ -1812,7 +1806,7 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.56.0)
-      '@types/json-schema': 7.0.12
+      '@types/json-schema': 7.0.15
       '@types/semver': 7.5.6
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
@@ -3653,8 +3647,8 @@ packages:
       object.fromentries: 2.0.7
     dev: true
 
-  /eslint-plugin-lingui@0.2.2(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-orWu6o/IkCckLD0owLt+8fKy6SsIqIR9kz2L36KbCuAIfWg3dLRWC+XvuqQWEgJ4raRt+eoomTMunUJiBeogDQ==}
+  /eslint-plugin-lingui@0.3.0(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-78dv0kx5OBShK12ndeJHq6vM5EAZaah79NngTmav4CmPFVav7mOuxqxuGKiCI64vYJfnGmnIvstVXaMe7Bnkvw==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@typescript-eslint/utils': 5.62.0(eslint@8.56.0)(typescript@5.3.3)
@@ -5221,7 +5215,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.11.16
+      '@types/node': 20.11.17
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
