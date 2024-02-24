@@ -29,11 +29,11 @@ jobs:
 
       # Set up Node.js environment.
       - name: Set up Node.js environment
-        uses: actions/setup-node@v4.0.1
+        uses: actions/setup-node@v4.0.2
 
       # Install pnpm package manager.
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v2.4.0
+        uses: pnpm/action-setup@v3.0.0
         with:
           version: ^8
           run_install: false
