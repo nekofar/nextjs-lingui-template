@@ -18,7 +18,7 @@
     "@lingui/core": "4.7.1",
     "@lingui/detect-locale": "4.7.1",
     "@lingui/react": "4.7.1",
-    "autoprefixer": "10.4.17",
+    "autoprefixer": "10.4.18",
     "clsx": "2.1.0",
     "cssnano": "6.0.5",
     "langs": "2.0.0",
