@@ -104,11 +104,11 @@ devDependencies:
     specifier: 20.12.7
     version: 20.12.7
   '@types/react':
-    specifier: 18.2.74
-    version: 18.2.74
+    specifier: 18.2.79
+    version: 18.2.79
   '@types/react-dom':
-    specifier: 18.2.24
-    version: 18.2.24
+    specifier: 18.2.25
+    version: 18.2.25
   eslint:
     specifier: 9.0.0
     version: 9.0.0
@@ -1450,7 +1450,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.4
       '@testing-library/dom': 10.0.0
-      '@types/react-dom': 18.2.24
+      '@types/react-dom': 18.2.25
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -1602,12 +1602,6 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@20.12.4:
-    resolution: {integrity: sha512-E+Fa9z3wSQpzgYQdYmme5X3OTuejnnTx88A6p6vkkJosR3KBz+HpE3kqNm98VE6cfLFcISx7zW7MsJkH6KwbTw==}
-    dependencies:
-      undici-types: 5.26.4
-    dev: true
-
   /@types/node@20.12.7:
     resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
     dependencies:
@@ -1625,14 +1619,14 @@ packages:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
     dev: true
 
-  /@types/react-dom@18.2.24:
-    resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
+  /@types/react-dom@18.2.25:
+    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
     dependencies:
-      '@types/react': 18.2.74
+      '@types/react': 18.2.79
     dev: true
 
-  /@types/react@18.2.74:
-    resolution: {integrity: sha512-9AEqNZZyBx8OdZpxzQlaFEVCSFUM2YXJH46yPOiOpm078k6ZLOCcuAzGum/zK8YBwY+dbahVNbHrbgrAwIRlqw==}
+  /@types/react@18.2.79:
+    resolution: {integrity: sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==}
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -5228,7 +5222,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.12.4
+      '@types/node': 20.12.7
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
