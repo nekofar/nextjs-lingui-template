@@ -74,8 +74,8 @@ devDependencies:
     specifier: 4.10.0
     version: 4.10.0(@lingui/react@4.10.0)(babel-plugin-macros@3.1.0)(typescript@5.4.5)
   '@lingui/swc-plugin':
-    specifier: 4.0.6
-    version: 4.0.6(@lingui/macro@4.10.0)(next@14.1.4)
+    specifier: 4.0.7
+    version: 4.0.7(@lingui/macro@4.10.0)(next@14.1.4)
   '@testing-library/jest-dom':
     specifier: 6.4.2
     version: 6.4.2(@types/jest@29.5.12)(jest@29.7.0)
@@ -1213,8 +1213,8 @@ packages:
       '@lingui/core': 4.10.0
       react: 18.3.1
 
-  /@lingui/swc-plugin@4.0.6(@lingui/macro@4.10.0)(next@14.1.4):
-    resolution: {integrity: sha512-jW32d+t/faHGrgzZXzGbDmadElqHQ9FvGf2aoq7YelXBPG9cf/lAkZlpxNjAzRhbscupB0YPtBjC49XoIIzKMg==}
+  /@lingui/swc-plugin@4.0.7(@lingui/macro@4.10.0)(next@14.1.4):
+    resolution: {integrity: sha512-40OYGWv5HOBxNpkQ1ZD+NDwTlnN4IAegfWQq7jLrB7UZg43cpEP7JG2l55Sd0zPN3u95O2qt/gN919jT1bURuQ==}
     peerDependencies:
       '@lingui/macro': '4'
       '@swc/core': '*'
