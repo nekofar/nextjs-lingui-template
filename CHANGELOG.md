@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.38] - 2024-04-27
+
+### Miscellaneous Tasks
+
+- Bump pnpm version from ^8 to ^9 on workflows
+
 ## [1.1.37] - 2024-03-28
 
 ### Bug Fixes
