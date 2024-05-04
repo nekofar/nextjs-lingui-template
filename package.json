@@ -37,7 +37,7 @@
     "@lingui/loader": "4.10.0",
     "@lingui/macro": "4.10.0",
     "@lingui/swc-plugin": "4.0.6",
-    "@testing-library/jest-dom": "6.4.2",
+    "@testing-library/jest-dom": "6.4.5",
     "@testing-library/react": "15.0.5",
     "@testing-library/user-event": "14.5.2",
     "@types/eslint": "8.56.10",
