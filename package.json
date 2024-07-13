@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@headlessui/react": "2.1.2",
-    "@heroicons/react": "2.1.4",
+    "@heroicons/react": "2.1.5",
     "@lingui/core": "4.10.0",
     "@lingui/detect-locale": "4.10.0",
     "@lingui/react": "4.10.0",
