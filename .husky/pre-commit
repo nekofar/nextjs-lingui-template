@@ -1,6 +1,3 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 changed_files=$(git diff --name-only --staged | grep -E '\.(js|jsx|ts|tsx|mdx)$') \
    && [ -n "$changed_files" ] \
    && pnpm lingui extract --verbose --overwrite --clean "$changed_files" \
