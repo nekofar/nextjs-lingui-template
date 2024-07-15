@@ -10,7 +10,7 @@
     "lint": "next lint",
     "test": "jest",
     "typesync": "pnpx typesync || :",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@headlessui/react": "2.1.2",
