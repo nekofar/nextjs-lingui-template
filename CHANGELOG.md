@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.39] - 2024-07-15
+
+### Miscellaneous Tasks
+
+- Simplify pre-commit hook
+- Update prepare script to use husky command only
+
 ## [1.1.38] - 2024-04-27
 
 ### Miscellaneous Tasks

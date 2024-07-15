@@ -1,6 +1,7 @@
 {
   "name": "nextjs-lingui-template",
-  "version": "1.1.38",
+  "version": "1.1.39",
+  :xa
   "private": true,
   "scripts": {
     "dev": "next dev",
