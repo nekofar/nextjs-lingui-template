@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.40] - 2024-07-15
+
+### Miscellaneous Tasks
+
+- Remove ghost character from JSON
+
 ## [1.1.39] - 2024-07-15
 
 ### Miscellaneous Tasks
