@@ -25,7 +25,7 @@ export default function LocaleSwitcher({ className }: LocalSwitcherProps) {
           <span className="sr-only">
             <Trans>Open options</Trans>
           </span>
-          <LanguageIcon className="h-7 w-7" aria-hidden="true" />
+          <LanguageIcon className="size-7" aria-hidden="true" />
         </Menu.Button>
       </div>
 
