@@ -45,9 +45,9 @@ export default function ThemeSwitcher({ className }: ThemeSwitcherProps) {
     >
       <button onClick={toggleTheme} className="flex items-center">
         {isDarkMode ? (
-          <SunIcon className="h-7 w-7" />
+          <SunIcon className="size-7" />
         ) : (
-          <MoonIcon className="h-7 w-7" />
+          <MoonIcon className="size-7" />
         )}
         <span className="sr-only">
           {isDarkMode ? t`Switch to light theme` : t`Switch to dark theme`}
