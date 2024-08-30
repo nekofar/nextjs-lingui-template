@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.42] - 2024-08-30
+
+### Bug Fixes
+
+- Solve some minor issues and update dependencies
+
 ## [1.1.41] - 2024-08-20
 
 ### Styling
