@@ -148,8 +148,8 @@ importers:
         specifier: 3.4.2
         version: 3.4.2
       prettier-plugin-jsdoc:
-        specifier: 1.3.0
-        version: 1.3.0(prettier@3.4.2)
+        specifier: 1.3.2
+        version: 1.3.2(prettier@3.4.2)
       prettier-plugin-organize-attributes:
         specifier: 1.0.0
         version: 1.0.0(prettier@3.4.2)
@@ -158,7 +158,7 @@ importers:
         version: 4.1.0(prettier@3.4.2)(typescript@5.7.2)
       prettier-plugin-tailwindcss:
         specifier: 0.6.9
-        version: 0.6.9(prettier-plugin-jsdoc@1.3.0(prettier@3.4.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.4.2))(prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.2))(prettier@3.4.2)
+        version: 0.6.9(prettier-plugin-jsdoc@1.3.2(prettier@3.4.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.4.2))(prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.2))(prettier@3.4.2)
       serve:
         specifier: 14.2.4
         version: 14.2.4
@@ -3617,8 +3617,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier-plugin-jsdoc@1.3.0:
-    resolution: {integrity: sha512-cQm8xIa0fN9ieJFMXACQd6JPycl+8ouOijAqUqu44EF/s4fXL3Wi9sKXuEaodsEWgCN42Xby/bNhqgM1iWx4uw==}
+  prettier-plugin-jsdoc@1.3.2:
+    resolution: {integrity: sha512-LNi9eq0TjyZn/PUNf/SYQxxUvGg5FLK4alEbi3i/S+2JbMyTu790c/puFueXzx09KP44oWCJ+TaHRyM/a0rKJQ==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -5712,7 +5712,7 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -7436,7 +7436,7 @@ snapshots:
 
   istanbul-lib-source-maps@4.0.1:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
       istanbul-lib-coverage: 3.2.2
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -8131,7 +8131,7 @@ snapshots:
   micromark@4.0.0:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.3.7
+      debug: 4.4.0
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.1
@@ -8660,7 +8660,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-jsdoc@1.3.0(prettier@3.4.2):
+  prettier-plugin-jsdoc@1.3.2(prettier@3.4.2):
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.1
@@ -8678,11 +8678,11 @@ snapshots:
       prettier: 3.4.2
       typescript: 5.7.2
 
-  prettier-plugin-tailwindcss@0.6.9(prettier-plugin-jsdoc@1.3.0(prettier@3.4.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.4.2))(prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.2))(prettier@3.4.2):
+  prettier-plugin-tailwindcss@0.6.9(prettier-plugin-jsdoc@1.3.2(prettier@3.4.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.4.2))(prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.2))(prettier@3.4.2):
     dependencies:
       prettier: 3.4.2
     optionalDependencies:
-      prettier-plugin-jsdoc: 1.3.0(prettier@3.4.2)
+      prettier-plugin-jsdoc: 1.3.2(prettier@3.4.2)
       prettier-plugin-organize-attributes: 1.0.0(prettier@3.4.2)
       prettier-plugin-organize-imports: 4.1.0(prettier@3.4.2)(typescript@5.7.2)
 
