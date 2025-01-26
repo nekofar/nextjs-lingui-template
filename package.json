@@ -65,7 +65,7 @@
     "prettier-plugin-organize-imports": "4.1.0",
     "prettier-plugin-tailwindcss": "0.6.9",
     "serve": "14.2.4",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   },
   "resolutions": {
     "@babel/traverse": ">=7.23.2"
