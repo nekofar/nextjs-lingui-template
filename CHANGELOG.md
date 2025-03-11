@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.46] - 2025-03-11
+
+### Bug Fixes
+
+- Update focus style to `outline-hidden`
+
+### Miscellaneous Tasks
+
+- Remove unused Tailwind CSS configuration
+
 ## [1.1.45] - 2025-01-01
 
 ### Bug Fixes
