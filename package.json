@@ -15,10 +15,10 @@
   "dependencies": {
     "@headlessui/react": "2.2.0",
     "@heroicons/react": "2.2.0",
-    "@lingui/react": "4.5.0",
     "autoprefixer": "10.4.20",
     "@lingui/core": "5.2.0",
     "@lingui/detect-locale": "5.2.0",
+    "@lingui/react": "5.2.0",
     "clsx": "2.1.1",
     "cssnano": "7.0.6",
     "langs": "2.0.0",
