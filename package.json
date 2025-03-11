@@ -32,9 +32,9 @@
   },
   "devDependencies": {
     "@lingui/cli": "4.5.0",
-    "@lingui/loader": "4.5.0",
     "@lingui/conf": "5.2.0",
     "@lingui/format-po": "5.2.0",
+    "@lingui/loader": "5.2.0",
     "@lingui/macro": "5.2.0",
     "@lingui/swc-plugin": "5.5.0",
     "@testing-library/jest-dom": "6.6.3",
