@@ -31,7 +31,7 @@
     "tailwindcss": "4.0.12"
   },
   "devDependencies": {
-    "@lingui/cli": "4.5.0",
+    "@lingui/cli": "5.2.0",
     "@lingui/conf": "5.2.0",
     "@lingui/format-po": "5.2.0",
     "@lingui/loader": "5.2.0",
