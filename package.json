@@ -13,7 +13,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@headlessui/react": "2.2.0",
+    "@headlessui/react": "2.2.7",
     "@heroicons/react": "2.2.0",
     "@lingui/core": "5.2.0",
     "@lingui/detect-locale": "5.2.0",
