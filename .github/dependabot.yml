@@ -6,9 +6,9 @@ updates:
     directory: '/'
     # Check for updates every weekday
     schedule:
-      interval: "daily"
-      time: "00:00"
-      timezone: "UTC"
+      interval: 'daily'
+      time: '00:00'
+      timezone: 'UTC'
     # Add assignees
     assignees:
       - 'nekofar'
@@ -29,13 +29,13 @@ updates:
 
   # Maintain dependencies for PNPM
   - package-ecosystem: 'npm'
-    # Files stored in repository root
+    # Files stored in the repository root
     directory: '/'
     # Check for updates every weekday
     schedule:
-      interval: "daily"
-      time: "00:00"
-      timezone: "UTC"
+      interval: 'daily'
+      time: '00:00'
+      timezone: 'UTC'
     # Add assignees
     assignees:
       - 'nekofar'
