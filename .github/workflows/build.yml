@@ -21,7 +21,7 @@ jobs:
     steps:
       # The first step is to check out the repository code
       - name: Checking out repository code
-        uses: actions/checkout@v4.2.2 # Action for checking out a repo.
+        uses: actions/checkout@v5.0.0 # Action for checking out a repo.
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
@@ -50,37 +50,24 @@ jobs:
 
     strategy: # Allows you to create a matrix for job configuration.
       matrix:
-        node-version: [18.x, 19.x, 20.x, 21.x] # Running tests across different environments.
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [22.x, 24.x] # Running tests across different environments.
+        # See the supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps: # The sequence of tasks that make up a job.
       - name: Checking out repository code
-        uses: actions/checkout@v4.2.2 # Action for checking out a repo.
-
-      - name: Setup Node.js ${{ matrix.node-version }} Environment
-        uses: actions/setup-node@v4.0.4 # Action for setting up Node environment.
-        with:
-          node-version: ${{ matrix.node-version }}
+        uses: actions/checkout@v5.0.0 # Action for checking out a repo.
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v4.0.0 # Action for setting up pnpm.
+        uses: pnpm/action-setup@v4.1.0 # Action for setting up pnpm.
         id: pnpm-install
         with:
-          version: ^9
           run_install: false
 
-      - name: Capture pnpm store directory
-        id: pnpm-cache
-        run: |
-          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - name: Cache pnpm Store
-        uses: actions/cache@v4.1.2 # Action provides caching dependencies and build outputs to improve workflow execution time.
+      - name: Setup Node.js ${{ matrix.node-version }} Environment
+        uses: actions/setup-node@v4.4.0 # Action for setting up Node environment.
         with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }} # The path of the directory to cache.
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }} # An explicit key for restoring and saving the cache.
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          cache: 'pnpm'
+          node-version: ${{ matrix.node-version }}
 
       # Installs all dependencies specified in the project's package.json file.
       - name: Install dependencies using pnpm
@@ -110,13 +97,13 @@ jobs:
     steps:
       # Checkout the repository code
       - name: Checkout code
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v5.0.0
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
       # Generate a changelog for the new release using Git
       - name: Generate a changelog
-        uses: orhun/git-cliff-action@v4.4.2
+        uses: orhun/git-cliff-action@v4.5.1
         id: git-cliff
         with:
           config: cliff.toml # The configuration file for git-cliff

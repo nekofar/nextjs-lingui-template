@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.47] - 2025-09-08
+
+### Miscellaneous Tasks
+
+- Update Node.js versions in build matrix
+- Simplify pnpm caching setup
+
 ## [1.1.46] - 2025-03-11
 
 ### Bug Fixes
