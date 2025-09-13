@@ -36,7 +36,7 @@
     "@lingui/format-po": "5.2.0",
     "@lingui/loader": "5.2.0",
     "@lingui/macro": "5.2.0",
-    "@lingui/swc-plugin": "5.5.1",
+    "@lingui/swc-plugin": "5.5.2",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
