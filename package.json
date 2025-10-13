@@ -45,7 +45,7 @@
     "@types/jest": "30.0.0",
     "@types/langs": "2.0.5",
     "@types/lint-staged": "14.0.0",
-    "@types/node": "24.7.1",
+    "@types/node": "24.7.2",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.1",
     "eslint": "9.37.0",
