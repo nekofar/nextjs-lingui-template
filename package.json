@@ -47,7 +47,7 @@
     "@types/lint-staged": "14.0.0",
     "@types/node": "24.7.2",
     "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.1",
+    "@types/react-dom": "19.2.2",
     "eslint": "9.37.0",
     "eslint-config-next": "15.5.5",
     "eslint-config-prettier": "10.1.8",
@@ -70,7 +70,7 @@
   "resolutions": {
     "@babel/traverse": ">=7.23.2",
     "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.1"
+    "@types/react-dom": "19.2.2"
   },
   "packageManager": "pnpm@10.15.1"
 }
