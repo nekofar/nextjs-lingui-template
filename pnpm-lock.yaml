@@ -59,8 +59,8 @@ importers:
         specifier: 3.3.1
         version: 3.3.1
       tailwindcss:
-        specifier: 4.1.15
-        version: 4.1.15
+        specifier: 4.1.16
+        version: 4.1.16
     devDependencies:
       '@lingui/cli':
         specifier: 5.2.0
@@ -130,7 +130,7 @@ importers:
         version: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)
       eslint-plugin-tailwindcss:
         specifier: 3.18.2
-        version: 3.18.2(tailwindcss@4.1.15)
+        version: 3.18.2(tailwindcss@4.1.16)
       eslint-plugin-unicorn:
         specifier: 61.0.2
         version: 61.0.2(eslint@9.38.0(jiti@2.6.1))
@@ -4726,6 +4726,9 @@ packages:
   tailwindcss@4.1.15:
     resolution: {integrity: sha512-k2WLnWkYFkdpRv+Oby3EBXIyQC8/s1HOFMBUViwtAh6Z5uAozeUSMQlIsn/c6Q2iJzqG6aJT3wdPaRNj70iYxQ==}
 
+  tailwindcss@4.1.16:
+    resolution: {integrity: sha512-pONL5awpaQX4LN5eiv7moSiSPd/DLDzKVRJz8Q9PgzmAdd1R4307GQS2ZpfiN7ZmekdQrfhZZiSE5jkLR4WNaA==}
+
   tapable@2.3.0:
     resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
     engines: {node: '>=6'}
@@ -7729,11 +7732,11 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-tailwindcss@3.18.2(tailwindcss@4.1.15):
+  eslint-plugin-tailwindcss@3.18.2(tailwindcss@4.1.16):
     dependencies:
       fast-glob: 3.3.3
       postcss: 8.5.6
-      tailwindcss: 4.1.15
+      tailwindcss: 4.1.16
 
   eslint-plugin-unicorn@61.0.2(eslint@9.38.0(jiti@2.6.1)):
     dependencies:
@@ -10245,6 +10248,8 @@ snapshots:
   tailwind-merge@3.3.1: {}
 
   tailwindcss@4.1.15: {}
+
+  tailwindcss@4.1.16: {}
 
   tapable@2.3.0: {}
 
