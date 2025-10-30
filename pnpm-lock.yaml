@@ -150,8 +150,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       prettier-plugin-jsdoc:
-        specifier: 1.3.3
-        version: 1.3.3(prettier@3.6.2)
+        specifier: 1.5.0
+        version: 1.5.0(prettier@3.6.2)
       prettier-plugin-organize-attributes:
         specifier: 1.0.0
         version: 1.0.0(prettier@3.6.2)
@@ -160,7 +160,7 @@ importers:
         version: 4.3.0(prettier@3.6.2)(typescript@5.9.3)
       prettier-plugin-tailwindcss:
         specifier: 0.7.1
-        version: 0.7.1(prettier-plugin-jsdoc@1.3.3(prettier@3.6.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.6.2))(prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.9.3))(prettier@3.6.2)
+        version: 0.7.1(prettier-plugin-jsdoc@1.5.0(prettier@3.6.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.6.2))(prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.9.3))(prettier@3.6.2)
       serve:
         specifier: 14.2.5
         version: 14.2.5
@@ -4121,8 +4121,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier-plugin-jsdoc@1.3.3:
-    resolution: {integrity: sha512-YIxejcbPYK4N58jHGiXjYvrCzBMyvV2AEMSoF5LvqqeMEI0nsmww57I6NGnpVc0AU9ncFCTEBoYHN/xuBf80YA==}
+  prettier-plugin-jsdoc@1.5.0:
+    resolution: {integrity: sha512-Fehp5qkFQhNFcxUilDPEcqHX8AdP6oGyCRLatqRc0gLXv3qOtndTnnUxfHCYc26I4Lc1A4lVozAtWEE8o7ubUA==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -9574,7 +9574,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-jsdoc@1.3.3(prettier@3.6.2):
+  prettier-plugin-jsdoc@1.5.0(prettier@3.6.2):
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.1
@@ -9592,11 +9592,11 @@ snapshots:
       prettier: 3.6.2
       typescript: 5.9.3
 
-  prettier-plugin-tailwindcss@0.7.1(prettier-plugin-jsdoc@1.3.3(prettier@3.6.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.6.2))(prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.9.3))(prettier@3.6.2):
+  prettier-plugin-tailwindcss@0.7.1(prettier-plugin-jsdoc@1.5.0(prettier@3.6.2))(prettier-plugin-organize-attributes@1.0.0(prettier@3.6.2))(prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.9.3))(prettier@3.6.2):
     dependencies:
       prettier: 3.6.2
     optionalDependencies:
-      prettier-plugin-jsdoc: 1.3.3(prettier@3.6.2)
+      prettier-plugin-jsdoc: 1.5.0(prettier@3.6.2)
       prettier-plugin-organize-attributes: 1.0.0(prettier@3.6.2)
       prettier-plugin-organize-imports: 4.3.0(prettier@3.6.2)(typescript@5.9.3)
 
