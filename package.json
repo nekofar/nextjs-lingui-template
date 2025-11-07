@@ -18,7 +18,7 @@
     "@lingui/core": "5.2.0",
     "@lingui/detect-locale": "5.2.0",
     "@lingui/react": "5.2.0",
-    "@tailwindcss/postcss": "4.1.16",
+    "@tailwindcss/postcss": "4.1.17",
     "clsx": "2.1.1",
     "cssnano": "7.1.2",
     "langs": "2.0.0",
