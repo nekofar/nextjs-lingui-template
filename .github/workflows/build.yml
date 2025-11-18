@@ -21,7 +21,7 @@ jobs:
     steps:
       # The first step is to check out the repository code
       - name: Checking out repository code
-        uses: actions/checkout@v5.0.0 # Action for checking out a repo.
+        uses: actions/checkout@v5.0.1 # Action for checking out a repo.
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
@@ -55,7 +55,7 @@ jobs:
 
     steps: # The sequence of tasks that make up a job.
       - name: Checking out repository code
-        uses: actions/checkout@v5.0.0 # Action for checking out a repo.
+        uses: actions/checkout@v5.0.1 # Action for checking out a repo.
 
       - name: Install pnpm package manager
         uses: pnpm/action-setup@v4.2.0 # Action for setting up pnpm.
@@ -97,7 +97,7 @@ jobs:
     steps:
       # Checkout the repository code
       - name: Checkout code
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5.0.1
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
