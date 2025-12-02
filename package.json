@@ -63,7 +63,7 @@
     "prettier-plugin-jsdoc": "1.7.0",
     "prettier-plugin-organize-attributes": "1.0.0",
     "prettier-plugin-organize-imports": "4.3.0",
-    "prettier-plugin-tailwindcss": "0.7.1",
+    "prettier-plugin-tailwindcss": "0.7.2",
     "serve": "14.2.5",
     "typescript": "5.9.3"
   },
