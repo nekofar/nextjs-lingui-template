@@ -21,7 +21,7 @@ jobs:
     steps:
       # The first step is to check out the repository code
       - name: Checking out repository code
-        uses: actions/checkout@v6.0.0 # Action for checking out a repo.
+        uses: actions/checkout@v6.0.1 # Action for checking out a repo.
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
@@ -55,7 +55,7 @@ jobs:
 
     steps: # The sequence of tasks that make up a job.
       - name: Checking out repository code
-        uses: actions/checkout@v6.0.0 # Action for checking out a repo.
+        uses: actions/checkout@v6.0.1 # Action for checking out a repo.
 
       - name: Install pnpm package manager
         uses: pnpm/action-setup@v4.2.0 # Action for setting up pnpm.
@@ -64,7 +64,7 @@ jobs:
           run_install: false
 
       - name: Setup Node.js ${{ matrix.node-version }} Environment
-        uses: actions/setup-node@v6.0.0 # Action for setting up Node environment.
+        uses: actions/setup-node@v6.1.0 # Action for setting up Node environment.
         with:
           cache: 'pnpm'
           node-version: ${{ matrix.node-version }}
@@ -97,13 +97,13 @@ jobs:
     steps:
       # Checkout the repository code
       - name: Checkout code
-        uses: actions/checkout@v6.0.0
+        uses: actions/checkout@v6.0.1
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
       # Generate a changelog for the new release using Git
       - name: Generate a changelog
-        uses: orhun/git-cliff-action@v4.6.0
+        uses: orhun/git-cliff-action@v4.7.0
         id: git-cliff
         with:
           config: cliff.toml # The configuration file for git-cliff
@@ -132,7 +132,7 @@ jobs:
 
       # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@v1.0.14
+        uses: nekofar/create-github-release@v1.0.15
         with:
           tag: v${{ steps.release.outputs.version }} # The name of the tag to be released
           title: v${{ steps.release.outputs.version }} # The title for the release
