@@ -28,7 +28,7 @@
     "react-dom": "19.2.7",
     "react-use": "17.6.1",
     "tailwind-merge": "3.6.0",
-    "tailwindcss": "4.3.2"
+    "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "@lingui/cli": "5.2.0",
