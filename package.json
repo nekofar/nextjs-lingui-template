@@ -27,7 +27,7 @@
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-use": "17.6.1",
-    "tailwind-merge": "3.5.0",
+    "tailwind-merge": "3.6.0",
     "tailwindcss": "4.3.2"
   },
   "devDependencies": {
