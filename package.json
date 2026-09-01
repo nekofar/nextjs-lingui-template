@@ -57,7 +57,7 @@
     "eslint-plugin-unicorn": "65.0.1",
     "husky": "9.1.7",
     "jest": "30.4.2",
-    "jest-environment-jsdom": "30.4.1",
+    "jest-environment-jsdom": "30.5.0",
     "lint-staged": "17.2.0",
     "prettier": "3.9.5",
     "prettier-plugin-jsdoc": "1.8.1",
